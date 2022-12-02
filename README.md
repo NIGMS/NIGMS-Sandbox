@@ -33,10 +33,10 @@ This repository aims to teach students, researchers, and clinicians, among other
 
 ## Cloud Technology Utilized <a name="one"></a>
 
-The 10 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, gcsfuse, VertexAI Workbench, Artifact Registry, Cloud Build, BigQuery, and Cloud Lifesciences API*. Technologies that support the cloud services mentioned include JupyterLab, Docker, Git, and life sciences software libraries such as [Bioconductor](https://www.bioconductor.org/) in R and the [Bioconda](https://bioconda.github.io/) Anaconda channel in Python.
+The 12 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, gcsfuse, VertexAI Workbench, Artifact Registry, Cloud Build, BigQuery, and Cloud Lifesciences API*. Technologies that support the cloud services mentioned include JupyterLab, Docker, Git, and life sciences software libraries such as [Bioconductor](https://www.bioconductor.org/) in R and the [Bioconda](https://bioconda.github.io/) Anaconda channel in Python.
 
 <div style="font-size:75%;font-style: italic;">
-*Google Batch is a newer release of the Cloud Lifesciences API and provides similar functionality. 
+*Google Batch is a newer service that offers similar functionality and may replace the Life Sciences API in the future. 
 </div>
 
 <!-- #region -->
