@@ -4,24 +4,23 @@
 <!-- #region -->
 # Introduction
 
-This repository aims to teach students, researchers, and clinicians, among others, how to utilize the power of cloud technology for the benefit of life sciences applications and research. Here we present 12 cloud learning modules that represent a unique scientific workflow. Types of data used across the modules include but are not limited to genomics, methylomics, transcriptomics, proteomics, and medical imaging data across formats such as FASTA/FASTQ, SAM, BAM, CSV, PNG, and DICOM. Learning modules range in areas from introductory material to single-omics approaches, multi-omics techniques, single cell analyses, metagenomics, and AI/ML analyses of medical images.
+This repository aims to teach students, researchers, and clinicians, among others, how to utilize the power of cloud technology for the benefit of life sciences applications and research. Here we present 10 cloud learning modules that represent a unique use-case or scientific workflow. Types of data used across the modules include but are not limited to genomics, methylomics, transcriptomics, proteomics, and medical imaging data across formats such as FASTA/FASTQ, SAM, BAM, CSV, PNG, and DICOM. Learning modules range in areas from introductory material to single-omics approaches, multi-omics techniques, single cell analysis, metagenomics, and AI/ML imaging applications. 
+
 ![image1](images/Universities.png)
 
 
-*The 12 topics and their authors are listed as follows:*
+*The 10 topics and their authors are listed as follows:*
 
 1. [Fundamentals of Bioinformatics](/Bioinformatics_for_Beginners_with_Terminal--Dartmouth_College/) -  Dartmouth College
 2. [DNA Methylation Sequencing Analysis with WGBS](/Whole_Genome_Bisulfite_Sequencing--University_of_Hawaii_Manoa/) - University of Hawaii at Manoa
 3. [Transcriptome Assembly Refinement and Applications](/RNA-Sequencing_Transcriptome_Assembly--MDI_Biological_Laboratory/) - MDI Biological Laboratory
-4. [RNAseq Analysis](https://github.com/NIGMS/RNAseqUnivMaine) – University of Maine INBRE
-5. [ATAC-Seq and Single Cell ATAC-Seq Analysis](/Interactive_Pipeline_for_differential_ATAC-Sequencing_Footprint_Analysis--University_of_Nebraska_Medical_Center/) - University of Nebraska
-6. [Consensus Pathway Analysis in the Cloud](/Consensus_Pathway_Analysis_using_GCP--University_of_Nevada_Reno/) - University of Nevada Reno
-7. [Proteomics Secondary Analysis](https://github.com/NIGMS/ProteomicsUAMS) – University of Arkansas for Medical Sciences
-8. [Integrating Multi-Omics Datasets](/Transcriptomic_Epigenomic_Multi_Omics_Integration--University_of_North_Dakota/) - University of North Dakota
-9. [Metagenomics Analysis of Biofilm-Microbiome](/Dockerized_Metagenomics_Analysis_of_Microbial_Communities_and_Biofilm--University_of_South_Dakota/) - University of South Dakota
-10. [Data Science for Biology, An Introduction](/Intro_to_ML_Predicting_Covid_Cases--San_Francisco_State_University/) - San Francisco State University
-11. [Biomarker Discovery with ML](/Analysis_of_Biomedical_Data_for_Biomarker_Discovery--University_of_Rhode_Island/) - University of Rhode Island
-12. [Biomedical Imaging Analysis using AI/ML approaches](/Diving_into_Deep_Learning_for_Biomedical_Imaging_Data_Analysis--University_of_Arkansas_Fayetteville/) - University of Arkansas
+4. [ATAC-Seq and Single Cell ATAC-Seq Analysis](/Interactive_Pipeline_for_differential_ATAC-Sequencing_Footprint_Analysis--University_of_Nebraska_Medical_Center/) - University of Nebraska
+5. [Consensus Pathway Analysis in the Cloud](/Consensus_Pathway_Analysis_using_GCP--University_of_Nevada_Reno/) - University of Nevada Reno
+6. [Integrating Multi-Omics Datasets](/Transcriptomic_Epigenomic_Multi_Omics_Integration--University_of_North_Dakota/) - University of North Dakota
+7. [Metagenomics Analysis of Biofilm-Microbiome](/Dockerized_Metagenomics_Analysis_of_Microbial_Communities_and_Biofilm--University_of_South_Dakota/) - University of South Dakota
+8. [Data Science for Biology, An Introduction](/Intro_to_ML_Predicting_Covid_Cases--San_Francisco_State_University/) - San Francisco State University
+9. [Biomarker Discovery with ML](/Analysis_of_Biomedical_Data_for_Biomarker_Discovery--University_of_Rhode_Island/) - University of Rhode Island
+10. [Biomedical Imaging Analysis using AI/ML approaches](/Diving_into_Deep_Learning_for_Biomedical_Imaging_Data_Analysis--University_of_Arkansas_Fayetteville/) - University of Arkansas
 <!-- #endregion -->
 
 # Table of Contents
@@ -33,10 +32,10 @@ This repository aims to teach students, researchers, and clinicians, among other
 
 ## Cloud Technology Utilized <a name="one"></a>
 
-The 12 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, gcsfuse, VertexAI Workbench, Artifact Registry, Cloud Build, BigQuery, and Cloud Lifesciences API*. Technologies that support the cloud services mentioned include JupyterLab, Docker, Git, and life sciences software libraries such as [Bioconductor](https://www.bioconductor.org/) in R and the [Bioconda](https://bioconda.github.io/) Anaconda channel in Python.
+The 10 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, gcsfuse, VertexAI Workbench, Artifact Registry, Cloud Build, BigQuery, and Cloud Lifesciences API*. Technologies that support the cloud services mentioned include JupyterLab, Docker, Git, and life sciences software libraries such as [Bioconductor](https://www.bioconductor.org/) in R and the [Bioconda](https://bioconda.github.io/) Anaconda channel in Python.
 
 <div style="font-size:75%;font-style: italic;">
-*Google Batch is a newer service that offers similar functionality and may replace the Life Sciences API in the future. 
+*Google Batch is a newer release of the Cloud Lifesciences API and provides similar functionality. 
 </div>
 
 <!-- #region -->
@@ -139,16 +138,12 @@ Detailed software requirements: <A href="/Analysis_of_Biomedical_Data_for_Biomar
 Detailed software requirements: <A href="/Diving_into_Deep_Learning_for_Biomedical_Imaging_Data_Analysis--University_of_Arkansas_Fayetteville/README.md"> Arkansas README </A>
 </div>
 <br>
-<br>
 
-❗ **The following documentation provided in this repository shows users how to accomplish each prerequisite listed above.** ❗ 
+Some of the modules above require detailed changes to the cloud configuration in order to sucessfully execute them. For these modules, several "How To" documents have been developed in this repository to help users accomplish the each prerequisite listed above: 
 
-
-| NIGMS "How to" Document                                                                       | Link                                                                                     |
-| --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| How to create conda virtual environments to use as jupyter kernels                            | [How to use conda environments as kernels](/docs/How_to_use_conda_envs_as_kernels.ipynb) |                 
-| How to mount cloud storage buckets in your vertex ai notebook with gcsfuse                    | [How to mount cloud storage buckets](/docs/How_to_mount_buckets.ipynb)                   |
-| How to create custom images for VertexAI                                                      | [How to create custom VertexAI images](/docs/How_to_create_custom_VertexAI_images.ipynb) |
+* [How to create conda virtual environments to use as Jupyter kernels](https://github.com/STRIDES/NIHCloudLabGCP/docs/How_to_use_conda_envs_as_kernels.ipynb)
+* [How to mount cloud storage buckets in your VertexAI notebook with gcsfuse](https://github.com/STRIDES/NIHCloudLabGCP/docs/How_to_mount_buckets.ipynb)
+* [How to create custom images for VertexAI](https://github.com/STRIDES/NIHCloudLabGCP/docs/How_to_create_custom_VertexAI_images.ipynb)
 
 <!-- #endregion -->
 
@@ -194,24 +189,7 @@ Cloud Logging is a fully managed service that allows you to store, search, analy
 
 ### NIH Cloud Lab
 
-NIH Cloud Lab’s goal is to make the cloud very easy and accessible for you, so that you can spend less time on administrative tasks and focus on your research. NIH Cloud Lab hosts cloud service provider-specific repositories with tutorials, guides, and useful resources. NIH Cloud Lab's GCP repository (https://github.com/STRIDES/NIHCloudLabGCP) can be used to learn how to use GCP by exploring the linked resources and completing the tutorials.
-
-[NIH Cloud Lab Tutorials](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/tutorials) include the following topics:
-+ Biomedical Workflows on GCP
-+ Download SRA Data
-+ Variant Calling
-+ VCF Query
-+ GWAS
-+ Proteomics
-+ Medical Imaging
-+ RNAseq
-+ scRNAseq
-+ BLAST
-+ Long Read Sequencing Analysis
-+ Public Data Sets
-+ Using the Life Sciences API
-
-
+NIH Cloud Lab’s goal is to make the cloud very easy and accessible for you, so that you can spend less time on administrative tasks and focus on your research. NIH Cloud Lab hosts cloud service provider-specific repositories with tutorials, guides, and useful resources. NIH Cloud Lab's GCP repository (https://github.com/STRIDES/NIHCloudLabGCP) can be used to learn how to use GCP by exploring the linked resources and completing the tutorials. The [NIH Cloud Lab Tutorials](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/tutorials) provide documentation and instruction on a wide variety of common bioinformatics use cases.
 
 
 ## Alternative Data Sources <a name="four"></a>
@@ -219,7 +197,7 @@ NIH Cloud Lab’s goal is to make the cloud very easy and accessible for you, so
 Where can users get similar data to run through these tutorials with their own datasets or alternative datasets of interest? 
 
 1. SRA \
-Sequence Read Archive (SRA) data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data. The archive accepts data from all branches of life as well as metagenomic and environmental surveys. SRA stores raw sequencing data and alignment information to enhance reproducibility and facilitate new discoveries through data analysis. Learn more here: https://www.ncbi.nlm.nih.gov/sra
+Sequence Read Archive (SRA) data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data. The archive accepts data from all branches of life as well as metagenomic and environmental surveys. SRA stores raw sequencing data and alignment information to enhance reproducibility and facilitate new discoveries through data analysis. Learn more here: https://www.ncbi.nlm.nih.gov/sra/docs/sradownload/
 
 2. GEO \
 GEO is a public functional genomics data repository supporting MIAME-compliant data submissions. Array- and sequence-based data are accepted. Tools are provided to help users query and download experiments and curated gene expression profiles. Learn more here: https://www.ncbi.nlm.nih.gov/geo/ 
