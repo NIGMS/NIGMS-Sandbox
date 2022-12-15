@@ -87,7 +87,7 @@ Module 4:
 * T4 GPU attached
 * RAPIDS VertexAI image
 
-Detailed software requirements: [Nebraska Medical Center README (/Interactive_Pipeline_for_differential_ATAC-Sequencing_Footprint_Analysis--University_of_Nebraska_Medical_Center/README.md)
+Detailed software requirements: [Nebraska Medical Center README](/Interactive_Pipeline_for_differential_ATAC-Sequencing_Footprint_Analysis--University_of_Nebraska_Medical_Center/README.md)
 
 7. Consensus Pathway Analysis in the Cloud, University of Nevada Reno
 * default machinetype: n1-standard-4
@@ -129,6 +129,7 @@ Detailed software requirements: [Rhode Island README](RI.readme)
 * Python 3 kernel
 
 Detailed software requirements: [Arkansas README](UAREADME)
+<!-- #endregion -->
 
 Some of the modules above require detailed changes to the cloud configuration in order to sucessfully execute them. For these modules, several "How To" documents have been developed in this repository to help users accomplish the each prerequisite listed above: 
 
