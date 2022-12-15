@@ -78,12 +78,16 @@ Detailed software requirements: <A href="/RNA-Sequencing_Transcriptome_Assembly-
 * default machine type: n2-standard-4
 * R 4.1 kernel
 
-Detailed software requirements: [Maine README](https://github.com/NIGMS/RNAseqUnivMaine/blob/master/README.md).
+<div style="font-size:90%;font-style: italic;text-indent: 20px">
+Detailed software requirements: <A href="[/RNA-Sequencing_Transcriptome_Assembly--MDI_Biological_Laboratory/README.md](https://github.com/NIGMS/RNAseqUnivMaine/blob/master/README.md)"> Maine README </A>
+</div>
 
 5. Protein Quantification University of Arkansas for Medical Sciences
 * R 4.1 kernel
-* 
-Detailed software requirements: [UAMS README]([https://github.com/NIGMS/RNAseqUnivMaine/blob/master/README.md](https://github.com/NIGMS/ProteomicsUAMS/blob/master/README.md)).
+
+<div style="font-size:90%;font-style: italic;text-indent: 20px">
+Detailed software requirements: <A href="[(https://github.com/NIGMS/ProteomicsUAMS/blob/master/README.md)](https://github.com/NIGMS/RNAseqUnivMaine/blob/master/README.md)]"> Arkansas for Medical Sciences README </A>
+</div>
 
 6. ATAC-Seq and Single Cell ATAC-Seq Analysis, University of Nebraska
 Modules 1-3: 
@@ -110,7 +114,6 @@ Detailed software requirements: <A href="/Consensus_Pathway_Analysis_using_GCP--
 * R 4.1 kernel
 * conda_environment.yml contains necessary software(s)
 * Nextflow Service Account
-
 
 <div style="font-size:90%;font-style: italic;text-indent: 20px">
 Detailed software requirements: <A href="/RNA-Sequencing_Transcriptome_Assembly--MDI_Biological_Laboratory
