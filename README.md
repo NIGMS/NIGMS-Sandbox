@@ -4,23 +4,27 @@
 <!-- #region -->
 # Introduction
 
-This repository aims to teach students, researchers, and clinicians, among others, how to utilize the power of cloud technology for the benefit of life sciences applications and research. Here we present 10 cloud learning modules that represent a unique use-case or scientific workflow. Types of data used across the modules include but are not limited to genomics, methylomics, transcriptomics, proteomics, and medical imaging data across formats such as FASTA/FASTQ, SAM, BAM, CSV, PNG, and DICOM. Learning modules range in areas from introductory material to single-omics approaches, multi-omics techniques, single cell analysis, metagenomics, and AI/ML imaging applications. 
+This repository aims to teach students, researchers, and clinicians, among others, how to utilize the power of cloud technology for the benefit of life sciences applications and research. Here we present 12 cloud learning modules that represent a unique use-case or scientific workflow. Types of data used across the modules include but are not limited to genomics, methylomics, transcriptomics, proteomics, and medical imaging data across formats such as FASTA/FASTQ, SAM, BAM, CSV, PNG, and DICOM. Learning modules range in areas from introductory material to single-omics approaches, multi-omics techniques, single cell analysis, metagenomics, and AI/ML imaging applications. 
+
+To run these modules you will need a Google Cloud Project. You can access an NIH-hosted project through the NIH Cloud Lab program, which will grant you access to a GCP project for up to three months and grant you a $500 budget. To request a project go [here](https://cloud.nih.gov/resources/cloudlab/) and click the blue interest button. You can also view the [NIH Cloud Lab GitHub repository](https://github.com/STRIDES/NIHCloudLabGCP) for more information on GCP as well as access to additional [tutorial content](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/tutorials). 
 
 ![image1](images/Universities.png)
 
 
 *The 10 topics and their authors are listed as follows:*
 
-1. [Fundamentals of Bioinformatics](/Bioinformatics_for_Beginners_with_Terminal--Dartmouth_College/) -  Dartmouth College
-2. [DNA Methylation Sequencing Analysis with WGBS](/Whole_Genome_Bisulfite_Sequencing--University_of_Hawaii_Manoa/) - University of Hawaii at Manoa
-3. [Transcriptome Assembly Refinement and Applications](/RNA-Sequencing_Transcriptome_Assembly--MDI_Biological_Laboratory/) - MDI Biological Laboratory
-4. [ATAC-Seq and Single Cell ATAC-Seq Analysis](/Interactive_Pipeline_for_differential_ATAC-Sequencing_Footprint_Analysis--University_of_Nebraska_Medical_Center/) - University of Nebraska
-5. [Consensus Pathway Analysis in the Cloud](/Consensus_Pathway_Analysis_using_GCP--University_of_Nevada_Reno/) - University of Nevada Reno
-6. [Integrating Multi-Omics Datasets](/Transcriptomic_Epigenomic_Multi_Omics_Integration--University_of_North_Dakota/) - University of North Dakota
-7. [Metagenomics Analysis of Biofilm-Microbiome](/Dockerized_Metagenomics_Analysis_of_Microbial_Communities_and_Biofilm--University_of_South_Dakota/) - University of South Dakota
-8. [Data Science for Biology, An Introduction](/Intro_to_ML_Predicting_Covid_Cases--San_Francisco_State_University/) - San Francisco State University
-9. [Biomarker Discovery with ML](/Analysis_of_Biomedical_Data_for_Biomarker_Discovery--University_of_Rhode_Island/) - University of Rhode Island
-10. [Biomedical Imaging Analysis using AI/ML approaches](/Diving_into_Deep_Learning_for_Biomedical_Imaging_Data_Analysis--University_of_Arkansas_Fayetteville/) - University of Arkansas
+1. [Fundamentals of Bioinformatics]() - Dartmouth College
+2. [DNA Methylation Sequencing Analysis with WGBS]() - University of Hawaii at Manoa
+3. [Transcriptome Assembly Refinement and Applications]() - MDI Biological Laboratory
+4. [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNAseqUM) - University of Maine
+5. [Proteome Quantification](https://github.com/NIGMS/ProteomicsUAMS) - University of Arkansas for Medical Sciences
+6. [ATAC-Seq and Single Cell ATAC-Seq Analysis]() - University of Nebraska Medical Center
+7. [Consensus Pathway Analysis in the Cloud]() - University of Nevada Reno
+8. [Integrating Multi-Omics Datasets](https://github.com/NIGMS/MultiomicsUND) - University of North Dakota
+9. [Metagenomics Analysis of Biofilm-Microbiome]() - University of South Dakota
+10. [Data Science for Biology, An Introduction](https://github.com/NIGMS/RMachineLearningSFSU) - San Francisco State University
+11. [Biomarker Discovery with ML]() - University of Rhode Island
+12. [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/MachineLearningUA) - University of Arkansas
 <!-- #endregion -->
 
 # Table of Contents
@@ -32,10 +36,10 @@ This repository aims to teach students, researchers, and clinicians, among other
 
 ## Cloud Technology Utilized <a name="one"></a>
 
-The 10 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, gcsfuse, VertexAI Workbench, Artifact Registry, Cloud Build, BigQuery, and Cloud Lifesciences API*. Technologies that support the cloud services mentioned include JupyterLab, Docker, Git, and life sciences software libraries such as [Bioconductor](https://www.bioconductor.org/) in R and the [Bioconda](https://bioconda.github.io/) Anaconda channel in Python.
+The 12 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, gcsfuse, VertexAI Workbench, Artifact Registry, Cloud Build, BigQuery, and Cloud Lifesciences API*. Technologies that support the cloud services mentioned include JupyterLab, Docker, Git, and life sciences software libraries such as [Bioconductor](https://www.bioconductor.org/) in R and the [Bioconda](https://bioconda.github.io/) Anaconda channel in Python.
 
 <div style="font-size:75%;font-style: italic;">
-*Google Batch is a newer release of the Cloud Lifesciences API and provides similar functionality. 
+*Google Batch is a newer managed service that provides similar functionality to the Google Life Sciences API. 
 </div>
 
 <!-- #region -->
@@ -70,7 +74,18 @@ Detailed software requirements: <A href="/Whole_Genome_Bisulfite_Sequencing--Uni
 Detailed software requirements: <A href="/RNA-Sequencing_Transcriptome_Assembly--MDI_Biological_Laboratory/README.md"> MDI README </A>
 </div>
 
-4. ATAC-Seq and Single Cell ATAC-Seq Analysis, University of Nebraska
+4. RNAseq Differential Expression Analysis, University of Maine
+* default machine type: n2-standard-4
+* R 4.1 kernel
+
+Detailed software requirements: [Maine README](https://github.com/NIGMS/RNAseqUnivMaine/blob/master/README.md).
+
+5. Protein Quantification University of Arkansas for Medical Sciences
+* R 4.1 kernel
+* 
+Detailed software requirements: [UAMS README]([https://github.com/NIGMS/RNAseqUnivMaine/blob/master/README.md](https://github.com/NIGMS/ProteomicsUAMS/blob/master/README.md)).
+
+6. ATAC-Seq and Single Cell ATAC-Seq Analysis, University of Nebraska
 Modules 1-3: 
 * default machine type: n1-standard-4
 * Python 3 kernel
@@ -82,7 +97,7 @@ Module 4:
 Detailed software requirements: <A href="/Interactive_Pipeline_for_differential_ATAC-Sequencing_Footprint_Analysis--University_of_Nebraska_Medical_Center/README.md"> Nebraska README </A>
 </div>
 
-5. Consensus Pathway Analysis in the Cloud, University of Nevada Reno
+7. Consensus Pathway Analysis in the Cloud, University of Nevada Reno
 * default machinetype: n1-standard-4
 * R 4.1 kernel
 
@@ -90,7 +105,7 @@ Detailed software requirements: <A href="/Interactive_Pipeline_for_differential_
 Detailed software requirements: <A href="/Consensus_Pathway_Analysis_using_GCP--University_of_Nevada_Reno/README.md"> Nevada README </A>
 </div>
 
-6. Integrating Multi-Omics Datasets, University of North Dakota
+8. Integrating Multi-Omics Datasets, University of North Dakota
 * default machinetype: n1-standard-4
 * R 4.1 kernel
 * conda_environment.yml contains necessary software(s)
@@ -102,7 +117,7 @@ Detailed software requirements: <A href="/RNA-Sequencing_Transcriptome_Assembly-
 Transcriptomic_Epigenomic_Multi_Omics_Integration--University_of_North_Dakota/README.md"> North Dakota README </A>
 </div>
 
-7. Metagenomics Analysis of Biofilm-Microbiome, University of South Dakota
+9. Metagenomics Analysis of Biofilm-Microbiome, University of South Dakota
 * default machinetype: n1-standard-8
 * Python 3 kernel
 * custom service account
@@ -113,7 +128,7 @@ Transcriptomic_Epigenomic_Multi_Omics_Integration--University_of_North_Dakota/RE
 Detailed software requirements: <A href="/Dockerized_Metagenomics_Analysis_of_Microbial_Communities_and_Biofilm--University_of_South_Dakota/README.md"> South Dakota README </A>
 </div>
 
-8. Data Science for Biology, An Introduction, San Francisco State University
+10. Data Science for Biology, An Introduction, San Francisco State University
 * default machine type: n1-standard-4
 * Python 3 kernel
 
@@ -121,7 +136,7 @@ Detailed software requirements: <A href="/Dockerized_Metagenomics_Analysis_of_Mi
 Detailed software requirements: <A href="/Intro_to_ML_Predicting_Covid_Cases--San_Francisco_State_University/README.md"> San Francisco README </A>
 </div>
 
-9. Biomarker Discovery with ML, University of Rhode Island
+11. Biomarker Discovery with ML, University of Rhode Island
 * default machine type: n1-standard-4
 * R 4.1 kernel
 
@@ -129,7 +144,7 @@ Detailed software requirements: <A href="/Intro_to_ML_Predicting_Covid_Cases--Sa
 Detailed software requirements: <A href="/Analysis_of_Biomedical_Data_for_Biomarker_Discovery--University_of_Rhode_Island/README.md"> Rhode Island README </A>
 </div>
 
-10. Biomedical Imaging Analysis using AI/ML approaches, University of Arkansas
+12. Biomedical Imaging Analysis using AI/ML approaches, University of Arkansas
 * default machine type: n1-standard-4
 * Python 3 kernel
 
@@ -168,8 +183,6 @@ Cloud Storage is a service for storing your objects in Google Cloud. An object i
 4. **VertexAI - https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform** \
 Vertex AI brings AutoML and AI Platform together into a unified API, client library, and user interface. AutoML lets you train models on image, tabular, text, and video datasets without writing code, while training in AI Platform lets you run custom training code. With Vertex AI, both AutoML training and custom training are available options. Whichever option you choose for training, you can save models, deploy models, and request predictions with Vertex AI. VertexAI implements JupyterLab in VertexAI Workbench. 
 
-
- 
 5. **Cloud Build - https://cloud.google.com/build/docs** \
 Cloud Build is a service that executes your builds on Google Cloud infrastructure. Cloud Build can import source code from Cloud Storage, Cloud Source Repositories, GitHub, or Bitbucket, execute a build to your specifications, and produce artifacts such as Docker containers or Java archives.
 
@@ -183,14 +196,7 @@ Operations, formerly known as Stackdriver, is composed of Monitoring and Logging
 
 Cloud Logging is a fully managed service that allows you to store, search, analyze, monitor, and alert on logging data and events from Google Cloud and Amazon Web Services. You can collect logging data from over 150 common application components, on-premises systems, and hybrid cloud systems.
 
-
-
 <!-- #endregion -->
-
-### NIH Cloud Lab
-
-NIH Cloud Lab’s goal is to make the cloud very easy and accessible for you, so that you can spend less time on administrative tasks and focus on your research. NIH Cloud Lab hosts cloud service provider-specific repositories with tutorials, guides, and useful resources. NIH Cloud Lab's GCP repository (https://github.com/STRIDES/NIHCloudLabGCP) can be used to learn how to use GCP by exploring the linked resources and completing the tutorials. The [NIH Cloud Lab Tutorials](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/tutorials) provide documentation and instruction on a wide variety of common bioinformatics use cases.
-
 
 ## Alternative Data Sources <a name="four"></a>
 
