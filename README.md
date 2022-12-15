@@ -203,19 +203,13 @@ Cloud Logging is a fully managed service that allows you to store, search, analy
 Where can users get similar data to run through these tutorials with their own datasets or alternative datasets of interest? 
 
 1. SRA \
-Sequence Read Archive (SRA) data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data. The archive accepts data from all branches of life as well as metagenomic and environmental surveys. SRA stores raw sequencing data and alignment information to enhance reproducibility and facilitate new discoveries through data analysis. Learn more here: https://www.ncbi.nlm.nih.gov/sra/docs/sradownload/
+Sequence Read Archive (SRA) data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data. The archive accepts data from all branches of life as well as metagenomic and environmental surveys. SRA stores raw sequencing data and alignment information to enhance reproducibility and facilitate new discoveries through data analysis. Learn more about accessing SRA data through GCP from the [NIH Cloud Lab Tutorial Section](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/tutorials#download-data-from-the-sequence-read-archive-sra-). 
 
 2. GEO \
-GEO is a public functional genomics data repository supporting MIAME-compliant data submissions. Array- and sequence-based data are accepted. Tools are provided to help users query and download experiments and curated gene expression profiles. Learn more here: https://www.ncbi.nlm.nih.gov/geo/ 
+GEO is a public functional genomics data repository supporting MIAME-compliant data submissions. Array- and sequence-based data are accepted. Tools are provided to help users query and download experiments and curated gene expression profiles. Learn more [here](https://www.ncbi.nlm.nih.gov/geo/)
 
 3. MEDMNIST \
-The MedMNIST v2 dataset consists of 12 pre-processed 2D datasets and 6 pre-processed 3D datasets from selected sources covering primary data modalities (e.g., X-Ray, OCT, Ultrasound, CT, Electron Microscope), diverse classification tasks (binary/multi-class, ordinal regression and multi-label) and data scales (from 100 to 100,000). For simplicity, we call the collection of all 2D datasets as MedMNIST2D, and that of 3D as MedMNIST3D. MedMNIST can be downloaded through pip. Learn more here: https://medmnist.com/
+The MedMNIST v2 dataset consists of 12 pre-processed 2D datasets and 6 pre-processed 3D datasets from selected sources covering primary data modalities (e.g., X-Ray, OCT, Ultrasound, CT, Electron Microscope), diverse classification tasks (binary/multi-class, ordinal regression and multi-label) and data scales (from 100 to 100,000). For simplicity, we call the collection of all 2D datasets as MedMNIST2D, and that of 3D as MedMNIST3D. MedMNIST can be downloaded through pip. Learn more [here](https://medmnist.com/)
 
 4. Google Public Dataset Program - https://services.google.com/fh/files/misc/public_datasets_one_pager.pdf \
-Google Cloud Public Datasets facilitate access to high-demand public datasets making it easy for you to access and uncover new insights in the cloud. By hosting these datasets in BigQuery and Google Cloud Storage, you can seamlessly experience the full value of Google Cloud with the touch of a button. Explore public datasets stored in buckets here: https://cloud.google.com/storage/docs/access-public-data.
-Explore public datasets stored in BigQuery here: https://cloud.google.com/bigquery/public-data
-
-
-```python
-
-```
+Google Cloud Public Datasets facilitate access to high-demand public datasets making it easy for you to access and uncover new insights in the cloud. By hosting these datasets in BigQuery and Google Cloud Storage, you can seamlessly experience the full value of Google Cloud with the touch of a button. Explore public datasets stored in [Cloud Storage](https://cloud.google.com/storage/docs/access-public-data) and in [BigQuery](https://cloud.google.com/bigquery/public-data).
