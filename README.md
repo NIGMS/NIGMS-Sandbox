@@ -52,42 +52,32 @@ Each module has different infrastructure and software requirements. While many o
 * Python 3 kernel
 * env.yml contains necessary software requirements for easy installation
 
-<div style="font-size:90%;font-style: italic;text-indent: 20px">
-Detailed software requirements: <A href="/Bioinformatics_for_Beginners_with_Terminal--Dartmouth_College/README.md"> Dartmouth README </A>
-</div>
+Detailed software requirements: [Dartmouth README](/Bioinformatics_for_Beginners_with_Terminal--Dartmouth_College/README.md)
 
 2. DNA Methylation Sequencing Analysis with WGBS, University of Hawaii at Manoa
 * default machine type: n1-standard-4
 * Python 3 kernel
 * Nextflow Service Account
 
-<div style="font-size:90%;font-style: italic;text-indent: 20px">
-Detailed software requirements: <A href="/Whole_Genome_Bisulfite_Sequencing--University_of_Hawaii_Manoa/README.md"> Hawaii README </A>
-</div>
+Detailed software requirements: [Hawaii README](/Whole_Genome_Bisulfite_Sequencing--University_of_Hawaii_Manoa/README.md)
 
 3. Transcriptome Assembly Refinement and Applications, MDI Biological Laboratory
 * default machine type: n1-highmem-16
 * Python 3 kernel
 * Nextflow Service Account
 
-<div style="font-size:90%;font-style: italic;text-indent: 20px">
-Detailed software requirements: <A href="/RNA-Sequencing_Transcriptome_Assembly--MDI_Biological_Laboratory/README.md"> MDI README </A>
-</div>
+Detailed software requirements: [MDI README](/RNA-Sequencing_Transcriptome_Assembly--MDI_Biological_Laboratory/README.md)
 
 4. RNAseq Differential Expression Analysis, University of Maine
 * default machine type: n2-standard-4
 * R 4.1 kernel
 
-<div style="font-size:90%;font-style: italic;text-indent: 20px">
-Detailed software requirements: <A href="[/RNA-Sequencing_Transcriptome_Assembly--MDI_Biological_Laboratory/README.md](https://github.com/NIGMS/RNAseqUnivMaine/blob/master/README.md)"> Maine README </A>
-</div>
+Detailed software requirements: [Maine README](https://github.com/NIGMS/RNAseqUnivMaine/blob/master/README.md)
 
 5. Protein Quantification University of Arkansas for Medical Sciences
 * R 4.1 kernel
 
-<div style="font-size:90%;font-style: italic;text-indent: 20px">
-Detailed software requirements: <A href="[(https://github.com/NIGMS/ProteomicsUAMS/blob/master/README.md)](https://github.com/NIGMS/RNAseqUnivMaine/blob/master/README.md)]"> Arkansas for Medical Sciences README </A>
-</div>
+Detailed software requirements: [Univ. of Arkansas for Medical Sciences README](https://github.com/NIGMS/ProteomicsUAMS/blob/master/README.md)
 
 6. ATAC-Seq and Single Cell ATAC-Seq Analysis, University of Nebraska
 Modules 1-3: 
@@ -97,17 +87,13 @@ Module 4:
 * T4 GPU attached
 * RAPIDS VertexAI image
 
-<div style="font-size:90%;font-style: italic;text-indent: 20px">
-Detailed software requirements: <A href="/Interactive_Pipeline_for_differential_ATAC-Sequencing_Footprint_Analysis--University_of_Nebraska_Medical_Center/README.md"> Nebraska README </A>
-</div>
+Detailed software requirements: [Nebraska Medical Center README (/Interactive_Pipeline_for_differential_ATAC-Sequencing_Footprint_Analysis--University_of_Nebraska_Medical_Center/README.md)
 
 7. Consensus Pathway Analysis in the Cloud, University of Nevada Reno
 * default machinetype: n1-standard-4
 * R 4.1 kernel
 
-<div style="font-size:90%;font-style: italic;text-indent: 20px">
-Detailed software requirements: <A href="/Consensus_Pathway_Analysis_using_GCP--University_of_Nevada_Reno/README.md"> Nevada README </A>
-</div>
+Detailed software requirements: [Nevada Reno README](/Consensus_Pathway_Analysis_using_GCP--University_of_Nevada_Reno/README.md)
 
 8. Integrating Multi-Omics Datasets, University of North Dakota
 * default machinetype: n1-standard-4
@@ -115,10 +101,7 @@ Detailed software requirements: <A href="/Consensus_Pathway_Analysis_using_GCP--
 * conda_environment.yml contains necessary software(s)
 * Nextflow Service Account
 
-<div style="font-size:90%;font-style: italic;text-indent: 20px">
-Detailed software requirements: <A href="/RNA-Sequencing_Transcriptome_Assembly--MDI_Biological_Laboratory
-Transcriptomic_Epigenomic_Multi_Omics_Integration--University_of_North_Dakota/README.md"> North Dakota README </A>
-</div>
+Detailed software requirements: [North Dakota README](https://github.com/NIGMS/MultiomicsUND/blob/master/README.md) 
 
 9. Metagenomics Analysis of Biofilm-Microbiome, University of South Dakota
 * default machinetype: n1-standard-8
@@ -127,35 +110,25 @@ Transcriptomic_Epigenomic_Multi_Omics_Integration--University_of_North_Dakota/RE
 * custom image
 * requirements.yaml
 
-<div style="font-size:90%;font-style: italic;text-indent: 20px">
-Detailed software requirements: <A href="/Dockerized_Metagenomics_Analysis_of_Microbial_Communities_and_Biofilm--University_of_South_Dakota/README.md"> South Dakota README </A>
-</div>
+Detailed software requirements: [South Dakota README](/Dockerized_Metagenomics_Analysis_of_Microbial_Communities_and_Biofilm--University_of_South_Dakota/README.md)
 
 10. Data Science for Biology, An Introduction, San Francisco State University
 * default machine type: n1-standard-4
 * Python 3 kernel
 
-<div style="font-size:90%;font-style: italic;text-indent: 20px">
-Detailed software requirements: <A href="/Intro_to_ML_Predicting_Covid_Cases--San_Francisco_State_University/README.md"> San Francisco README </A>
-</div>
+Detailed software requirements: [San Francisco State README](https://github.com/NIGMS/RMachineLearningSFSU/blob/master/README.md)
 
 11. Biomarker Discovery with ML, University of Rhode Island
 * default machine type: n1-standard-4
 * R 4.1 kernel
 
-<div style="font-size:90%;font-style: italic;text-indent: 20px">
-Detailed software requirements: <A href="/Analysis_of_Biomedical_Data_for_Biomarker_Discovery--University_of_Rhode_Island/README.md"> Rhode Island README </A>
-</div>
+Detailed software requirements: [Rhode Island README](RI.readme)
 
 12. Biomedical Imaging Analysis using AI/ML approaches, University of Arkansas
 * default machine type: n1-standard-4
 * Python 3 kernel
 
-
-<div style="font-size:90%;font-style: italic;text-indent: 20px">
-Detailed software requirements: <A href="/Diving_into_Deep_Learning_for_Biomedical_Imaging_Data_Analysis--University_of_Arkansas_Fayetteville/README.md"> Arkansas README </A>
-</div>
-<br>
+Detailed software requirements: [Arkansas README](UAREADME)
 
 Some of the modules above require detailed changes to the cloud configuration in order to sucessfully execute them. For these modules, several "How To" documents have been developed in this repository to help users accomplish the each prerequisite listed above: 
 
