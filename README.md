@@ -23,7 +23,7 @@ To run these modules you will need a Google Cloud Project. You can access an NIH
 8. [Integrating Multi-Omics Datasets](https://github.com/NIGMS/MultiomicsUND) - University of North Dakota
 9. [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/MetagenomicsUSD) - University of South Dakota
 10. [Data Science for Biology, An Introduction](https://github.com/NIGMS/COVIDMachineLearningSFSU) - San Francisco State University
-11. [Biomarker Discovery with Machine Learning](https://github.com/NIGMS/BiomarkersURI) - University of Rhode Island
+11. [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/BiomarkersURI) - University of Rhode Island
 12. [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/MachineLearningUA) - University of Arkansas
 <!-- #endregion -->
 
