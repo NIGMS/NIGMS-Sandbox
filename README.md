@@ -52,21 +52,21 @@ Each module has different infrastructure and software requirements. While many o
 * Python 3 kernel
 * env.yml contains necessary software requirements for easy installation
 
-Detailed software requirements: [Dartmouth README](/Bioinformatics_for_Beginners_with_Terminal--Dartmouth_College/README.md)
+Detailed software requirements: [Dartmouth README](https://github.com/NIGMS/IntroBioinformaticsDartmouth/blob/main/README.md)
 
 2. DNA Methylation Sequencing Analysis with WGBS, University of Hawaii at Manoa
 * default machine type: n1-standard-4
 * Python 3 kernel
 * Nextflow Service Account
 
-Detailed software requirements: [Hawaii README](/Whole_Genome_Bisulfite_Sequencing--University_of_Hawaii_Manoa/README.md)
+Detailed software requirements: [Hawaii README](https://github.com/NIGMS/MethylSeqUH/blob/main/README.md)
 
 3. Transcriptome Assembly Refinement and Applications, MDI Biological Laboratory
 * default machine type: n1-highmem-16
 * Python 3 kernel
 * Nextflow Service Account
 
-Detailed software requirements: [MDI README](/RNA-Sequencing_Transcriptome_Assembly--MDI_Biological_Laboratory/README.md)
+Detailed software requirements: [MDI README](https://github.com/NIGMS/rnaAssemblyMDI)
 
 4. RNAseq Differential Expression Analysis, University of Maine
 * default machine type: n2-standard-4
@@ -87,13 +87,13 @@ Module 4:
 * T4 GPU attached
 * RAPIDS Vertex AI image
 
-Detailed software requirements: [Nebraska Medical Center README](/Interactive_Pipeline_for_differential_ATAC-Sequencing_Footprint_Analysis--University_of_Nebraska_Medical_Center/README.md)
+Detailed software requirements: [Nebraska Medical Center README](https://github.com/NIGMS/atacseqUNMC/blob/main/README.md)
 
 7. Consensus Pathway Analysis in the Cloud, University of Nevada Reno
 * default machinetype: n1-standard-4
 * R 4.1 kernel
 
-Detailed software requirements: [Nevada Reno README](/Consensus_Pathway_Analysis_using_GCP--University_of_Nevada_Reno/README.md)
+Detailed software requirements: [Nevada Reno README](https://github.com/NIGMS/ConsensusPathwayUNR/blob/main/README.md)
 
 8. Integrating Multi-Omics Datasets, University of North Dakota
 * default machinetype: n1-standard-4
@@ -101,7 +101,7 @@ Detailed software requirements: [Nevada Reno README](/Consensus_Pathway_Analysis
 * conda_environment.yml contains necessary software(s)
 * Nextflow Service Account
 
-Detailed software requirements: [North Dakota README](https://github.com/NIGMS/MultiomicsUND/blob/master/README.md) 
+Detailed software requirements: [North Dakota README](https://github.com/NIGMS/MultiomicsUND/blob/main/README.md) 
 
 9. Metagenomics Analysis of Biofilm-Microbiome, University of South Dakota
 * default machinetype: n1-standard-8
@@ -110,25 +110,25 @@ Detailed software requirements: [North Dakota README](https://github.com/NIGMS/M
 * custom image
 * requirements.yaml
 
-Detailed software requirements: [South Dakota README](/Dockerized_Metagenomics_Analysis_of_Microbial_Communities_and_Biofilm--University_of_South_Dakota/README.md)
+Detailed software requirements: [South Dakota README](https://github.com/NIGMS/MetagenomicsUSD/blob/main/README.md)
 
 10. Data Science for Biology, An Introduction, San Francisco State University
 * default machine type: n1-standard-4
 * Python 3 kernel
 
-Detailed software requirements: [San Francisco State README](https://github.com/NIGMS/RMachineLearningSFSU/blob/master/README.md)
+Detailed software requirements: [San Francisco State README](https://github.com/NIGMS/COVIDMachineLearningSFSU/blob/main/README.md)
 
 11. Biomarker Discovery with ML, University of Rhode Island
 * default machine type: n1-standard-4
 * R 4.1 kernel
 
-Detailed software requirements: [Rhode Island README](RI.readme)
+Detailed software requirements: [Rhode Island README](https://github.com/NIGMS/BiomarkersURI/blob/main/README.md)
 
 12. Biomedical Imaging Analysis using AI/ML approaches, University of Arkansas
 * default machine type: n1-standard-4
 * Python 3 kernel
 
-Detailed software requirements: [Arkansas README](UAREADME)
+Detailed software requirements: [Arkansas README](https://github.com/NIGMS/MachineLearningUA/blob/main/README.md)
 <!-- #endregion -->
 
 Some of the modules above require detailed changes to the cloud configuration in order to sucessfully execute them. For these modules, several "How To" documents have been developed in this repository to help users accomplish the each prerequisite listed above: 
