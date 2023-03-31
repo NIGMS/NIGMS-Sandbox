@@ -70,19 +70,21 @@ Detailed software requirements: [MDI README](https://github.com/NIGMS/rnaAssembl
 
 4. RNAseq Differential Expression Analysis, University of Maine
 * default machine type: n2-standard-4
-* R 4.1 kernel
+* R 4.2 kernel
 
 Detailed software requirements: [Maine README](https://github.com/NIGMS/RNAseqUnivMaine/blob/master/README.md)
 
 5. Protein Quantification University of Arkansas for Medical Sciences
-* R 4.1 kernel
+* R 4.2 kernel
 
 Detailed software requirements: [Univ. of Arkansas for Medical Sciences README](https://github.com/NIGMS/ProteomicsUAMS/blob/master/README.md)
 
 6. ATAC-Seq and Single Cell ATAC-Seq Analysis, University of Nebraska
+
 Modules 1-3: 
 * default machine type: n1-standard-4
 * Python 3 kernel
+
 Module 4:
 * T4 GPU attached
 * RAPIDS Vertex AI image
@@ -91,13 +93,13 @@ Detailed software requirements: [Nebraska Medical Center README](https://github.
 
 7. Consensus Pathway Analysis in the Cloud, University of Nevada Reno
 * default machinetype: n1-standard-4
-* R 4.1 kernel
+* R 4.2 kernel
 
 Detailed software requirements: [Nevada Reno README](https://github.com/NIGMS/ConsensusPathwayUNR/blob/main/README.md)
 
 8. Integrating Multi-Omics Datasets, University of North Dakota
 * default machinetype: n1-standard-4
-* R 4.1 kernel
+* R 4.2 kernel
 * conda_environment.yml contains necessary software(s)
 * Nextflow Service Account
 
@@ -120,7 +122,7 @@ Detailed software requirements: [San Francisco State README](https://github.com/
 
 11. Biomarker Discovery with ML, University of Rhode Island
 * default machine type: n1-standard-4
-* R 4.1 kernel
+* R 4.2 kernel
 
 Detailed software requirements: [Rhode Island README](https://github.com/NIGMS/BiomarkersURI/blob/main/README.md)
 
