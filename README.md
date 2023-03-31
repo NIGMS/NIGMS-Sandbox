@@ -103,7 +103,7 @@ Detailed software requirements: [Nevada Reno README](https://github.com/NIGMS/Co
 * conda_environment.yml contains necessary software(s)
 * Nextflow Service Account
 
-Detailed software requirements: [North Dakota README](https://github.com/NIGMS/MultiomicsUND/blob/main/README.md) 
+Detailed software requirements: [North Dakota README](https://github.com/NIGMS/MultiomicsUND/blob/master/README.md) 
 
 9. Metagenomics Analysis of Biofilm-Microbiome, University of South Dakota
 * default machinetype: n1-standard-8
