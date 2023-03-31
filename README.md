@@ -135,9 +135,9 @@ Detailed software requirements: [Arkansas README](https://github.com/NIGMS/Machi
 
 Some of the modules above require detailed changes to the cloud configuration in order to sucessfully execute them. For these modules, several "How To" documents have been developed in this repository to help users accomplish the each prerequisite listed above: 
 
-* [How to create conda virtual environments to use as Jupyter kernels](https://github.com/STRIDES/NIHCloudLabGCP/docs/How_to_use_conda_envs_as_kernels.ipynb)
+* [How to create conda virtual environments to use as Jupyter kernels](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/create_conda_env.md#2-create-a-custom-kernel-for-your-notebook-instance)
 * [How to mount cloud storage buckets in your Vertex AI notebook with gcsfuse](https://github.com/STRIDES/NIHCloudLabGCP/docs/How_to_mount_buckets.ipynb)
-* [How to create custom images for Vertex AI](https://github.com/STRIDES/NIHCloudLabGCP/docs/How_to_create_custom_VertexAI_images.ipynb)
+* [How to create custom images for Vertex AI](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/containers.md)
 
 <!-- #endregion -->
 
