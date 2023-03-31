@@ -36,7 +36,7 @@ To run these modules you will need a Google Cloud Project. You can access an NIH
 
 ## Cloud Technology Utilized <a name="one"></a>
 
-The 12 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, gcsfuse, VertexAI Workbench, Artifact Registry, Cloud Build, BigQuery, and Cloud Lifesciences API*. Technologies that support the cloud services mentioned include JupyterLab, Docker, Git, and life sciences software libraries such as [Bioconductor](https://www.bioconductor.org/) in R and the [Bioconda](https://bioconda.github.io/) Anaconda channel in Python.
+The 12 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, gcsfuse, Vertex AI Workbench, Artifact Registry, Cloud Build, BigQuery, and Cloud Lifesciences API*. Technologies that support the cloud services mentioned include JupyterLab, Docker, Git, and life sciences software libraries such as [Bioconductor](https://www.bioconductor.org/) in R and the [Bioconda](https://bioconda.github.io/) Anaconda channel in Python.
 
 <div style="font-size:75%;font-style: italic;">
 *Google Batch is a newer managed service that provides similar functionality to the Google Life Sciences API. 
@@ -85,7 +85,7 @@ Modules 1-3:
 * Python 3 kernel
 Module 4:
 * T4 GPU attached
-* RAPIDS VertexAI image
+* RAPIDS Vertex AI image
 
 Detailed software requirements: [Nebraska Medical Center README](/Interactive_Pipeline_for_differential_ATAC-Sequencing_Footprint_Analysis--University_of_Nebraska_Medical_Center/README.md)
 
@@ -134,8 +134,8 @@ Detailed software requirements: [Arkansas README](UAREADME)
 Some of the modules above require detailed changes to the cloud configuration in order to sucessfully execute them. For these modules, several "How To" documents have been developed in this repository to help users accomplish the each prerequisite listed above: 
 
 * [How to create conda virtual environments to use as Jupyter kernels](https://github.com/STRIDES/NIHCloudLabGCP/docs/How_to_use_conda_envs_as_kernels.ipynb)
-* [How to mount cloud storage buckets in your VertexAI notebook with gcsfuse](https://github.com/STRIDES/NIHCloudLabGCP/docs/How_to_mount_buckets.ipynb)
-* [How to create custom images for VertexAI](https://github.com/STRIDES/NIHCloudLabGCP/docs/How_to_create_custom_VertexAI_images.ipynb)
+* [How to mount cloud storage buckets in your Vertex AI notebook with gcsfuse](https://github.com/STRIDES/NIHCloudLabGCP/docs/How_to_mount_buckets.ipynb)
+* [How to create custom images for Vertex AI](https://github.com/STRIDES/NIHCloudLabGCP/docs/How_to_create_custom_VertexAI_images.ipynb)
 
 <!-- #endregion -->
 
@@ -157,8 +157,8 @@ To use Google Cloud services, you must have a valid Cloud Billing account, and m
 Cloud Storage is a service for storing your objects in Google Cloud. An object is an immutable piece of data consisting of a file of any format. You store objects in containers called buckets. All buckets are associated with a project, and you can group your projects under an organization. 
 
 
-4. **VertexAI - https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform** \
-Vertex AI brings AutoML and AI Platform together into a unified API, client library, and user interface. AutoML lets you train models on image, tabular, text, and video datasets without writing code, while training in AI Platform lets you run custom training code. With Vertex AI, both AutoML training and custom training are available options. Whichever option you choose for training, you can save models, deploy models, and request predictions with Vertex AI. VertexAI implements JupyterLab in VertexAI Workbench. 
+4. **Vertex AI - https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform** \
+Vertex AI brings AutoML and AI Platform together into a unified API, client library, and user interface. AutoML lets you train models on image, tabular, text, and video datasets without writing code, while training in AI Platform lets you run custom training code. With Vertex AI, both AutoML training and custom training are available options. Whichever option you choose for training, you can save models, deploy models, and request predictions with Vertex AI. Vertex AI implements JupyterLab in Vertex AI Workbench. 
 
 5. **Cloud Build - https://cloud.google.com/build/docs** \
 Cloud Build is a service that executes your builds on Google Cloud infrastructure. Cloud Build can import source code from Cloud Storage, Cloud Source Repositories, GitHub, or Bitbucket, execute a build to your specifications, and produce artifacts such as Docker containers or Java archives.
