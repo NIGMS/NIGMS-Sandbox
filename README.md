@@ -118,19 +118,19 @@ Detailed software requirements: [South Dakota README](https://github.com/NIGMS/M
 * default machine type: n1-standard-4
 * Python 3 kernel
 
-Detailed software requirements: [San Francisco State README](https://github.com/NIGMS/COVIDMachineLearningSFSU/blob/main/README.md)
+Detailed software requirements: [San Francisco State README](https://github.com/NIGMS/COVIDMachineLearningSFSU/blob/master/README.md)
 
 11. Biomarker Discovery with ML, University of Rhode Island
 * default machine type: n1-standard-4
 * R 4.2 kernel
 
-Detailed software requirements: [Rhode Island README](https://github.com/NIGMS/BiomarkersURI/blob/main/README.md)
+Detailed software requirements: [Rhode Island README](https://github.com/NIGMS/BiomarkersURI/blob/master/README.md)
 
 12. Biomedical Imaging Analysis using AI/ML approaches, University of Arkansas
 * default machine type: n1-standard-4
 * Python 3 kernel
 
-Detailed software requirements: [Arkansas README](https://github.com/NIGMS/MachineLearningUA/blob/main/README.md)
+Detailed software requirements: [Arkansas README](https://github.com/NIGMS/MachineLearningUA/blob/master/README.md)
 <!-- #endregion -->
 
 Some of the modules above require detailed changes to the cloud configuration in order to sucessfully execute them. For these modules, several "How To" documents have been developed in this repository to help users accomplish the each prerequisite listed above: 
