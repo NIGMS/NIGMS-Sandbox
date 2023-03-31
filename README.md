@@ -95,7 +95,7 @@ Detailed software requirements: [Nebraska Medical Center README](https://github.
 * default machinetype: n1-standard-4
 * R 4.2 kernel
 
-Detailed software requirements: [Nevada Reno README](https://github.com/NIGMS/ConsensusPathwayUNR/blob/main/README.md)
+Detailed software requirements: [Nevada Reno README](https://github.com/NIGMS/ConsensusPathwayUNR/blob/master/README.md)
 
 8. Integrating Multi-Omics Datasets, University of North Dakota
 * default machinetype: n1-standard-4
