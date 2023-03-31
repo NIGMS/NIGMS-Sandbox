@@ -13,17 +13,17 @@ To run these modules you will need a Google Cloud Project. You can access an NIH
 
 *The 10 topics and their authors are listed as follows:*
 
-1. [Fundamentals of Bioinformatics]() - Dartmouth College
-2. [DNA Methylation Sequencing Analysis with WGBS]() - University of Hawaii at Manoa
-3. [Transcriptome Assembly Refinement and Applications]() - MDI Biological Laboratory
+1. [Fundamentals of Bioinformatics](https://github.com/NIGMS/IntroBioinformaticsDartmouth) - Dartmouth College
+2. [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/MethylSeqUH) - University of Hawaii at Manoa
+3. [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/rnaAssemblyMDI) - MDI Biological Laboratory
 4. [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNAseqUM) - University of Maine
 5. [Proteome Quantification](https://github.com/NIGMS/ProteomicsUAMS) - University of Arkansas for Medical Sciences
-6. [ATAC-Seq and Single Cell ATAC-Seq Analysis]() - University of Nebraska Medical Center
-7. [Consensus Pathway Analysis in the Cloud]() - University of Nevada Reno
+6. [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/atacseqUNMC) - University of Nebraska Medical Center
+7. [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/ConsensusPathwayUNR) - University of Nevada Reno
 8. [Integrating Multi-Omics Datasets](https://github.com/NIGMS/MultiomicsUND) - University of North Dakota
-9. [Metagenomics Analysis of Biofilm-Microbiome]() - University of South Dakota
-10. [Data Science for Biology, An Introduction](https://github.com/NIGMS/RMachineLearningSFSU) - San Francisco State University
-11. [Biomarker Discovery with ML]() - University of Rhode Island
+9. [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/MetagenomicsUSD) - University of South Dakota
+10. [Data Science for Biology, An Introduction](https://github.com/NIGMS/COVIDMachineLearningSFSU) - San Francisco State University
+11. [Biomarker Discovery with Machine Learning](https://github.com/NIGMS/BiomarkersURI) - University of Rhode Island
 12. [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/MachineLearningUA) - University of Arkansas
 <!-- #endregion -->
 
