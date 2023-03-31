@@ -66,7 +66,7 @@ Detailed software requirements: [Hawaii README](https://github.com/NIGMS/MethylS
 * Python 3 kernel
 * Nextflow Service Account
 
-Detailed software requirements: [MDI README](https://github.com/NIGMS/rnaAssemblyMDI)
+Detailed software requirements: [MDI README](https://github.com/NIGMS/rnaAssemblyMDI/blob/main/README.md)
 
 4. RNAseq Differential Expression Analysis, University of Maine
 * default machine type: n2-standard-4
