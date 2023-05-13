@@ -1,7 +1,6 @@
 # **National Institute of General Medical Sciences Cloud Learning Modules**
 
 
-<!-- #region -->
 # Introduction
 
 This repository aims to teach students, researchers, and clinicians, among others, how to utilize the power of cloud technology for the benefit of life sciences applications and research. Here we present 12 cloud learning modules that represent a unique use case or scientific workflow. Types of data used across the modules include but are not limited to genomics, methylomics, transcriptomics, proteomics, and medical imaging data across formats such as FASTA/FASTQ, SAM, BAM, CSV, PNG, and DICOM. Learning modules range in areas from introductory material to single-omics approaches, multi-omics techniques, single cell analysis, metagenomics, and AI/ML imaging applications. 
@@ -28,22 +27,20 @@ To run these modules you will need a Google Cloud Project. You can access an NIH
 <!-- #endregion -->
 
 # Table of Contents
-+ [Cloud Technology Utilized](#one)
-+ [Cloud Module Prerequisites](#two)
-+ [Resources](#three)
-+ [Alternative Data Sources](#four)
++ [Cloud Technology Utilized](#cloud-technology-utilized)
++ [Cloud Module Prerequisites](#cloud-module-prerequisites)
++ [Resources](#resources)
++ [Alternative Data Sources](#alternative-data-sources)
 
 
-## Cloud Technology Utilized <a name="one"></a>
+## Cloud Technology Utilized 
 
 The 12 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, gcsfuse, Vertex AI Workbench, Artifact Registry, Cloud Build, BigQuery, and Cloud Lifesciences API*. Technologies that support the cloud services mentioned include JupyterLab, Docker, Git, and life sciences software libraries such as [Bioconductor](https://www.bioconductor.org/) in R and the [Bioconda](https://bioconda.github.io/) Anaconda channel in Python.
 
-<div style="font-size:75%;font-style: italic;">
-*Google Batch is a newer managed service that provides similar functionality to the Google Life Sciences API. 
-</div>
+*Google Batch is a newer managed service that provides similar functionality to the Google Life Sciences API.*
 
-<!-- #region -->
-## Cloud Module Prerequisites <a name="two"></a>
+
+## Cloud Module Prerequisites 
 
 Each module has different infrastructure and software requirements. While many of the GCP services required overlap there are specifications that users should keep in mind before they start their self paced learning. More details can be found within each individual repository README. An overview is provided below: 
 
@@ -131,7 +128,7 @@ Detailed software requirements: [Rhode Island README](https://github.com/NIGMS/B
 * Python 3 kernel
 
 Detailed software requirements: [Arkansas README](https://github.com/NIGMS/MachineLearningUA/blob/master/README.md)
-<!-- #endregion -->
+
 
 Some of the modules above require detailed changes to the cloud configuration in order to sucessfully execute them. For these modules, several "How To" documents have been developed in this repository to help users accomplish the each prerequisite listed above: 
 
@@ -139,10 +136,10 @@ Some of the modules above require detailed changes to the cloud configuration in
 * [How to mount cloud storage buckets in your Vertex AI notebook with gcsfuse](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToMountABucketWithGcsfuse.ipynb)
 * [How to create custom images for Vertex AI](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/containers.md)
 
-<!-- #endregion -->
 
-<!-- #region -->
-## Resources <a name="three"></a>
+
+
+## Resources 
 In the below section we define the GCP services utilized across the learning modules. You can find an additional curated list of GCP tutorials in this repository under docs: [GCP Resources detailed](./docs/GoogleCloudPlatformResources.md)
 
 ### Google Cloud Platform resources
@@ -175,9 +172,9 @@ Operations, formerly known as Stackdriver, is composed of Monitoring and Logging
 
 Cloud Logging is a fully managed service that allows you to store, search, analyze, monitor, and alert on logging data and events from Google Cloud and Amazon Web Services. You can collect logging data from over 150 common application components, on-premises systems, and hybrid cloud systems.
 
-<!-- #endregion -->
 
-## Alternative Data Sources <a name="four"></a>
+
+## Alternative Data Sources 
 
 Where can users get similar data to run through these tutorials with their own datasets or alternative datasets of interest? 
 
