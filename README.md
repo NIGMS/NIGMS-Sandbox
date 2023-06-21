@@ -11,7 +11,7 @@ To run these modules you will need a Google Cloud Project. You can access an NIH
 
 # Available Modules
 
-*The 10 topics and their authors are listed as follows:*
+*The 12 topics and their authors are listed as follows:*
 
 1. [Fundamentals of Bioinformatics](https://github.com/NIGMS/IntroBioinformaticsDartmouth) - Dartmouth College
 2. [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/MethylSeqUH) - University of Hawaii at Manoa
