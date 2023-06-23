@@ -5,7 +5,8 @@
 
 This repository aims to teach students, researchers, and clinicians, among others, how to utilize the power of cloud technology for the benefit of life sciences applications and research. Here we present 12 cloud learning modules that represent a unique use case or scientific workflow. Types of data used across the modules include but are not limited to genomics, methylomics, transcriptomics, proteomics, and medical imaging data across formats such as FASTA/FASTQ, SAM, BAM, CSV, PNG, and DICOM. Learning modules range in areas from introductory material to single-omics approaches, multi-omics techniques, single cell analysis, metagenomics, and AI/ML imaging applications. 
 
-To run these modules you will need a Google Cloud Project. You can access an NIH-hosted project through the NIH Cloud Lab program, which will grant you access to a GCP project for up to three months and grant you a $500 budget. To request a project go [here](https://cloud.nih.gov/resources/cloudlab/) and click the blue interest button. You can also view the [NIH Cloud Lab GitHub repository](https://github.com/STRIDES/NIHCloudLabGCP) for more information on GCP as well as access to additional [tutorial content](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/tutorials). 
+To run these modules you will need a Google Cloud Project. For beginner friendly information on Google Cloud, visit the [NIH Cloud Lab GitHub](https://github.com/STRIDES/NIHCloudLabGCP) repository, which also includes a set of helpful [Google Cloud tutorials](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/tutorials).
+
 
 ![image1](images/Universities.png)
 
