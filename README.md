@@ -14,18 +14,18 @@ To run these modules you will need a Google Cloud Project. For beginner friendly
 
 *The 12 topics and their authors are listed as follows:*
 
-1. [Fundamentals of Bioinformatics](https://github.com/NIGMS/IntroBioinformaticsDartmouth) - Dartmouth College
-2. [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/MethylSeqUH) - University of Hawaii at Manoa
-3. [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/rnaAssemblyMDI) - MDI Biological Laboratory
-4. [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNAseqUM) - University of Maine
-5. [Proteome Quantification](https://github.com/NIGMS/ProteomicsUAMS) - University of Arkansas for Medical Sciences
-6. [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/atacseqUNMC) - University of Nebraska Medical Center
-7. [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/ConsensusPathwayUNR) - University of Nevada Reno
-8. [Integrating Multi-Omics Datasets](https://github.com/NIGMS/MultiomicsUND) - University of North Dakota
-9. [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/MetagenomicsUSD) - University of South Dakota
-10. [Data Science for Biology, An Introduction](https://github.com/NIGMS/COVIDMachineLearningSFSU) - San Francisco State University
-11. [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/BiomarkersURI) - University of Rhode Island
-12. [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/MachineLearningUA) - University of Arkansas
+1. [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
+2. [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
+3. [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory
+4. [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
+5. [Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
+6. [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
+7. [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
+8. [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota
+9. [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
+10. [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
+11. [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island
+12. [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
 <!-- #endregion -->
 
 # Table of Contents
@@ -51,32 +51,32 @@ Each module has different infrastructure and software requirements. While many o
 * Python 3 kernel
 * env.yml contains necessary software requirements for easy installation
 
-Detailed software requirements: [Dartmouth README](https://github.com/NIGMS/IntroBioinformaticsDartmouth/blob/main/README.md)
+Detailed software requirements: [Dartmouth README](https://github.com/NIGMS/Fundamentals-of-Bioinformatics/blob/main/README.md)
 
 2. DNA Methylation Sequencing Analysis with WGBS, University of Hawaii at Manoa
 * default machine type: n1-standard-4
 * Python 3 kernel
 * Nextflow Service Account
 
-Detailed software requirements: [Hawaii README](https://github.com/NIGMS/MethylSeqUH/blob/main/README.md)
+Detailed software requirements: [Hawaii README](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS/blob/main/README.md)
 
 3. Transcriptome Assembly Refinement and Applications, MDI Biological Laboratory
 * default machine type: n1-highmem-16
 * Python 3 kernel
 * Nextflow Service Account
 
-Detailed software requirements: [MDI README](https://github.com/NIGMS/rnaAssemblyMDI/blob/master/README.md)
+Detailed software requirements: [MDI README](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications/blob/master/README.md)
 
 4. RNAseq Differential Expression Analysis, University of Maine
 * default machine type: n2-standard-4
 * R 4.2 kernel
 
-Detailed software requirements: [Maine README](https://github.com/NIGMS/RNAseqUnivMaine/blob/master/README.md)
+Detailed software requirements: [Maine README](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis/blob/master/README.md)
 
 5. Protein Quantification University of Arkansas for Medical Sciences
 * R 4.2 kernel
 
-Detailed software requirements: [Univ. of Arkansas for Medical Sciences README](https://github.com/NIGMS/ProteomicsUAMS/blob/master/README.md)
+Detailed software requirements: [Univ. of Arkansas for Medical Sciences README](https://github.com/NIGMS/Proteome-Quantification/blob/master/README.md)
 
 6. ATAC-Seq and Single Cell ATAC-Seq Analysis, University of Nebraska
 
@@ -88,13 +88,13 @@ Module 4:
 * T4 GPU attached
 * RAPIDS Vertex AI image
 
-Detailed software requirements: [Nebraska Medical Center README](https://github.com/NIGMS/atacseqUNMC/blob/main/README.md)
+Detailed software requirements: [Nebraska Medical Center README](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis/blob/main/README.md)
 
 7. Consensus Pathway Analysis in the Cloud, University of Nevada Reno
 * default machinetype: n1-standard-4
 * R 4.2 kernel
 
-Detailed software requirements: [Nevada Reno README](https://github.com/NIGMS/ConsensusPathwayUNR/blob/master/README.md)
+Detailed software requirements: [Nevada Reno README](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud/blob/master/README.md)
 
 8. Integrating Multi-Omics Datasets, University of North Dakota
 * default machinetype: n1-standard-4
@@ -102,7 +102,7 @@ Detailed software requirements: [Nevada Reno README](https://github.com/NIGMS/Co
 * conda_environment.yml contains necessary software(s)
 * Nextflow Service Account
 
-Detailed software requirements: [North Dakota README](https://github.com/NIGMS/MultiomicsUND/blob/master/README.md) 
+Detailed software requirements: [North Dakota README](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets/blob/master/README.md) 
 
 9. Metagenomics Analysis of Biofilm-Microbiome, University of South Dakota
 * default machinetype: n1-standard-8
@@ -111,25 +111,25 @@ Detailed software requirements: [North Dakota README](https://github.com/NIGMS/M
 * custom image
 * requirements.yaml
 
-Detailed software requirements: [South Dakota README](https://github.com/NIGMS/MetagenomicsUSD/blob/main/README.md)
+Detailed software requirements: [South Dakota README](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome/blob/master/README.md)
 
-10. Data Science for Biology, An Introduction, San Francisco State University
+10. Introduction to Data Science for Biology, San Francisco State University
 * default machine type: n1-standard-4
 * Python 3 kernel
 
-Detailed software requirements: [San Francisco State README](https://github.com/NIGMS/COVIDMachineLearningSFSU/blob/master/README.md)
+Detailed software requirements: [San Francisco State README](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology/blob/master/README.md)
 
 11. Biomarker Discovery with ML, University of Rhode Island
 * default machine type: n1-standard-4
 * R 4.2 kernel
 
-Detailed software requirements: [Rhode Island README](https://github.com/NIGMS/BiomarkersURI/blob/master/README.md)
+Detailed software requirements: [Rhode Island README](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery/blob/master/README.md)
 
 12. Biomedical Imaging Analysis using AI/ML approaches, University of Arkansas
 * default machine type: n1-standard-4
 * Python 3 kernel
 
-Detailed software requirements: [Arkansas README](https://github.com/NIGMS/MachineLearningUA/blob/master/README.md)
+Detailed software requirements: [Arkansas README](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches/blob/master/README.md)
 
 
 Some of the modules above require detailed changes to the cloud configuration in order to sucessfully execute them. For these modules, several "How To" documents have been developed in this repository to help users accomplish the each prerequisite listed above: 
