@@ -1,6 +1,6 @@
 # How to register for an NIGMS Sandbox Google Cloud Project
 
-1. Navigate to [this link](https://nih-cloudlab.firebaseapp.com/NIGMS).
+1. Navigate to [this link](https://nih-cloudlab.firebaseapp.com/NIGMS) and wait for a login page to load.
 
 2. Scroll down to 'Research Organization'
 
