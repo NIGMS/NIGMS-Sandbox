@@ -9,6 +9,6 @@
 2. Now select (A) the project name at the top middle of the screen. In the box that pops up, make sure that (B) NIH.gov is selected as your organization.
     ![screenshot showing NIH org](/images/2_nih_org.png)
 
-5. Under that, select (C) `All` rather than `Recent`. Then click your (D) Project which should be `nih-extramural-cl-00000XYZ-1`, and click **Open** in the bottom right. Here we show `Recent` rather than `All` to simplify the number of projects shown, but please select `All`.
+5. Under that, select (C) `All` rather than `Recent`. Then click your (D) Project which should be `nih-extramural-cl-00000XYZ-1`, and click **Open** in the bottom right. 
 
 ![screenshot showing how to select the appropriate project from the project selection dropbox](/images/3_select_project.png)
