@@ -35,11 +35,17 @@ To run these modules you will need a Google Cloud Project. For beginner friendly
 + [Alternative Data Sources](#alternative-data-sources)
 
 ## Learning Pathways
-:sparkles: _We put together these learning pathways to help orient you to using these modules_ 
-1. Intro to GCP
-   + Point 1
-   + Point 2
-   + Point 3
+:sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. The first is a bootcamp of sorts for those who are new to the Cloud. Make sure you complete these Introductory steps before jumping into any of the modules_ :sparkles:
+
+1. Introduction to GCP
+   _Here are some prerequisites you should make sure you can complete before diving into the modules_
+   - [ ] [Select your GCP Project](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/open_GCP_project.md)
+   - [ ] [Navigate to Vertex AI and Launch an Instance](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/vertexai.md)
+   - [ ] Change your Notebook Kernel
+   - [ ] [Enable the Google Batch and Big Query APIs](https://cloud.google.com/apis/docs/getting-started#enabling_apis)
+   - [ ] [Read our Billing Guide](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/How%20to%20Create%20Labels%20and%20GCP%20Billing%20Report.docx.pdf)
+   - [ ] Read over the [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabGCP/tree/main) to become familiar with additional Cloud services that may be needed during these modules.
+         
 2. Intro to Machine Learning
    + Point 1
    + Point 2
