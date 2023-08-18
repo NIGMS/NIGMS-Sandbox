@@ -35,7 +35,7 @@ To run these modules you will need a Google Cloud Project. For beginner friendly
 + [Alternative Data Sources](#alternative-data-sources)
 
 ## Learning Pathways
-:sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. The first is a bootcamp of sorts for those who are new to the Cloud. Make sure you complete these Introductory steps before jumping into any of the modules_ :sparkles:
+:sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. The first is a bootcamp of sorts for those who are new to the Cloud. Make sure you complete these Introductory steps before jumping into any of the modules. The rest are grouped by scientific topic_ :sparkles:
 
 1. Introduction to GCP
    _Here are some prerequisites you should make sure you can complete before diving into the modules_
@@ -45,11 +45,27 @@ To run these modules you will need a Google Cloud Project. For beginner friendly
    - [ ] [Enable the Google Batch and Big Query APIs](https://cloud.google.com/apis/docs/getting-started#enabling_apis)
    - [ ] [Read our Billing Guide](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/How%20to%20Create%20Labels%20and%20GCP%20Billing%20Report.docx.pdf)
    - [ ] Read over the [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabGCP/tree/main) to become familiar with additional Cloud services that may be needed during these modules.
-         
-2. Intro to Machine Learning
-   + Point 1
-   + Point 2
 
+2. Introduction to Biomedical Data Science and Machine Learning
+   + [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
+   + [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
+   + [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island
+   + [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
+     
+4. Introduction to Bioinformatics and other Omic Analysis
+   + [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
+   + [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
+   + [Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
+   + [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota
+     
+5. Introduction to Genomic Analysis
+   + [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
+   + [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
+     
+6. Introduction to RNAseq and Transcriptome Assembly
+   + [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
+   + [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory
+   
 ## Cloud Technology Utilized 
 
 The 12 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, gcsfuse, Vertex AI Workbench, Artifact Registry, Cloud Build, BigQuery, and Cloud Lifesciences API*. Technologies that support the cloud services mentioned include JupyterLab, Docker, Git, and life sciences software libraries such as [Bioconductor](https://www.bioconductor.org/) in R and the [Bioconda](https://bioconda.github.io/) Anaconda channel in Python.
