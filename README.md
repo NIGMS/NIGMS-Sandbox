@@ -34,6 +34,15 @@ To run these modules you will need a Google Cloud Project. For beginner friendly
 + [Resources](#resources)
 + [Alternative Data Sources](#alternative-data-sources)
 
+## Learning Pathways
+:sparkles: _We put together these learning pathways to help orient you to using these modules_ 
+1. Intro to GCP
+   + Point 1
+   + Point 2
+   + Point 3
+2. Intro to Machine Learning
+   + Point 1
+   + Point 2
 
 ## Cloud Technology Utilized 
 
@@ -137,9 +146,6 @@ Some of the modules above require detailed changes to the cloud configuration in
 * [How to create conda virtual environments to use as Jupyter kernels](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToUseCondaEnvsAsKernels.ipynb)
 * [How to mount cloud storage buckets in your Vertex AI notebook with gcsfuse](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToMountABucketWithGcsfuse.ipynb)
 * [How to create custom images for Vertex AI](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/containers.md)
-
-
-
 
 ## Resources 
 In the below section we define the GCP services utilized across the learning modules. You can find an additional curated list of GCP tutorials in this repository under docs: [GCP Resources detailed](./docs/GoogleCloudPlatformResources.md)
