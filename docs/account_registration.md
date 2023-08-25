@@ -46,4 +46,4 @@
 
 7. Fill out the final form. You won't be able to enter your name, and your email will be pre-populated. Enter a description of the module or research you plan to use your account for. Click `Submit` and you are finished.
 
-   ![Final Form login.gov](/images/7_final_form.png)
+   ![Final Form login.gov](/images/7_final_form_logingov.png)
