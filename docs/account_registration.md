@@ -1,14 +1,12 @@
-# How to register for an NIGMS Sandbox Google Cloud Project using University Login
+# 1. How to register for an NIGMS Sandbox Google Cloud Project using University Login
 
-**Make sure you open an incognito/private browser**
+1. From an incognito or private browsing window, navigate to [this link](https://nih-cloudlab.firebaseapp.com/NIGMS) and wait for a login page to load.
 
-1. Navigate to [this link](https://nih-cloudlab.firebaseapp.com/NIGMS) and wait for a login page to load.
-
-2. Scroll down to where it says 'Login.gov'
+2. Scroll down and click **Research Organization**. If you select another login option your registration will not work.
 
   ![initial nih login page](/images/1_NIH_login.png)
 
-3. Search for and select your University.
+3. Search for and select your University. If your University is not listed, skip ahead to Section 2 with Login.gov instructions.
 
    ![University Search](/images/2_input_university.png)
 
@@ -18,25 +16,23 @@
 
    ![Grant Access](/images/3_grant_access.png)
 
-6. Fill out the final form. Enter your name, email, and select `GCP`. Enter a description of the module or research you plan to use your account for. Click `Submit` and you are finished.
+6. Fill out the final form. Enter your name, email, and a description of the module or research you plan to use your account for. Click **Submit** and you are finished.
 
    ![Final Form](/images/4_final_form.png)
    
-# How to register for an NIGMS Sandbox Google Cloud Project using Login.gov
+# 2. How to register for an NIGMS Sandbox Google Cloud Project using Login.gov or National Science Foundation.
 
-**Make sure you open an incognito/private browser**
+1. From an incognito or private browsing window, navigate to [this link](https://nih-cloudlab.firebaseapp.com/NIGMS) and wait for a login page to load.
 
-1. Navigate to [this link](https://nih-cloudlab.firebaseapp.com/NIGMS) and wait for a login page to load.
+2. Scroll down and click **Research Organization**. If you select another login option your registration will not work.
 
-2. Scroll down to where it says 'Login.gov'
+  ![initial nih login page](/images/1_NIH_login.png)
 
-  ![initial nih login page for login.gov](/images/5_logingov.png)
-
-3. Sign in to your account.
+3. Type in **Login.gov** or **National Science Foundation** and follow the prompts to sign in to your account. The images shown here are only for the *login.gov* authentication.
 
    ![Sign In Login.gov](/images/6_signin_logingov.png)
 
-4. Complete MFA, in this case one time code.
+4. Complete MFA, in this case a one time code.
 
    ![MFA](/images/7_mfa.png)
 
