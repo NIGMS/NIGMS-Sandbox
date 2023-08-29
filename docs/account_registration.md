@@ -28,7 +28,7 @@
 
   ![initial nih login page](/images/1_NIH_login.png)
 
-3. Type in **Login.gov** or **National Science Foundation** and follow the prompts to sign in to your account. The images shown here are only for the *login.gov* authentication.
+3. Type in **Login.gov** or **National Science Foundation** and follow the prompts to sign in to your account. The images shown here are only for the *login.gov* authentication. If you do not have a Login.gov account, you can create one following [these instructions](https://login.gov/help/get-started/create-your-account/) or the instructions attached to the registration email.
 
    ![Sign In Login.gov](/images/6_signin_logingov.png)
 
