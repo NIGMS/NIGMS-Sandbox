@@ -7,46 +7,47 @@ This repository aims to teach students, researchers, and clinicians, among other
 
 To run these modules you will need a Google Cloud Project. For beginner friendly information on Google Cloud, visit the [NIH Cloud Lab GitHub](https://github.com/STRIDES/NIHCloudLabGCP) repository, which also includes a set of helpful [Google Cloud tutorials](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/tutorials).
 
-
 ![image1](images/Universities.png)
 
 # Table of Contents
 + [Available Modules](#modules)
-+ [Learning Pathways](#pathways)
-+ [Cloud Technology Utilized](#cloud-technology-utilize)
++ [Recomended Learning Pathways](#pathways)
++ [Cloud Technology Utilized](#cloud-technology-utilized)
 + [Cloud Module Prerequisites](#cloud-module-prerequisites)
 + [Resources](#gcp)
 + [Alternative Data Sources](#data)
 
 # Available Modules <a name="modules"></a>
 
-*The 12 topics and their authors are listed as follows:*
+*The 12 topics and their authors are listed here. If you would like guidance on what order to complete them in, jump to the recommended learning pathways in the next section.*
 
-1. [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
-2. [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
-3. [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory
-4. [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
-5. [Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
-6. [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
-7. [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
-8. [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota
-9. [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
-10. [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
-11. [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island
-12. [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
-<!-- #endregion -->
++ [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
++ [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
++ [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory
++ [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
++ [Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
++ [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
++ [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
++ [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota
++ [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
++ [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
++ [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island
++ [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
 
-## Learning Pathways <a name="pathways"></a>
+## Recommended Learning Pathways <a name="pathways"></a>
 
-:sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. The first is a bootcamp of sorts for those who are new to the Cloud. Make sure you complete these Introductory steps before jumping into any of the modules. The rest are grouped by scientific topic_ :sparkles:
+:sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. The first is a bootcamp of sorts for those who are new to the Cloud. Make sure you complete these introductory steps before jumping into any of the modules. The rest are grouped by scientific topic_ :sparkles:
 
 1. Introduction to GCP
    _Here are some prerequisites you should make sure you can complete before diving into the modules. If anything looks unfamiliar, follow the link to view documentation on that subject_
    - [ ] [Select your GCP Project](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/open_GCP_project.md)
-   - [ ] [Navigate to Vertex AI and Launch an Instance](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/vertexai.md)
-   - [ ] Change your Notebook Kernel
+   - [ ] [Navigate to Vertex AI and Launch an Instance](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md). Enable idle-shutdown after 15 minutes of inactivity.
+   - [ ] [Change your Notebook Kernel](https://cloud.google.com/vertex-ai/docs/workbench/managed/create-managed-notebooks-instance-console-quickstart)
    - [ ] [Enable the Google Batch and Big Query APIs](https://cloud.google.com/apis/docs/getting-started#enabling_apis)
-   - [ ] [Read our Billing Guide](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/How%20to%20Create%20Labels%20and%20GCP%20Billing%20Report.docx.pdf)
+   - [ ] [Read our Billing Guide](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/How%20to%20Create%20Labels%20and%20GCP%20Billing%20Report.docx.pdf). Generate a billing report for the last 30 days.
+   - [ ] Review [this overview](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/containers.md) of pushing and pulling containers. Try to spin up a VertexAI notebook from this container path : `us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/nvidiaforvertexai-rapids-22.12-cuda11.5-runtime-ubuntu20.04-py3.9@sha256:bb6703315633f21281e8caceed811f74822564a63ede01953664fe8d58b0c658`. Review [these instructions](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) for help.
+   - [ ] Clone this GitHub repository into a VertexAI Notebook Instance using [the command line](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or the [Vertex AI user interface](https://cloud.google.com/vertex-ai/docs/workbench/user-managed/save-to-github).
+   - [ ] Review how to [open a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) if you have suggestions for how to improve a module. Feel free to also email us at `CloudLab@nih.gov`.
    - [ ] Read over the [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabGCP/tree/main) to become familiar with additional Cloud services that may be needed during these modules. Pay special attention to Google Cloud Storage and Cost Optimization.
   
 After completing this learning path, you should be able to navigate the GCP console, use VertexAI Notebook instances, copy data to and from a Google Cloud Storage Bucket, enable APIs, and understand Billing. You are now ready to start analyzing data.
