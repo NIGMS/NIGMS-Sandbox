@@ -10,7 +10,15 @@ To run these modules you will need a Google Cloud Project. For beginner friendly
 
 ![image1](images/Universities.png)
 
-# Available Modules
+# Table of Contents
++ [Available Modules](#modules)
++ [Learning Pathways](#pathways)
++ [Cloud Technology Utilized](#cloud-technology-utilized)
++ [Cloud Module Prerequisites](#cloud-module-prerequisites)
++ [Resources](#resources)
++ [Alternative Data Sources](#alternative-data-sources)
+
+# Available Modules <a name="modules"></a>
 
 *The 12 topics and their authors are listed as follows:*
 
@@ -28,13 +36,8 @@ To run these modules you will need a Google Cloud Project. For beginner friendly
 12. [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
 <!-- #endregion -->
 
-# Table of Contents
-+ [Cloud Technology Utilized](#cloud-technology-utilized)
-+ [Cloud Module Prerequisites](#cloud-module-prerequisites)
-+ [Resources](#resources)
-+ [Alternative Data Sources](#alternative-data-sources)
+## Learning Pathways <a name="pathways"></a>
 
-## Learning Pathways
 :sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. The first is a bootcamp of sorts for those who are new to the Cloud. Make sure you complete these Introductory steps before jumping into any of the modules. The rest are grouped by scientific topic_ :sparkles:
 
 1. Introduction to GCP
