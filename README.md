@@ -13,10 +13,10 @@ To run these modules you will need a Google Cloud Project. For beginner friendly
 # Table of Contents
 + [Available Modules](#modules)
 + [Learning Pathways](#pathways)
-+ [Cloud Technology Utilized](#cloud-technology-utilized)
++ [Cloud Technology Utilized](#cloud-technology-utilize)
 + [Cloud Module Prerequisites](#cloud-module-prerequisites)
-+ [Resources](#resources)
-+ [Alternative Data Sources](#alternative-data-sources)
++ [Resources](#gcp)
++ [Alternative Data Sources](#data)
 
 # Available Modules <a name="modules"></a>
 
@@ -83,14 +83,14 @@ After completing this learning path, you are able to do a full analysis of RNA-s
 :grey_exclamation: _That concludes our section on Learning Pathways. The rest of the README will walk you through some of the technical details of each module, in particular focusing on compute environments and machine types, as well as additional resources to help you continue your learning journey!_
 
    
-## Cloud Technology Utilized 
+## Cloud Technology Utilized <a name="cloud-technology-utilized"></a>
 
 The 12 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, gcsfuse, Vertex AI Workbench, Artifact Registry, Cloud Build, BigQuery, and Cloud Lifesciences API*. Technologies that support the cloud services mentioned include JupyterLab, Docker, Git, and life sciences software libraries such as [Bioconductor](https://www.bioconductor.org/) in R and the [Bioconda](https://bioconda.github.io/) Anaconda channel in Python.
 
 *Google Batch is a newer managed service that provides similar functionality to the Google Life Sciences API.*
 
 
-## Cloud Module Prerequisites 
+## Cloud Module Environment Requirements <a name="cloud-module-prerequisites"></a>
 
 Each module has different infrastructure and software requirements. While many of the GCP services required overlap there are specifications that users should keep in mind before they start their self paced learning. More details can be found within each individual repository README. An overview is provided below: 
 
@@ -189,7 +189,7 @@ Some of the modules above require detailed changes to the cloud configuration in
 ## Resources 
 In the below section we define the GCP services utilized across the learning modules. You can find an additional curated list of GCP tutorials in this repository under docs: [GCP Resources detailed](./docs/GoogleCloudPlatformResources.md)
 
-### Google Cloud Platform resources
+### Google Cloud Platform resources <a name="gcp"></a>
 
 1. **IAM - https://cloud.google.com/iam/docs/overview** \
 IAM in GCP allows you to manage access control by defining who (identity) has what access (role) for which resource. In IAM, permission to access a resource isn't granted directly to the end user. Instead, permissions are grouped into roles, and roles are granted to authenticated principals. 
@@ -221,7 +221,7 @@ Cloud Logging is a fully managed service that allows you to store, search, analy
 
 
 
-## Alternative Data Sources 
+## Alternative Data Sources <a name="data"></a>
 
 Where can users get similar data to run through these tutorials with their own datasets or alternative datasets of interest? 
 
