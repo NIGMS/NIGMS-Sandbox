@@ -98,93 +98,69 @@ The 12 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, g
 
 ## Cloud Module Environment Requirements <a name="cloud-module-prerequisites"></a>
 
-Each module has different infrastructure and software requirements. While many of the GCP services required overlap there are specifications that users should keep in mind before they start their self paced learning. More details can be found within each individual repository README. An overview is provided below: 
+Each module has different infrastructure and software requirements. While many of the GCP services required overlap there are specifications that users should keep in mind before they start their self paced learning. More details can be found within each individual repository README which are linked to in each respository title. An overview is provided below: 
 
-1. Fundamentals of Bioinformatics, Dartmouth College 
-* default machine type: n1-standard-4
-* Python 3 kernel
-* env.yml contains necessary software requirements for easy installation
+1. [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics/blob/main/README.md)
+, Dartmouth College 
+   * default machine type: n1-standard-4
+   * Python 3 kernel
+   * env.yml contains necessary software requirements for easy installation
 
-Detailed software requirements: [Dartmouth README](https://github.com/NIGMS/Fundamentals-of-Bioinformatics/blob/main/README.md)
+2. [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS/blob/main/README.md), University of Hawaii at Manoa
+   * default machine type: n1-standard-4
+   * Python 3 kernel
+   * Nextflow Service Account (*if executed outside of Cloud Lab*)
 
-2. DNA Methylation Sequencing Analysis with WGBS, University of Hawaii at Manoa
-* default machine type: n1-standard-4
-* Python 3 kernel
-* Nextflow Service Account
+3. [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications/blob/master/README.md), MDI Biological Laboratory
+   * default machine type: n1-highmem-16
+   * Python 3 kernel
+   * Nextflow Service Account (*if executed outside of Cloud Lab*)
 
-Detailed software requirements: [Hawaii README](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS/blob/main/README.md)
+4. [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis/blob/master/README.md), University of Maine
+   * default machine type: n2-standard-4
+   * R 4.2 kernel
 
-3. Transcriptome Assembly Refinement and Applications, MDI Biological Laboratory
-* default machine type: n1-highmem-16
-* Python 3 kernel
-* Nextflow Service Account
+5. [Protein Quantification](https://github.com/NIGMS/Proteome-Quantification/blob/master/README.md), University of Arkansas for Medical Sciences
+   * R 4.2 kernel
 
-Detailed software requirements: [MDI README](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications/blob/master/README.md)
+6. [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis/blob/main/README.md), University of Nebraska
 
-4. RNAseq Differential Expression Analysis, University of Maine
-* default machine type: n2-standard-4
-* R 4.2 kernel
+   Modules 1-3: 
+   * default machine type: n1-standard-4
+   * Python 3 kernel
 
-Detailed software requirements: [Maine README](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis/blob/master/README.md)
+   Module 4:
+   * T4 GPU attached
+   * RAPIDS Vertex AI image
 
-5. Protein Quantification University of Arkansas for Medical Sciences
-* R 4.2 kernel
+7. [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud/blob/master/README.md), University of Nevada Reno
+   * default machinetype: n1-standard-4
+   * R 4.2 kernel
 
-Detailed software requirements: [Univ. of Arkansas for Medical Sciences README](https://github.com/NIGMS/Proteome-Quantification/blob/master/README.md)
+8. [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets/blob/master/README.md), University of North Dakota
+   * default machinetype: n1-standard-4
+   * R 4.2 kernel
+   * conda_environment.yml contains necessary software(s)
+   * Nextflow Service Account (*if executed outside of Cloud Lab*)
 
-6. ATAC-Seq and Single Cell ATAC-Seq Analysis, University of Nebraska
+9. [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome/blob/master/README.md), University of South Dakota
+   * default machinetype: n1-standard-8
+   * Python 3 kernel
+   * custom service account
+   * custom machine image
+   * requirements.yaml
 
-Modules 1-3: 
-* default machine type: n1-standard-4
-* Python 3 kernel
+10. [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology/blob/master/README.md), San Francisco State University
+   * default machine type: n1-standard-4
+   * Python 3 kernel
 
-Module 4:
-* T4 GPU attached
-* RAPIDS Vertex AI image
+11. [Biomarker Discovery with Machine Learning](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery/blob/master/README.md), University of Rhode Island
+   * default machine type: n1-standard-4
+   * R 4.2 kernel
 
-Detailed software requirements: [Nebraska Medical Center README](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis/blob/main/README.md)
-
-7. Consensus Pathway Analysis in the Cloud, University of Nevada Reno
-* default machinetype: n1-standard-4
-* R 4.2 kernel
-
-Detailed software requirements: [Nevada Reno README](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud/blob/master/README.md)
-
-8. Integrating Multi-Omics Datasets, University of North Dakota
-* default machinetype: n1-standard-4
-* R 4.2 kernel
-* conda_environment.yml contains necessary software(s)
-* Nextflow Service Account
-
-Detailed software requirements: [North Dakota README](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets/blob/master/README.md) 
-
-9. Metagenomics Analysis of Biofilm-Microbiome, University of South Dakota
-* default machinetype: n1-standard-8
-* Python 3 kernel
-* custom service account
-* custom image
-* requirements.yaml
-
-Detailed software requirements: [South Dakota README](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome/blob/master/README.md)
-
-10. Introduction to Data Science for Biology, San Francisco State University
-* default machine type: n1-standard-4
-* Python 3 kernel
-
-Detailed software requirements: [San Francisco State README](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology/blob/master/README.md)
-
-11. Biomarker Discovery with ML, University of Rhode Island
-* default machine type: n1-standard-4
-* R 4.2 kernel
-
-Detailed software requirements: [Rhode Island README](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery/blob/master/README.md)
-
-12. Biomedical Imaging Analysis using AI/ML approaches, University of Arkansas
-* default machine type: n1-standard-4
-* Python 3 kernel
-
-Detailed software requirements: [Arkansas README](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches/blob/master/README.md)
-
+12. [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches/blob/master/README.md), University of Arkansas
+   * default machine type: n1-standard-4
+   * Python 3 kernel
 
 Some of the modules above require detailed changes to the cloud configuration in order to sucessfully execute them. For these modules, several "How To" documents have been developed in this repository to help users accomplish the each prerequisite listed above: 
 
