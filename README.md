@@ -40,9 +40,9 @@ To run these modules you will need a Google Cloud Project. For beginner friendly
 
 **Prerequisites: Introduction to GCP**
 
-   _Here are some prerequisites you should make sure you can complete before diving into the modules. If anything looks unfamiliar, follow the link to view documentation on that subject_
+   _Here are some GCP prerequisites you should make sure you can complete before diving into the modules. These will give you the necessary cloud computing skills to run the training modules such as launching a VM, cloning modules from GitHub, and more. If anything looks unfamiliar, follow the link to view documentation on that subject. After reading the documentation in the links below, try to complete the simple tasks described in the bullet points below as a knowledge check on what you just learned. p_
    - [ ] [Select your GCP Project](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/open_GCP_project.md)
-   - [ ] [Navigate to Vertex AI and Launch an Instance](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/Vertex AI.md). Enable idle-shutdown after 15 minutes of inactivity.
+   - [ ] [Navigate to Vertex AI and Launch an Instance](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md). Enable idle-shutdown after 15 minutes of inactivity.
    - [ ] [Change your Notebook Kernel](https://cloud.google.com/vertex-ai/docs/workbench/managed/create-managed-notebooks-instance-console-quickstart)
    - [ ] [Enable the Google Batch and Big Query APIs](https://cloud.google.com/apis/docs/getting-started#enabling_apis)
    - [ ] [Read our Billing Guide](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/How%20to%20Create%20Labels%20and%20GCP%20Billing%20Report.docx.pdf). Generate a billing report for the last 30 days.
@@ -73,13 +73,13 @@ After completing this learning path, you should be able to do comprehensive data
 
 After completing this learning path, you should be comfortable analyzing bioinformatics data on the command line in a cloud environment and integrating -omics data to understand biological insight. These skills can be applied to a wide variety of Omics datasets in the subsequent sections.
      
-4. Introduction to Genomic Analysis
+**Introduction to Genomic Analysis**
    + :deciduous_tree: [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
    + :deciduous_tree: [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
 
 After completing this learning path, you now have experience with specialized genomics and metagenomics analysis. These tools differ from standard Omics analysis in the highly specialized tools they use, which you can now deploy in a GCP environment.
      
-5. Introduction to RNAseq and Transcriptome Assembly
+**Introduction to RNAseq and Transcriptome Assembly**
    + :deciduous_tree: [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
    + :deciduous_tree: [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory
 
