@@ -7,9 +7,10 @@ This repository aims to teach students, researchers, and clinicians, among other
 
 To run these modules you will need a Google Cloud Project. For beginner friendly information on Google Cloud, visit the [NIH Cloud Lab GitHub](https://github.com/STRIDES/NIHCloudLabGCP) repository, which also includes a set of helpful [Google Cloud tutorials](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/tutorials).
 
-![image1](images/Universities.png)
+:exclamation: _If you require support at any time, please [open an issue on GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) for the module in question, or [send us an informative email](https://stackoverflow.com/help/how-to-ask) at CloudLab@nih.gov._
 
-:exclamation: _If you need support at any time, please [open an issue on GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) for the module in question, or [send us an informative email](https://stackoverflow.com/help/how-to-ask) at CloudLab@nih.gov._
+
+![image1](images/Universities.png)
 
 # Table of Contents
 + [Available Modules](#modules)
