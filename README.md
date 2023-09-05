@@ -9,6 +9,8 @@ To run these modules you will need a Google Cloud Project. For beginner friendly
 
 ![image1](images/Universities.png)
 
+:exclamation: _If you need support at any time, please [open an issue on GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) for the module in question, or [send us an informative email](https://stackoverflow.com/help/how-to-ask) at CloudLab@nih.gov._
+
 # Table of Contents
 + [Available Modules](#modules)
 + [Recomended Learning Pathways](#pathways)
