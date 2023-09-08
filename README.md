@@ -7,72 +7,84 @@ This repository aims to teach students, researchers, and clinicians, among other
 
 To run these modules you will need a Google Cloud Project. For beginner friendly information on Google Cloud, visit the [NIH Cloud Lab GitHub](https://github.com/STRIDES/NIHCloudLabGCP) repository, which also includes a set of helpful [Google Cloud tutorials](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/tutorials).
 
+:exclamation: _If you require support at any time, please [open an issue on GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) for the module in question, or [send us an informative email](https://stackoverflow.com/help/how-to-ask) at CloudLab@nih.gov._
+
 
 ![image1](images/Universities.png)
 
-# Available Modules
-
-*The 12 topics and their authors are listed as follows:*
-
-1. [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
-2. [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
-3. [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory
-4. [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
-5. [Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
-6. [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
-7. [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
-8. [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota
-9. [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
-10. [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
-11. [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island
-12. [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
-<!-- #endregion -->
-
 # Table of Contents
++ [Available Modules](#modules)
++ [Recomended Learning Pathways](#pathways)
 + [Cloud Technology Utilized](#cloud-technology-utilized)
 + [Cloud Module Prerequisites](#cloud-module-prerequisites)
-+ [Resources](#resources)
-+ [Alternative Data Sources](#alternative-data-sources)
++ [Resources](#gcp)
++ [Alternative Data Sources](#data)
 
-## Learning Pathways
-:sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. The first is a bootcamp of sorts for those who are new to the Cloud. Make sure you complete these Introductory steps before jumping into any of the modules. The rest are grouped by scientific topic_ :sparkles:
+# Available Modules <a name="modules"></a>
 
-1. Introduction to GCP
-   _Here are some prerequisites you should make sure you can complete before diving into the modules. If anything looks unfamiliar, follow the link to view documentation on that subject_
+*The 12 topics and their authors are listed here. If you would like guidance on what order to complete them in, jump to the recommended learning pathways in the next section.*
+
++ [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
++ [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
++ [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory
++ [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
++ [Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
++ [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
++ [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
++ [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota
++ [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
++ [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
++ [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island
++ [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
+
+## Recommended Learning Pathways <a name="pathways"></a>
+
+:sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. Before starting on any of the individual modules, we recommend you complete all the steps in the Prerequisites section and only continue once you are able to check off these key skills. :sparkles:
+
+**Prerequisites: Introduction to GCP**
+
+   _Here are some GCP prerequisites you should make sure you can complete before diving into the modules. These will give you the necessary cloud computing skills to run the training modules such as launching a VM, cloning modules from GitHub, and more. If anything looks unfamiliar, follow the link to view documentation on that subject. After reading the documentation in the links below, try to complete the simple tasks described in the bullet points below as a knowledge check on what you just learned. p_
    - [ ] [Select your GCP Project](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/open_GCP_project.md)
-   - [ ] [Navigate to Vertex AI and Launch an Instance](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/vertexai.md)
-   - [ ] Change your Notebook Kernel
+   - [ ] [Navigate to Vertex AI and Launch an Instance](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md). Enable idle-shutdown after 15 minutes of inactivity.
+   - [ ] [Change your Notebook Kernel](https://cloud.google.com/vertex-ai/docs/workbench/managed/create-managed-notebooks-instance-console-quickstart)
    - [ ] [Enable the Google Batch and Big Query APIs](https://cloud.google.com/apis/docs/getting-started#enabling_apis)
-   - [ ] [Read our Billing Guide](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/How%20to%20Create%20Labels%20and%20GCP%20Billing%20Report.docx.pdf)
+   - [ ] [Read our Billing Guide](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/How%20to%20Create%20Labels%20and%20GCP%20Billing%20Report.docx.pdf). Generate a billing report for the last 30 days.
+   - [ ] Review [this overview](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/containers.md) of pushing and pulling containers. Try to spin up a Vertex AI notebook from this container path: `us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/nvidiaforVertex AI-rapids-22.12-cuda11.5-runtime-ubuntu20.04-py3.9@sha256:bb6703315633f21281e8caceed811f74822564a63ede01953664fe8d58b0c658`. Review [these instructions](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) for help.
+   - [ ] Clone this GitHub repository into a Vertex AI Notebook Instance using [the command line](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or the [Vertex AI user interface](https://cloud.google.com/vertex-ai/docs/workbench/user-managed/save-to-github).
+   - [ ] Review how to [open a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue). If you have a question or a suggested enhancement, feel free to open an issue for this repository or for the module you are having trouble with. You can also email us at `CloudLab@nih.gov`.
    - [ ] Read over the [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabGCP/tree/main) to become familiar with additional Cloud services that may be needed during these modules. Pay special attention to Google Cloud Storage and Cost Optimization.
   
-After completing this learning path, you should be able to navigate the GCP console, use VertexAI Notebook instances, copy data to and from a Google Cloud Storage Bucket, enable APIs, and understand Billing. You are now ready to start analyzing data.
+After completing this prerequisite learning path, you should be able to navigate the GCP console, use Vertex AI Notebook instances, copy data to and from a Google Cloud Storage Bucket, enable APIs, understand Billing, pull containers, and use GitHub repositories. You are now ready to start analyzing data.
 
-2. Introduction to Biomedical Data Science and Machine Learning
-   + [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
-   + [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
-   + [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island
-   + [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
+For the rest of the learning pathways, we have organized them by scientific topic area, but ordered them according to technical complexity within each pathway. Our ordering is only based on the number and complexity of GCP services used and has no bearing on the difficulty of the scientific content. We recommend you being with Introductory modules within a given scientific interest area, and then progress accordingly. 
++ Introductory modules :seedling: use only Jupyter notebooks within Vertex AI and sometimes Google Cloud Storage. Upon completion, users should be comfortable starting a Vertex AI instance and with copying data to and from Google Cloud Storage. 
++ Advanced modules :deciduous_tree: include additional functionality such as launching a notebook from a custom Docker container, making API calls from with the notebook to Google Batch, Life Sciences API and BigQuery, and using GPU-enabled machine types. Upon completion of advanced modules, users should be comfortable interacting with additional GCP services from within the Verted AI interface.
+
+**Introduction to Biomedical Data Science and Machine Learning**
+   + :seedling: [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
+   + :seedling: [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
+   + :seedling: [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island
+   + :deciduous_tree: [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
   
 After completing this learning path, you should be able to do comprehensive data science analysis on GCP with a variety of bioinformatics data sources. You skills now include downloading, processing, and visualizing data, calculating statistically significant variables, and building machine learning models with real biomedical data.
      
-3. Introduction to Bioinformatics and other Omic Analysis
-   + [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
-   + [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
-   + [Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
-   + [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota
+**Introduction to Bioinformatics and Multi-Omics**
+   + :seedling:[Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
+   + :seedling:[Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
+   + :deciduous_tree: [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
+   + :deciduous_tree: [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota
 
 After completing this learning path, you should be comfortable analyzing bioinformatics data on the command line in a cloud environment and integrating -omics data to understand biological insight. These skills can be applied to a wide variety of Omics datasets in the subsequent sections.
      
-4. Introduction to Genomic Analysis
-   + [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
-   + [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
+**Introduction to Genomic Analysis**
+   + :deciduous_tree: [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
+   + :deciduous_tree: [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
 
 After completing this learning path, you now have experience with specialized genomics and metagenomics analysis. These tools differ from standard Omics analysis in the highly specialized tools they use, which you can now deploy in a GCP environment.
      
-5. Introduction to RNAseq and Transcriptome Assembly
-   + [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
-   + [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory
+**Introduction to RNAseq and Transcriptome Assembly**
+   + :deciduous_tree: [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
+   + :deciduous_tree: [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory
 
 After completing this learning path, you are able to do a full analysis of RNA-seq data, including assembling a transcriptome and identifying differentially expressed genes. These are computationally intensive tools which the Cloud enables you to conduct in a scalable manner. 
 
@@ -80,102 +92,78 @@ After completing this learning path, you are able to do a full analysis of RNA-s
 :grey_exclamation: _That concludes our section on Learning Pathways. The rest of the README will walk you through some of the technical details of each module, in particular focusing on compute environments and machine types, as well as additional resources to help you continue your learning journey!_
 
    
-## Cloud Technology Utilized 
+## Cloud Technology Utilized <a name="cloud-technology-utilized"></a>
 
 The 12 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, gcsfuse, Vertex AI Workbench, Artifact Registry, Cloud Build, BigQuery, and Cloud Lifesciences API*. Technologies that support the cloud services mentioned include JupyterLab, Docker, Git, and life sciences software libraries such as [Bioconductor](https://www.bioconductor.org/) in R and the [Bioconda](https://bioconda.github.io/) Anaconda channel in Python.
 
 *Google Batch is a newer managed service that provides similar functionality to the Google Life Sciences API.*
 
 
-## Cloud Module Prerequisites 
+## Cloud Module Environment Requirements <a name="cloud-module-prerequisites"></a>
 
-Each module has different infrastructure and software requirements. While many of the GCP services required overlap there are specifications that users should keep in mind before they start their self paced learning. More details can be found within each individual repository README. An overview is provided below: 
+Each module has different infrastructure and software requirements. While many of the GCP services required overlap there are specifications that users should keep in mind before they start their self paced learning. More details can be found within each individual repository README which are linked to in each respository title. An overview is provided below: 
 
-1. Fundamentals of Bioinformatics, Dartmouth College 
-* default machine type: n1-standard-4
-* Python 3 kernel
-* env.yml contains necessary software requirements for easy installation
+1. [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics/blob/main/README.md)
+, Dartmouth College 
+   * default machine type: n1-standard-4
+   * Python 3 kernel
+   * env.yml contains necessary software requirements for easy installation
 
-Detailed software requirements: [Dartmouth README](https://github.com/NIGMS/Fundamentals-of-Bioinformatics/blob/main/README.md)
+2. [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS/blob/main/README.md), University of Hawaii at Manoa
+   * default machine type: n1-standard-4
+   * Python 3 kernel
+   * Nextflow Service Account (*if executed outside of Cloud Lab*)
 
-2. DNA Methylation Sequencing Analysis with WGBS, University of Hawaii at Manoa
-* default machine type: n1-standard-4
-* Python 3 kernel
-* Nextflow Service Account
+3. [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications/blob/master/README.md), MDI Biological Laboratory
+   * default machine type: n1-highmem-16
+   * Python 3 kernel
+   * Nextflow Service Account (*if executed outside of Cloud Lab*)
 
-Detailed software requirements: [Hawaii README](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS/blob/main/README.md)
+4. [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis/blob/master/README.md), University of Maine
+   * default machine type: n2-standard-4
+   * R 4.2 kernel
 
-3. Transcriptome Assembly Refinement and Applications, MDI Biological Laboratory
-* default machine type: n1-highmem-16
-* Python 3 kernel
-* Nextflow Service Account
+5. [Protein Quantification](https://github.com/NIGMS/Proteome-Quantification/blob/master/README.md), University of Arkansas for Medical Sciences
+   * R 4.2 kernel
 
-Detailed software requirements: [MDI README](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications/blob/master/README.md)
+6. [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis/blob/main/README.md), University of Nebraska
 
-4. RNAseq Differential Expression Analysis, University of Maine
-* default machine type: n2-standard-4
-* R 4.2 kernel
+   Modules 1-3: 
+   * default machine type: n1-standard-4
+   * Python 3 kernel
 
-Detailed software requirements: [Maine README](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis/blob/master/README.md)
+   Module 4:
+   * T4 GPU attached
+   * RAPIDS Vertex AI image
 
-5. Protein Quantification University of Arkansas for Medical Sciences
-* R 4.2 kernel
+7. [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud/blob/master/README.md), University of Nevada Reno
+   * default machinetype: n1-standard-4
+   * R 4.2 kernel
 
-Detailed software requirements: [Univ. of Arkansas for Medical Sciences README](https://github.com/NIGMS/Proteome-Quantification/blob/master/README.md)
+8. [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets/blob/master/README.md), University of North Dakota
+   * default machinetype: n1-standard-4
+   * R 4.2 kernel
+   * conda_environment.yml contains necessary software(s)
+   * Nextflow Service Account (*if executed outside of Cloud Lab*)
 
-6. ATAC-Seq and Single Cell ATAC-Seq Analysis, University of Nebraska
+9. [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome/blob/master/README.md), University of South Dakota
+   * default machinetype: n1-standard-8
+   * Python 3 kernel
+   * custom service account
+   * custom machine image
+   * requirements.yaml
 
-Modules 1-3: 
-* default machine type: n1-standard-4
-* Python 3 kernel
+10. [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology/blob/master/README.md), San Francisco State University
+   * default machine type: n1-standard-4
+   * Python 3 kernel
 
-Module 4:
-* T4 GPU attached
-* RAPIDS Vertex AI image
+11. [Biomarker Discovery with Machine Learning](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery/blob/master/README.md), University of Rhode Island
+   * default machine type: n1-standard-4
+   * R 4.2 kernel
 
-Detailed software requirements: [Nebraska Medical Center README](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis/blob/main/README.md)
-
-7. Consensus Pathway Analysis in the Cloud, University of Nevada Reno
-* default machinetype: n1-standard-4
-* R 4.2 kernel
-
-Detailed software requirements: [Nevada Reno README](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud/blob/master/README.md)
-
-8. Integrating Multi-Omics Datasets, University of North Dakota
-* default machinetype: n1-standard-4
-* R 4.2 kernel
-* conda_environment.yml contains necessary software(s)
-* Nextflow Service Account
-
-Detailed software requirements: [North Dakota README](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets/blob/master/README.md) 
-
-9. Metagenomics Analysis of Biofilm-Microbiome, University of South Dakota
-* default machinetype: n1-standard-8
-* Python 3 kernel
-* custom service account
-* custom image
-* requirements.yaml
-
-Detailed software requirements: [South Dakota README](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome/blob/master/README.md)
-
-10. Introduction to Data Science for Biology, San Francisco State University
-* default machine type: n1-standard-4
-* Python 3 kernel
-
-Detailed software requirements: [San Francisco State README](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology/blob/master/README.md)
-
-11. Biomarker Discovery with ML, University of Rhode Island
-* default machine type: n1-standard-4
-* R 4.2 kernel
-
-Detailed software requirements: [Rhode Island README](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery/blob/master/README.md)
-
-12. Biomedical Imaging Analysis using AI/ML approaches, University of Arkansas
-* default machine type: n1-standard-4
-* Python 3 kernel
-
-Detailed software requirements: [Arkansas README](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches/blob/master/README.md)
-
+12. [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches/blob/master/README.md), University of Arkansas
+   * default machine type: n1-standard-4
+   * Python 3 kernel
 
 Some of the modules above require detailed changes to the cloud configuration in order to sucessfully execute them. For these modules, several "How To" documents have been developed in this repository to help users accomplish the each prerequisite listed above: 
 
@@ -186,7 +174,7 @@ Some of the modules above require detailed changes to the cloud configuration in
 ## Resources 
 In the below section we define the GCP services utilized across the learning modules. You can find an additional curated list of GCP tutorials in this repository under docs: [GCP Resources detailed](./docs/GoogleCloudPlatformResources.md)
 
-### Google Cloud Platform resources
+### Google Cloud Platform resources <a name="gcp"></a>
 
 1. **IAM - https://cloud.google.com/iam/docs/overview** \
 IAM in GCP allows you to manage access control by defining who (identity) has what access (role) for which resource. In IAM, permission to access a resource isn't granted directly to the end user. Instead, permissions are grouped into roles, and roles are granted to authenticated principals. 
@@ -218,7 +206,7 @@ Cloud Logging is a fully managed service that allows you to store, search, analy
 
 
 
-## Alternative Data Sources 
+## Alternative Data Sources <a name="data"></a>
 
 Where can users get similar data to run through these tutorials with their own datasets or alternative datasets of interest? 
 
