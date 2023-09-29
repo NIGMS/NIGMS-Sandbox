@@ -39,24 +39,33 @@ To run these modules you will need a Google Cloud Project. For beginner friendly
 
 ## Recommended Learning Pathways <a name="pathways"></a>
 
-:sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. Before starting on any of the individual modules, we recommend you complete all the steps in the Prerequisites section and only continue once you are able to check off these key skills. :sparkles:
+:sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. Before starting on any of the individual modules, we recommend you complete all the steps in the Prerequisites section and only continue once you are able to check off these key skills._
 
 **Prerequisites: Introduction to GCP**
 
-   _Here are some GCP prerequisites you should make sure you can complete before diving into the modules. These will give you the necessary cloud computing skills to run the training modules such as launching a VM, cloning modules from GitHub, and more. If anything looks unfamiliar, follow the link to view documentation on that subject. After reading the documentation in the links below, try to complete the simple tasks described in the bullet points below as a knowledge check on what you just learned. p_
-   - [ ] [Select your GCP Project](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/open_GCP_project.md)
-   - [ ] [Navigate to Vertex AI and Launch an Instance](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md). Enable idle-shutdown after 15 minutes of inactivity.
-   - [ ] [Change your Notebook Kernel](https://cloud.google.com/vertex-ai/docs/workbench/managed/create-managed-notebooks-instance-console-quickstart)
-   - [ ] [Enable the Google Batch and Big Query APIs](https://cloud.google.com/apis/docs/getting-started#enabling_apis)
-   - [ ] [Read our Billing Guide](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/How%20to%20Create%20Labels%20and%20GCP%20Billing%20Report.docx.pdf). Generate a billing report for the last 30 days.
-   - [ ] Review [this overview](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/containers.md) of pushing and pulling containers. Try to spin up a Vertex AI notebook from this container path: `us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/nvidiaforVertex AI-rapids-22.12-cuda11.5-runtime-ubuntu20.04-py3.9@sha256:bb6703315633f21281e8caceed811f74822564a63ede01953664fe8d58b0c658`. Review [these instructions](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) for help.
-   - [ ] Clone this GitHub repository into a Vertex AI Notebook Instance using [the command line](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or the [Vertex AI user interface](https://cloud.google.com/vertex-ai/docs/workbench/user-managed/save-to-github).
-   - [ ] Review how to [open a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue). If you have a question or a suggested enhancement, feel free to open an issue for this repository or for the module you are having trouble with. You can also email us at `CloudLab@nih.gov`.
-   - [ ] Read over the [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabGCP/tree/main) to become familiar with additional Cloud services that may be needed during these modules. Pay special attention to Google Cloud Storage and Cost Optimization.
-  
-After completing this prerequisite learning path, you should be able to navigate the GCP console, use Vertex AI Notebook instances, copy data to and from a Google Cloud Storage Bucket, enable APIs, understand Billing, pull containers, and use GitHub repositories. You are now ready to start analyzing data.
+   _Here are some GCP prerequisites you should make sure you can complete before diving into the modules. These will give you the necessary cloud computing skills to run the training modules such as launching a VM, cloning modules from GitHub, and more. If anything looks unfamiliar, follow the link to view documentation on that subject. After reading the documentation in the links below, complete the simple tasks described in the steps below as a knowledge check on what you just learned. Complete each step in order to learn the key skills you need to complete the learning modules in the next section!_
+   - STEP 1: [Select your GCP Project](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/open_GCP_project.md)
+   - STEP 2: [Navigate to Vertex AI and Launch an Instance](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md). Enable idle-shutdown after 15 minutes of inactivity.
+   - STEP 3: [Change your Notebook Kernel](https://cloud.google.com/vertex-ai/docs/workbench/managed/create-managed-notebooks-instance-console-quickstart)
+   - STEP 4: [Enable the Google Batch and Big Query APIs](https://cloud.google.com/apis/docs/getting-started#enabling_apis)
+   - STEP 5: [Read our Billing Guide](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/How%20to%20Create%20Labels%20and%20GCP%20Billing%20Report.docx.pdf). Generate a billing report for the last 30 days.
+   - STEP 6: Review [this overview](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/containers.md) of pushing and pulling containers. Try to spin up a Vertex AI notebook from this container path: `us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/nvidiaforVertex AI-rapids-22.12-cuda11.5-runtime-ubuntu20.04-py3.9@sha256:bb6703315633f21281e8caceed811f74822564a63ede01953664fe8d58b0c658`. Review [these instructions](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) for help.
+   - STEP 7: Clone this GitHub repository into a Vertex AI Notebook Instance using [the command line](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or the [Vertex AI user interface](https://cloud.google.com/vertex-ai/docs/workbench/user-managed/save-to-github).
+   - STEP 8: Review how to [open a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue). If you have a question or a suggested enhancement, feel free to open an issue for this repository or for the module you are having trouble with. You can also email us at `CloudLab@nih.gov`.
+   - STEP 9: Read over the [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabGCP/tree/main) to become familiar with additional Cloud services that may be needed during these modules. Pay special attention to Google Cloud Storage and Cost Optimization.
 
-For the rest of the learning pathways, we have organized them by scientific topic area, but ordered them according to technical complexity within each pathway. Our ordering is only based on the number and complexity of GCP services used and has no bearing on the difficulty of the scientific content. We recommend you being with Introductory modules within a given scientific interest area, and then progress accordingly. 
+After completing this prerequisite learning path, you should be able to:
+   + Navigate the GCP console
+   + Use Vertex AI Notebook instances
+   + Copy data to and from a Google Cloud Storage Bucket
+   + Enable APIs
+   + Understand Billing
+   + Pull container images and launch an instance from a container
+   + Use GitHub repositories.
+
+:surfer: _You are now ready to start analyzing data!_
+
+We have organized the rest of the learning pathways by scientific topic area and ordered them according to technical complexity within each pathway. Our ordering is only based on the number and complexity of GCP services used and has no bearing on the difficulty of the scientific content. We recommend you being with Introductory modules within a given scientific interest area, and then progress to the more advanced modules as you gain key skills. 
 + Introductory modules :seedling: use only Jupyter notebooks within Vertex AI and sometimes Google Cloud Storage. Upon completion, users should be comfortable starting a Vertex AI instance and with copying data to and from Google Cloud Storage. 
 + Advanced modules :deciduous_tree: include additional functionality such as launching a notebook from a custom Docker container, making API calls from with the notebook to Google Batch, Life Sciences API and BigQuery, and using GPU-enabled machine types. Upon completion of advanced modules, users should be comfortable interacting with additional GCP services from within the Verted AI interface.
 
@@ -88,10 +97,8 @@ After completing this learning path, you now have experience with specialized ge
 
 After completing this learning path, you are able to do a full analysis of RNA-seq data, including assembling a transcriptome and identifying differentially expressed genes. These are computationally intensive tools which the Cloud enables you to conduct in a scalable manner. 
 
+_That concludes our section on Learning Pathways. The rest of the README will walk you through some of the technical details of each module, in particular focusing on compute environments and machine types, as well as additional resources to help you continue your learning journey!_
 
-:grey_exclamation: _That concludes our section on Learning Pathways. The rest of the README will walk you through some of the technical details of each module, in particular focusing on compute environments and machine types, as well as additional resources to help you continue your learning journey!_
-
-   
 ## Cloud Technology Utilized <a name="cloud-technology-utilized"></a>
 
 The 12 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, gcsfuse, Vertex AI Workbench, Artifact Registry, Cloud Build, BigQuery, and Cloud Lifesciences API*. Technologies that support the cloud services mentioned include JupyterLab, Docker, Git, and life sciences software libraries such as [Bioconductor](https://www.bioconductor.org/) in R and the [Bioconda](https://bioconda.github.io/) Anaconda channel in Python.
