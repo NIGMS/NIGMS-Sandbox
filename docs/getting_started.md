@@ -1,6 +1,6 @@
 # Getting Started with NIGMS Sandbox
 
-Welcome to the NIGMS Sandbox! We wrote this getting started guide to give you the key things you need to know to start using the Sandbox modules. A lot of the documentation here comes from the [NIH Cloud Lab](https://github.com/STRIDES/NIHCloudLabGCP/tree/main) GitHub respository, so feel free to visit that page for more info as well. 
+Welcome to the NIGMS Sandbox! We wrote this getting started guide to give you the key things you need to know to start using the Sandbox modules. A lot of the documentation here comes from the [NIH Cloud Lab](https://scan.cloud.nih.gov/resources/cloudlab/google-cloud-jumpstart/) GitHub respository, so feel free to visit that page for more info as well. 
 
 ### 1. Request an account. 
 Step one is to request an account from [here](LINK).
