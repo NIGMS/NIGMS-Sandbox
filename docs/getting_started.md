@@ -1,6 +1,6 @@
 # Getting Started with NIGMS Sandbox
 
-Welcome to the NIGMS Sandbox! We wrote this getting started guide to give you the key things you need to know to start using the Sandbox modules. A lot of the documentation here comes from the [NIH Cloud Lab](https://github.com/STRIDES/NIHCloudLabGCP/tree/main) GitHub respository, so feel free to visit that page for more info as well. 
+Welcome to the NIGMS Sandbox! We wrote this getting started guide to give you the key things you need to know to start using the Sandbox modules. A lot of the documentation here comes from the [NIH Cloud Lab](https://scan.cloud.nih.gov/resources/cloudlab/google-cloud-jumpstart/) GitHub respository, so feel free to visit that page for more info as well. 
 
 ### 1. Request an account. 
 Step one is to request an account from [here](LINK).
@@ -8,7 +8,7 @@ Your account will be provisioned within XYS Hours. You will also receive an onbo
 
 ### 2. Access your Google Cloud Project.
 Step two is to access your Google Cloud Project. Navigate to `https://console.cloud.google.com/` and then you need to navigate to your project. 
-[Check out our guide](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/open_GCP_project.md) in case you do not see your project right away.
+[Check out our guide](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/open_project_intramural.md) in case you do not see your project right away.
 
 ### 3. Open a VertexAI environment to launch a Jupyter Lab environment. 
 We show you how [here](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md). 

@@ -5,7 +5,7 @@
 
 This repository aims to teach students, researchers, and clinicians, among others, how to utilize the power of cloud technology for the benefit of life sciences applications and research. Here we present 12 cloud learning modules that represent a unique use case or scientific workflow. Types of data used across the modules include but are not limited to genomics, methylomics, transcriptomics, proteomics, and medical imaging data across formats such as FASTA/FASTQ, SAM, BAM, CSV, PNG, and DICOM. Learning modules range in areas from introductory material to single-omics approaches, multi-omics techniques, single cell analysis, metagenomics, and AI/ML imaging applications. 
 
-To run these modules you will need a Google Cloud Project. For beginner friendly information on Google Cloud, visit the [NIH Cloud Lab GitHub](https://github.com/STRIDES/NIHCloudLabGCP) repository, which also includes a set of helpful [Google Cloud tutorials](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/tutorials).
+To run these modules you will need a Google Cloud Project. For beginner friendly information on Google Cloud, visit the [NIH Cloud Lab GitHub](https://github.com/STRIDES/NIHCloudLabGCP) repository, which also includes a set of helpful [Google Cloud tutorials](https://github.com/STRIDES/NIHCloudLabGCP/tree/main).
 
 :exclamation: _If you require support at any time, please [open an issue on GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) for the module in question, or [send us an informative email](https://stackoverflow.com/help/how-to-ask) at CloudLab@nih.gov._
 
@@ -218,7 +218,7 @@ Cloud Logging is a fully managed service that allows you to store, search, analy
 Where can users get similar data to run through these tutorials with their own datasets or alternative datasets of interest? 
 
 1. SRA \
-Sequence Read Archive (SRA) data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data. The archive accepts data from all branches of life as well as metagenomic and environmental surveys. SRA stores raw sequencing data and alignment information to enhance reproducibility and facilitate new discoveries through data analysis. Learn more about accessing SRA data through GCP from the [NIH Cloud Lab Tutorial Section](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/tutorials#download-data-from-the-sequence-read-archive-sra-). 
+Sequence Read Archive (SRA) data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data. The archive accepts data from all branches of life as well as metagenomic and environmental surveys. SRA stores raw sequencing data and alignment information to enhance reproducibility and facilitate new discoveries through data analysis. Learn more about accessing SRA data through GCP from the [NIH Cloud Lab Tutorial Section](https://github.com/STRIDES/NIHCloudLabGCP/tree/main#download-data-from-the-sequence-read-archive-sra-). 
 
 2. GEO \
 GEO is a public functional genomics data repository supporting MIAME-compliant data submissions. Array- and sequence-based data are accepted. Tools are provided to help users query and download experiments and curated gene expression profiles. Learn more [here](https://www.ncbi.nlm.nih.gov/geo/)
