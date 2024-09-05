@@ -36,10 +36,10 @@ AWS offers different types of Notebook instances: SageMaker Studio, SageMaker No
 
   ![clone](../images/images_for_creating_AWS_notebooks/terminal2.PNG)
 
-8. Select the kernel:
+9. Select the kernel:
 
   ![kernel](../images/images_for_creating_AWS_notebooks/Screenshot8.png)
 
-9. **IMPORTANT**: **Stop** the kernel at end of your work to avoid getting charged.
+10. **IMPORTANT**: **Stop** the kernel at end of your work to avoid getting charged.
 
     ![resize image](../images/images_for_creating_AWS_notebooks/Screenshot9.png)
