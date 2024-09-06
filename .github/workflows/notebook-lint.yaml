@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: NIGMS/NIGMS-Sandbox
-          ref: reusable_workflow
+          ref: main
           path: reusable-workflow-repo
 
       - name: Set up Python
