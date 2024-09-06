@@ -22,8 +22,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-            repository: NIGMS/NIGMS-Sandbox/.github/workflows/notebook-lint.yaml@main
+            repository: NIGMS/NIGMS-Sandbox
             path: reusable-workflow-repo
+            ref: reusable_workflow
 
       - name: Link Check
         run: |

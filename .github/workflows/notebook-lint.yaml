@@ -21,7 +21,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: NIGMS/NIGMS-Sandbox/.github/workflows/notebook-lint.yaml@main
+          repository: NIGMS/NIGMS-Sandbox
+          ref: reusable_workflow
           path: reusable-workflow-repo
 
       - name: Set up Python
@@ -31,13 +32,13 @@ jobs:
           cache: 'pip'
 
       - name: Install requirements.txt
-        working-directory: ${GITHUB_WORKSPACE}/reusable-workflow-repo/.github/workflows/
+        working-directory: reusable-workflow-repo/.github/workflows/
         run: |
           python3 -m pip install --upgrade pip
           pip3 install nbformat
 
       - name: Notebook Linting
-        working-directory: ${GITHUB_WORKSPACE}/reusable-workflow-repo/.github/workflows/
+        working-directory: reusable-workflow-repo/.github/workflows/
         run: |
           python3 lint.py
 
