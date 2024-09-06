@@ -1,0 +1,34 @@
+name: 'Check Links'
+on:
+  workflow_call:
+    inputs:
+      directory:
+        required: false
+        type: string
+      repo_link_ignore_list:
+        required: true
+        type: string
+    secrets:
+      PAT:
+        required: false
+jobs:
+  link_check:
+    name: 'Link Check'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+            repository: NIGMS/NIGMS-Sandbox
+            path: reusable-workflow-repo
+            ref: reusable_workflow
+
+      - name: Link Check
+        run: |
+          python3 ${GITHUB_WORKSPACE}/reusable-workflow-repo/.github/workflows/check_links.py
+        env:
+          LINK_IGNORE_LIST: https://www.sciencedirect.com,https://portlandpress.com
+          PAT: ${{ secrets.PAT }}

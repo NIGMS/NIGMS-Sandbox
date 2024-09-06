@@ -1,0 +1,12 @@
+name: 'Check Links'
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+
+jobs:
+  link_check:
+    name: 'Link Check'
+    uses: NIGMS/NIGMS-Sandbox/.github/workflows/check-links.yaml@main
+    with:
+      repo_link_ignore_list: ""

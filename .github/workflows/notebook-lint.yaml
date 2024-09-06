@@ -1,0 +1,50 @@
+name: 'Lint Notebook'
+on:
+  workflow_call:
+    inputs:
+      directory:
+        required: false
+        type: string
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  lint:
+    name: 'Linting'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          repository: NIGMS/NIGMS-Sandbox
+          ref: reusable_workflow
+          path: reusable-workflow-repo
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install requirements.txt
+        working-directory: reusable-workflow-repo/.github/workflows/
+        run: |
+          python3 -m pip install --upgrade pip
+          pip3 install nbformat
+
+      - name: Notebook Linting
+        working-directory: reusable-workflow-repo/.github/workflows/
+        run: |
+          python3 lint.py
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-action
+          author_email: cbiit-github-action@github.com
+          message: 'Github Action: Refresh stats'
