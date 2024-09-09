@@ -24,7 +24,7 @@ jobs:
         with:
             repository: NIGMS/NIGMS-Sandbox
             path: reusable-workflow-repo
-            ref: reusable_workflow
+            ref: main
 
       - name: Link Check
         run: |
