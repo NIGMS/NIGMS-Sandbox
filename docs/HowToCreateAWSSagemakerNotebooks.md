@@ -28,14 +28,18 @@ AWS offers different types of Notebook instances: SageMaker Studio, SageMaker No
 
     ![jupyterlab](../images/images_for_creating_AWS_notebooks/Screenshot6.png)
 
-7. Upload your jupyter notebook
+7. Open a terminal:
 
-  ![upload](../images/images_for_creating_AWS_notebooks/Screenshot7.png)
+  ![open_terminal](../images/images_for_creating_AWS_notebooks/terminal1.PNG)
 
-8. Select the kernel:
+8. Clone an appropriate repository from GitHub.com:
+
+  ![clone](../images/images_for_creating_AWS_notebooks/terminal2.PNG)
+
+9. Select a notebook and then kernel:
 
   ![kernel](../images/images_for_creating_AWS_notebooks/Screenshot8.png)
 
-9. **IMPORTANT**: **Stop** the kernel at end of your work to avoid getting charged.
+10. **IMPORTANT**: **Stop** the kernel at end of your work to avoid getting charged.
 
     ![resize image](../images/images_for_creating_AWS_notebooks/Screenshot9.png)
