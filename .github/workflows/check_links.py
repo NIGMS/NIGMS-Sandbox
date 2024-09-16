@@ -78,7 +78,7 @@ def clean_link(link):
 
 def add_link(loc,link):
     # this is a command being ran so difficult to validate in this script, skip it
-    if '$(uname' in link:
+    if '$(uname' in link or "http" not in link:
         return False
 
     # get just from the http portion if there was more in from of the string we grabbed
