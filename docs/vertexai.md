@@ -8,21 +8,24 @@
 2. If not already selected, click **Instances**, then **Instances**
 3. Click **+ Create New**
 
-   *image*
+![image showing how to select instance](/images/images_for_creating_GCP_instances/2_select_workbench_instance.png)
 
 4. Select **Advanced Options** at the bottom of the **New Instance** pop-up window
 5. Provide a name for your new instance using letters, numbers, and hyphens (-). Select a region and zone for the new instance. For best network performance, select the region that is geographically closest to you.  Click **Continue**
 
-   *image*
+![image showing to select advanced options](/images/images_for_creating_GCP_instances/3_select_advanced_options.png)
 
 6. On the Environment screen, select "Use the latest version" if not already selected. Skip the other sections. Click **Continue**.
+
+![image showing to select environment](/images/images_for_creating_GCP_instances/4_instance_environment.png) 
+
 7. On the Machine type screen, select the desired number of CPUs/GPUs. This is usually specified by the tutorial you are completing.
 
-   *image*
+![image showing machine type selection](/images/images_for_creating_GCP_instances/5_instance_machine_type.png)
 
 8. On the same screen, verify that **Enable Idle Shutdown** is selected and specify the idle minutes for shutdown. This means it will shutdown automatically after this many minutes. We recommend 30 minutes. Click **Create**.
 
-  *image*
+![image showing idle shutdown selection](/images/images_for_creating_GCP_instances/6_instance_idle_shutdown.png) 
 
 9. The remaining sections are skipped for our purposes.  Further details can be found in the official documentation: https://cloud.google.com/vertex-ai/docs/workbench/instances/create
 
