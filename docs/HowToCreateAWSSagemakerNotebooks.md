@@ -16,7 +16,7 @@ AWS offers different types of Notebook instances: SageMaker Studio, SageMaker No
 
     ![create_new_notebook](/images/images_for_creating_AWS_notebooks/Screenshot3.png)
 
-4. Give a name to your notebook. Choose a notebook instance type based on needs, Amazon Linux 2 as platform identifier, volume. Optional, create idle-shut by selecting create new lifecycle configuration and copy and paste [idle-shutdown.sh](../idle-shutdown.sh) and create configuration. Then click Create notebook instance:
+4. Give a name to your notebook. Choose a notebook instance type based on needs, Amazon Linux 2 as platform identifier, volume. Optional, create idle-shut by selecting create new lifecycle configuration and copy and paste [idle-shutdown.sh](/idle-shutdown.sh) and create configuration. Then click Create notebook instance:
 
     ![environment](/images/images_for_creating_AWS_notebooks/Screenshot4.png)
    
