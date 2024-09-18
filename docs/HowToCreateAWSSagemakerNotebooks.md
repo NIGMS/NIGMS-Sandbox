@@ -154,8 +154,6 @@ AWS offers different types of Notebook instances: SageMaker Studio, SageMaker No
 
   ![JupyterLab Space](/images/images_for_creating_AWS_notebooks/Screenshot34.png)
 
-
-
 ### Deleting Instances
 1. Go to the Domain you are seeking to delete a instance. :
 
