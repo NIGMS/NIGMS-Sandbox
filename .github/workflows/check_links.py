@@ -69,6 +69,8 @@ def clean_link(link):
         link = link[:link.rfind("'")]
     if link.endswith("\""):
         link = link[:link.rfind("\"")]
+    if link.endswith(","):
+        link = link[:link.rfind(",")]
     link_stripped = big_regex.sub("", link.strip())
     for end_c in end_characters:
         end_index = link_stripped.find(end_c)
@@ -78,7 +80,7 @@ def clean_link(link):
 
 def add_link(loc,link):
     # this is a command being ran so difficult to validate in this script, skip it
-    if '$(uname' in link:
+    if '$(uname' in link or "http" not in link:
         return False
 
     # get just from the http portion if there was more in from of the string we grabbed
@@ -106,12 +108,12 @@ def check_link(link):
         for ignored_link in link_ignore_list:
             if ignored_link in link:
                 print(
-                    loc + ", " + link + ", Ignored")
+                    loc + ", " + link + " , Ignored")
                 return False
 
         # print(file+" Code:"+str(code[0])+" Line "+str(line_num)+"("+str(char)+"):"+item_stripped)
         print(
-            loc + ", " + link + ", Failed")
+            loc + " , " + link + " , Failed")
         return True
 
     # check for missing anchors
@@ -120,13 +122,13 @@ def check_link(link):
         and 'href=\"' + link[link.find("#"):] + '\"' not in \
         code[1]:
         print(
-            loc + ", " + link + ", Failed - Anchor")
+            loc + " , " + link + " , Failed - Anchor")
     # print(file + " Missing Anchor Line " + str(
     #     line_num) + "(" + str(
     #     char) + "):" + item_stripped)
     elif print_valid:
         print(
-            loc + ", " + link + ", Valid")
+            loc + " , " + link + " , Valid")
     return True
 
 
