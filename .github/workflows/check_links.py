@@ -80,7 +80,7 @@ def clean_link(link):
 
 def add_link(loc,link):
     # this is a command being ran so difficult to validate in this script, skip it
-    if '$(uname' in link or "http" not in link:
+    if '$(uname' in link:
         return False
 
     # get just from the http portion if there was more in from of the string we grabbed
@@ -99,18 +99,21 @@ def add_link(loc,link):
     # store where the link is so we can fix it
     link_file_map[link_stripped] = loc
 def check_link(link):
+    #should we ignore the failure
+    ignore = False
     # try and get the url, if its 404 or 500 then its invalid, let us know and trigger the error flag
     code = getResponseCode(link)
     loc =link_file_map[link]
+    # If the link failed, but we are ignoring it then just mention that
+    for ignored_link in link_ignore_list:
+        if ignored_link in link:
+            ignore = True
+            break
     if code[0] in [404, 403, 500]:
-
-        # If the link failed, but we are ignoring it then just mention that
-        for ignored_link in link_ignore_list:
-            if ignored_link in link:
-                print(
-                    loc + ", " + link + " , Ignored")
-                return False
-
+        if ignore:
+            print(
+                loc + " , " + link + " , Ignored")
+            return False
         # print(file+" Code:"+str(code[0])+" Line "+str(line_num)+"("+str(char)+"):"+item_stripped)
         print(
             loc + " , " + link + " , Failed")
@@ -121,8 +124,13 @@ def check_link(link):
         code[1] is not None \
         and 'href=\"' + link[link.find("#"):] + '\"' not in \
         code[1]:
+        if ignore:
+            print(
+                loc + ", " + link + ", Ignored")
+            return False
         print(
             loc + " , " + link + " , Failed - Anchor")
+        return True
     # print(file + " Missing Anchor Line " + str(
     #     line_num) + "(" + str(
     #     char) + "):" + item_stripped)
