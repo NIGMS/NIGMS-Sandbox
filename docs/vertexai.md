@@ -27,7 +27,7 @@
 
 ![image showing idle shutdown selection](/images/images_for_creating_GCP_instances/6_instance_idle_shutdown.png) 
 
-9. The remaining sections are skipped for our purposes.  Further details can be found in the official documentation: https://cloud.google.com/vertex-ai/docs/workbench/instances/create
+9. The remaining sections can be left as default.  Further details can be found in the [Google documentation](https://cloud.google.com/vertex-ai/docs/workbench/instances/create)
 
 ### 2. Spin up a User-Managed Notebook Instance
 1. Start by clicking the `hamburger menu` (the three horizontal lines in the top left of your console). Go to `Artificial Intelligence > Vertex AI > Workbench`. 
