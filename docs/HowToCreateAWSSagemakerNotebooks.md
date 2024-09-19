@@ -30,7 +30,7 @@ AWS offers different types of Notebook instances: SageMaker Studio, SageMaker No
 
 7. Clone an appropriate repository from GitHub.com:
 
-  ![clone](../images/images_for_creating_AWS_notebooks/clone.PNG)
+  ![clone](../images/images_for_creating_AWS_notebooks/clone.png)
 
 8. Select a notebook and then kernel:
 
