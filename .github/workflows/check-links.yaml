@@ -30,5 +30,5 @@ jobs:
         run: |
           python3 ${GITHUB_WORKSPACE}/reusable-workflow-repo/.github/workflows/check_links.py
         env:
-          LINK_IGNORE_LIST: https://www.sciencedirect.com,https://portlandpress.com
+          LINK_IGNORE_LIST: https://www.sciencedirect.com,https://portlandpress.com,cloud.google.com,aws.amazon.com
           PAT: ${{ secrets.PAT }}
