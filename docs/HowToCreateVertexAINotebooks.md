@@ -23,11 +23,11 @@
 
 ![image showing machine type selection](/images/images_for_creating_GCP_instances/5_instance_machine_type.png)
 
-8. On the same screen, verify that **Enable Idle Shutdown** is selected and specify the idle minutes for shutdown. This means it will shutdown automatically after this many minutes. We recommend 30 minutes. Click **Create**.
+8. On the same screen, verify that **Enable Idle Shutdown** is selected and specify the idle minutes for shutdown. This means it will shutdown automatically after this many minutes. We recommend 30 minutes. Click **Create**.  It will take a few minutes for your instance to spin up.
 
 ![image showing idle shutdown selection](/images/images_for_creating_GCP_instances/6_instance_idle_shutdown.png) 
 
-9. The remaining sections are skipped for our purposes.  Further details can be found in the official documentation: https://cloud.google.com/vertex-ai/docs/workbench/instances/create
+9. The remaining sections can be left as default for our purposes.  Further details can be found in the official documentation: [Vertex AI Documentation](https://cloud.google.com/vertex-ai/docs/workbench/instances/create)
 
 ### 2. Spin up a User-Managed Notebook Instance
 1. Start by clicking the `hamburger menu` (the three horizontal lines in the top left of your console). Go to `Artificial Intelligence > Vertex AI > Workbench`. 
@@ -51,10 +51,7 @@
 ![screenshot showing how to start the notebook by clicking OPEN JUPYTERLAB](/images/5_launch_notebooks.png)
 
 
-### (Bonus) Using the new Managed Notebooks feature
-At the time of writing, Google had just rolled out a new feature in Vertex AI called `Managed Notebooks`, which now differ from the `User Managed Notebooks`. You can use either one for this tutorial, but the nice thing about the new `Managed Notebooks` is that you can schedule them, or just execute them similar to submitting a job to a slurm cluster. Read the documentation for [scheduling a notebook](https://cloud.google.com/vertex-ai/docs/workbench/managed/schedule-managed-notebooks-run-quickstart). Note that scheduled notebooks will be run on remote compute resources, so you need to treat them like a fresh install, copy your data in, install all packages, etc. Don't expect that because you have data/dependencies copied to your current environment they will be present when your scheduled notebook is run. Also, when you spin up the Managed Notebook, make sure you select `Single User` rather than Service Account to avoid permission conflicts. You can also resize the machine on the fly (without shutting down), and there are some extra compute environments available. However, we have observed that conda is tightly controlled on these machines, so if you decide to try them and have issues with conda, switch back to the User Managed Notebooks.
-
-### Import custom notebook and data
+### 3. Import custom notebook and data
 
 1. Now click the git icon on the middle left bar (it kind of looks like the letter 'T' with a tilt). Click `Clone a Repository`, and then paste `https://github.com/NIGMS/NIGMS-Sandbox.git` into the box. From here you can explore the different modules that are available and clone them into your notebook. You can also clone this repository by opening a terminal and pasting in the following:
 
