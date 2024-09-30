@@ -6,19 +6,19 @@ AWS offers different types of Notebook instances: SageMaker Studio, SageMaker No
 
 1. In AWS console, type **Amazon SageMaker** in search bar and click it:
 
-    ![selectsagemaker](/images/images_for_creating_AWS_notebooks/Screenshot1.png)
+  ![selectsagemaker](/images/images_for_creating_AWS_notebooks/Screenshot1.png)
 
 2. On the left side bar click **Notebooks**:
 
-    ![Notebooks](/images/images_for_creating_AWS_notebooks/Screenshot2.png)
+  ![Notebooks](/images/images_for_creating_AWS_notebooks/Screenshot2.png)
 
 3. Click **Create notebook instance**:
 
-    ![create_new_notebook](/images/images_for_creating_AWS_notebooks/Screenshot3.png)
+  ![create_new_notebook](/images/images_for_creating_AWS_notebooks/Screenshot3.png)
 
 4. Give a name to your notebook. Choose a notebook instance type based on needs, Amazon Linux 2 as platform identifier, volume. Optional, create idle-shut by selecting create new lifecycle configuration and copy and paste [idle-shutdown.sh](/idle-shutdown.sh) and create configuration. Then click Create notebook instance:
 
-    ![environment](/images/images_for_creating_AWS_notebooks/Screenshot4.png)
+  ![environment](/images/images_for_creating_AWS_notebooks/Screenshot4.png)
    
 5. It will take about 5 minutes, your notebook instance to get ready:
 
@@ -39,7 +39,7 @@ AWS offers different types of Notebook instances: SageMaker Studio, SageMaker No
 
 9.  To clone in your git repositories you can either use the git UI built in or by using the terminal. Using the git UI select **Clone a Repository** then paste the repo url and click **Clone**. To clone via the terminal make sure that you are in the SageMaker directory then use the command git clone [repo url]. Once you have done this you should see the repo 
 
-  ![Clone_UI](/images/images_for_creating_AWS_notebooks/Cone_UI.png)
+  ![Clone_UI](/images/images_for_creating_AWS_notebooks/Clone_UI.png)
   ![Clone_Terminal](/images/images_for_creating_AWS_notebooks/Clone_Terminal.png)
 
 10. **IMPORTANT**: **Stop** the kernel at end of your work to avoid getting charged.
@@ -64,15 +64,15 @@ AWS offers different types of Notebook instances: SageMaker Studio, SageMaker No
 
 4. Select **Set up for single user (Quick setup)** and then click **Set up**:
 
-    ![Domain Setup](/images/images_for_creating_AWS_notebooks/Screenshot12.png)
+  ![Domain Setup](/images/images_for_creating_AWS_notebooks/Screenshot12.png)
    
 5. It will take a few minutes for the domain to setup:
 
-    ![pending](/images/images_for_creating_AWS_notebooks/Screenshot13.png)
+  ![pending](/images/images_for_creating_AWS_notebooks/Screenshot13.png)
    
 6. Once the SageMaker Domain is setup, click **Studio** on the left sidebar:
 
-    ![Studio](/images/images_for_creating_AWS_notebooks/Screenshot14.png)
+  ![Studio](/images/images_for_creating_AWS_notebooks/Screenshot14.png)
 
 7. Make sure that **Select Domain** and **Select user profile** contain domain and user then click **Open Studio**:
 
