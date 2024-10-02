@@ -30,5 +30,6 @@ jobs:
         run: |
           python3 ${GITHUB_WORKSPACE}/reusable-workflow-repo/.github/workflows/check_links.py
         env:
-          LINK_IGNORE_LIST: https://www.sciencedirect.com,https://portlandpress.com,cloud.google.com,aws.amazon.com
+          LINK_IGNORE_LIST: https://www.sciencedirect.com,https://portlandpress.com,cloud.google.com,aws.amazon.com, https://github.com/NIGMS/Fundamentals-of-Bioinformatics/AWS.git, https://github.com/NIGMS/Fundamentals-of-Bioinformatics/GoogleCloud.git
+          PAT: ${{ secrets.PAT }}
           PAT: ${{ secrets.PAT }}
