@@ -141,7 +141,7 @@ AWS offers different types of Notebook instances: SageMaker Studio, SageMaker No
 
 6. Once in code editor clone in your repository. This can be done by selecting the git icon, select **Clone Repository**, copy the web url into the box and then select **Clone from URL**. Alternatively you can open a terminal then use the command git clone web url. Once you do this cd into the cloned repository. If it doesn't show up in your folders select the file icon open folder and select the repository you cloned in. 
 
-
+  ![Clone For Code Editor](/images/images_for_creating_AWS_notebooks/Clone_CodeEditor.png)
 
 7. After working go back to Code Editor and stop the now unused instance by clicking ***Stop***:
 
