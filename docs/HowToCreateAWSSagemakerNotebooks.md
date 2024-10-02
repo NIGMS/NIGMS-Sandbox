@@ -139,11 +139,15 @@ AWS offers different types of Notebook instances: SageMaker Studio, SageMaker No
   ![JupyterLab Space](/images/images_for_creating_AWS_notebooks/Screenshot29.png)
   ![JupyterLab Space](/images/images_for_creating_AWS_notebooks/Screenshot30.png)
 
-6. After working go back to Code Editor and stop the now unused instance by clicking ***Stop***:
+6. Once in code editor clone in your repository. This can be done by selecting the git icon, select **Clone Repository**, copy the web url into the box and then select **Clone from URL**. Alternatively you can open a terminal then use the command git clone web url. Once you do this cd into the cloned repository. If it doesn't show up in your folders select the file icon open folder and select the repository you cloned in. 
+
+
+
+7. After working go back to Code Editor and stop the now unused instance by clicking ***Stop***:
 
   ![JupyterLab Space](/images/images_for_creating_AWS_notebooks/Screenshot31.png)
 
-7. Wait for the Status to show as Stopped:
+8. Wait for the Status to show as Stopped:
 
   ![JupyterLab Space](/images/images_for_creating_AWS_notebooks/Screenshot32.png)
 
