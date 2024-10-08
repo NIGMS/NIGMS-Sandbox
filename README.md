@@ -20,7 +20,7 @@ To run these modules you will need a Google Cloud Project. For beginner friendly
 + [Resources](#gcp)
 + [Alternative Data Sources](#data)
 
-# Available Modules <a name="modules"></a>
+# Available Modules <a name="modules"></a><a name="available-modules"></a>
 
 *The 12 topics and their authors are listed here. If you would like guidance on what order to complete them in, jump to the recommended learning pathways in the next section.*
 
