@@ -123,6 +123,10 @@ def check_link(link):
     elif "#" in link and \
         code[1] is not None \
         and 'href=\"' + link[link.find("#"):] + '\"' not in \
+        code[1] \
+        and 'name=\"' + link[link.find("#")+1:] + '\"' not in \
+        code[1] \
+        and 'name=\"user-content-' + link[link.find("#") + 1:] + '\"' not in \
         code[1]:
         if ignore:
             print(
