@@ -2,7 +2,7 @@
 
 Jupyter lab allows you to create a new console window within its layout. This is also possible on Jupyter lab on AWS SageMaker. Adding a terminal console window where there is a jupyter notebook tab is helpful when needing to run command line code. 
 
-## 1) In Jupyter lab within a jupyter notebook, right click on any whitespace in the jupyter notebook. 
+## 1) In Jupyter lab within a Jupyter notebook, right click on any whitespace in the notebook. 
 
 ![Right_click](/images/images_for_creating_new_console/Right_click_notebook.png)
 
