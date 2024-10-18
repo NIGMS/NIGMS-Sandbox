@@ -30,5 +30,5 @@ jobs:
         run: |
           python3 ${GITHUB_WORKSPACE}/reusable-workflow-repo/.github/workflows/check_links.py
         env:
-          LINK_IGNORE_LIST: https://www.sciencedirect.com,https://portlandpress.com,cloud.google.com,aws.amazon.com,https://github.com/NIGMS/NIGMS-Sandbox/blob/main/README.md#available-modules
+          LINK_IGNORE_LIST: https://www.sciencedirect.com,https://portlandpress.com,cloud.google.com,aws.amazon.com,https://github.com/NIGMS/NIGMS-Sandbox/blob/main/README.md#available-modules,https://en.wikipedia.org/wiki/Bash_(Unix_shell),https://bio.tools/spades,https://support.illumina.com/help/BaseSpace_Sequence_Hub_OLH_009008_2/Source/Informatics/BS/QualityScoreEncoding_swBS.htm
           PAT: ${{ secrets.PAT }}
