@@ -141,13 +141,14 @@ def check_link(link):
     elif print_valid:
         print(
             loc + " , " + link + " , Valid")
-    return True
+    return False
 
 
 if __name__ == "__main__":
     err = 0
     print("Directory is "+path)
     # Loop through all files in path
+
     for root, dirs, files in os.walk(path):
         for file in files:
             #  only read file that match template ( txt, md or python notebook)
