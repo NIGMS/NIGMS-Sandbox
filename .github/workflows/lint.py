@@ -39,7 +39,7 @@ def delete_checkpoints_dirs(root_dir):
 
 if __name__ == "__main__":
     # Change this to the directory containing your notebooks
-    notebook_dir = '../../'
+    notebook_dir = '.'
 
     for root, dirs, files in os.walk(notebook_dir):
         for file in files:
