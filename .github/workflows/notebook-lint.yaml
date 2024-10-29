@@ -38,13 +38,16 @@ jobs:
           pip3 install nbformat
 
       - name: Notebook Linting
-        working-directory: reusable-workflow-repo/.github/workflows/
         run: |
-          python3 lint.py
+          python3 ${GITHUB_WORKSPACE}/reusable-workflow-repo/.github/workflows/lint.py
+
+      - name: Remove workflow repo
+        run: |
+          rm ${GITHUB_WORKSPACE}/reusable-workflow-repo -r
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-action
           author_email: cbiit-github-action@github.com
-          message: 'Github Action: Refresh stats'
+          message: 'Github Action: Lint Notebooks'
