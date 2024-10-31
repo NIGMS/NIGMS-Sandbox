@@ -45,7 +45,7 @@
 ![image showing to select advanced options](/images/images_for_creating_GCP_instances/3_select_advanced_options.png)
 
 6. On the Environment screen, select "Use custom container" and then paste the following container: \
-'us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/vertex-test@sha256:24c73d00005bc323a13e70f6a080f0cecbad4c04ee927270e0eedd621bb6019e` \
+`us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/vertex-test@sha256:24c73d00005bc323a13e70f6a080f0cecbad4c04ee927270e0eedd621bb6019e` \
  Skip the other sections. Click **Continue**.
 
 ![image showing to select environment](/images/images_for_creating_GCP_instances/custom_container.png) 
