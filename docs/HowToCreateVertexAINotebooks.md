@@ -29,7 +29,38 @@
 
 9. The remaining sections can be left as default for our purposes.  Further details can be found in the official documentation: [Vertex AI Documentation](https://cloud.google.com/vertex-ai/docs/workbench/instances/create)
 
-### 2. Spin up a User-Managed Notebook Instance
+### 2. Spin up Instance from a Container
+1. Start by clicking the `hamburger menu` (the three horizontal lines in the top left of your console). Go to `Artificial Intelligence > Vertex AI > Workbench`. 
+
+![screenshot showing how to select Vertex AI workbench](/images/1_select_vertexAI.png)
+
+2. If not already selected, click **Instances**, then **Instances**
+3. Click **+ Create New**
+
+![image showing how to select instance](/images/images_for_creating_GCP_instances/2_select_workbench_instance.png)
+
+4. Select **Advanced Options** at the bottom of the **New Instance** pop-up window
+5. Provide a name for your new instance using letters, numbers, and hyphens (-). Select a region and zone for the new instance. For best network performance, select the region that is geographically closest to you.  Click **Continue**
+
+![image showing to select advanced options](/images/images_for_creating_GCP_instances/3_select_advanced_options.png)
+
+6. On the Environment screen, select "Use custom container" and then paste the following container: \n
+'us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/vertex-test@sha256:24c73d00005bc323a13e70f6a080f0cecbad4c04ee927270e0eedd621bb6019e` \n
+ Skip the other sections. Click **Continue**.
+
+![image showing to select environment](/images/images_for_creating_GCP_instances/custom_container.png) 
+
+7. On the Machine type screen, select the desired number of CPUs/GPUs. This is usually specified by the tutorial you are completing.
+
+![image showing machine type selection](/images/images_for_creating_GCP_instances/5_instance_machine_type.png)
+
+8. On the same screen, verify that **Enable Idle Shutdown** is selected and specify the idle minutes for shutdown. This means it will shutdown automatically after this many minutes. We recommend 30 minutes. Click **Create**.  It will take a few minutes for your instance to spin up.
+
+![image showing idle shutdown selection](/images/images_for_creating_GCP_instances/6_instance_idle_shutdown.png) 
+
+9. The remaining sections can be left as default for our purposes.  Further details can be found in the official documentation: [Vertex AI Documentation](https://cloud.google.com/vertex-ai/docs/workbench/instances/create)
+
+### 3. Spin up a User-Managed Notebook Instance
 1. Start by clicking the `hamburger menu` (the three horizontal lines in the top left of your console). Go to `Artificial Intelligence > Vertex AI > Workbench`. 
 
 ![screenshot showing how to select Vertex AI workbench](/images/1_select_vertexAI.png)
