@@ -45,7 +45,7 @@
 ![image showing to select advanced options](/images/images_for_creating_GCP_instances/3_select_advanced_options.png)
 
 6. On the Environment screen, select "Use custom container" and then enter your container name. \
- Skip the other sections. Click **Continue**.
+   Click **Continue**.
 
 ![image showing to select environment](/images/images_for_creating_GCP_instances/custom_container.png) 
 
