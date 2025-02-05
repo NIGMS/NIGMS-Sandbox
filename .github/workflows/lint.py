@@ -9,6 +9,10 @@ def clean_notebook(file_path):
 
     # Clean cells
     for cell in notebook.cells:
+        # skip cells with a quiz or no clean tag
+        if 'metadata' in cell and 'tags' in cell['metadata'] and (
+                'quiz' in cell['metadata']['tags'] or 'noclean' in cell['metadata']['tags']):
+            continue
         if 'outputs' in cell:
             cell['outputs'] = []
         if 'execution_count' in cell:
@@ -18,7 +22,12 @@ def clean_notebook(file_path):
 
     # Clean notebook metadata
     if 'metadata' in notebook:
-        notebook['metadata'] = {}
+        new_metadata = {}
+        if 'language_info' in notebook['metadata']:
+            new_metadata['language_info'] = notebook['metadata']['language_info']
+        if 'kernelspec' in notebook['metadata']:
+            new_metadata['kernelspec'] = notebook['metadata']['kernelspec']
+        notebook['metadata'] = new_metadata
 
     with open(file_path, 'w', encoding='utf-8') as f:
         nbformat.write(notebook, f)
