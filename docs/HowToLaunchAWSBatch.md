@@ -4,9 +4,9 @@ If you would like to skip building in the cloud and just launch the stack please
 
 [![Launch Stack](/images/images_for_creating_AWSBatch/LaunchStack.jpg)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=aws-batch-nigms&templateURL=https://cf-templates-w389nf9f2fxs-us-east-1.s3.us-east-1.amazonaws.com/AWSBatch_template.yaml)
 
-Select Next at the bottom right. ![Launch Stack Select](/images/images_for_creating_AWSBatch/LaunchStack_select.png)
+Select `Next` at the bottom right. ![Launch Stack Select](/images/images_for_creating_AWSBatch/LaunchStack_select.png)
 
-Select Next again at the bottom right of the screen. ![Launch Stack Specify](/images/images_for_creating_AWSBatch/LaunchStack_specify.png)
+Select `Next` again at the bottom right of the screen. ![Launch Stack Specify](/images/images_for_creating_AWSBatch/LaunchStack_specify.png)
 
 Select `I acknowledge` that AWS CloudFormation might create IAM resources and Next. ![Launch Stack Configure](/images/images_for_creating_AWSBatch/LaunchStack_configure.png)
 
