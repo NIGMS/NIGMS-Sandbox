@@ -6,40 +6,45 @@ AWS offers different types of Notebook instances: SageMaker Studio, SageMaker No
 
 1. In AWS console, type **Amazon SageMaker** in search bar and click it:
 
-    ![selectsagemaker](/images/images_for_creating_AWS_notebooks/Screenshot1.png)
+  ![selectsagemaker](/images/images_for_creating_AWS_notebooks/Screenshot1.png)
 
 2. On the left side bar click **Notebooks**:
 
-    ![Notebooks](/images/images_for_creating_AWS_notebooks/Screenshot2.png)
+  ![Notebooks](/images/images_for_creating_AWS_notebooks/Screenshot2.png)
 
 3. Click **Create notebook instance**:
 
-    ![create_new_notebook](/images/images_for_creating_AWS_notebooks/Screenshot3.png)
+  ![create_new_notebook](/images/images_for_creating_AWS_notebooks/Screenshot3.png)
 
 4. Give a name to your notebook. Choose a notebook instance type based on needs, Amazon Linux 2 as platform identifier, volume. Optional, create idle-shut by selecting create new lifecycle configuration and copy and paste [idle-shutdown.sh](/idle-shutdown.sh) and create configuration. Then click Create notebook instance:
 
-    ![environment](/images/images_for_creating_AWS_notebooks/Screenshot4.png)
+  ![environment](/images/images_for_creating_AWS_notebooks/Screenshot4.png)
    
 5. It will take about 5 minutes, your notebook instance to get ready:
 
-    ![pending](/images/images_for_creating_AWS_notebooks/Screenshot5.png)
+  ![pending](/images/images_for_creating_AWS_notebooks/Screenshot5.png)
    
    
 6. **Open Jupyter Lab**:
 
-    ![jupyterlab](/images/images_for_creating_AWS_notebooks/Screenshot6.png)
+  ![jupyterlab](/images/images_for_creating_AWS_notebooks/Screenshot6.png)
 
-7. Upload your jupyter notebook
+7. Clone an appropriate repository from GitHub.com:
 
-    ![upload](/images/images_for_creating_AWS_notebooks/Screenshot7.png)
+  ![upload](/images/images_for_creating_AWS_notebooks/Screenshot7.png)
 
-8. Select the kernel:
+8. Select a notebook and then kernel:
 
-    ![kernel](/images/images_for_creating_AWS_notebooks/Screenshot8.png)
+  ![kernel](/images/images_for_creating_AWS_notebooks/Screenshot8.png)
 
-9. **IMPORTANT**: **Stop** the kernel at end of your work to avoid getting charged.
+9.  To clone in your git repositories you can either use the git UI built in or by using the terminal. Using the git UI select **Clone a Repository** then paste the repo url and click **Clone**. To clone via the terminal make sure that you are in the SageMaker directory then use the command git clone [repo url]. Once you have done this you should see the repo 
 
-    ![resize image](/images/images_for_creating_AWS_notebooks/Screenshot9.png)
+  ![Clone_UI](/images/images_for_creating_AWS_notebooks/Clone_UI.png)
+  ![Clone_Terminal](/images/images_for_creating_AWS_notebooks/Clone_Terminal.png)
+
+10. **IMPORTANT**: **Stop** the kernel at end of your work to avoid getting charged.
+
+  ![resize image](/images/images_for_creating_AWS_notebooks/Screenshot9.png)
 
 
 
@@ -59,15 +64,15 @@ AWS offers different types of Notebook instances: SageMaker Studio, SageMaker No
 
 4. Select **Set up for single user (Quick setup)** and then click **Set up**:
 
-    ![Domain Setup](/images/images_for_creating_AWS_notebooks/Screenshot12.png)
+  ![Domain Setup](/images/images_for_creating_AWS_notebooks/Screenshot12.png)
    
 5. It will take a few minutes for the domain to setup:
 
-    ![pending](/images/images_for_creating_AWS_notebooks/Screenshot13.png)
+  ![pending](/images/images_for_creating_AWS_notebooks/Screenshot13.png)
    
 6. Once the SageMaker Domain is setup, click **Studio** on the left sidebar:
 
-    ![Studio](/images/images_for_creating_AWS_notebooks/Screenshot14.png)
+  ![Studio](/images/images_for_creating_AWS_notebooks/Screenshot14.png)
 
 7. Make sure that **Select Domain** and **Select user profile** contain domain and user then click **Open Studio**:
 
@@ -134,11 +139,15 @@ AWS offers different types of Notebook instances: SageMaker Studio, SageMaker No
   ![JupyterLab Space](/images/images_for_creating_AWS_notebooks/Screenshot29.png)
   ![JupyterLab Space](/images/images_for_creating_AWS_notebooks/Screenshot30.png)
 
-6. After working go back to Code Editor and stop the now unused instance by clicking ***Stop***:
+6. Once in code editor clone in your repository. This can be done by selecting the git icon, select **Clone Repository**, copy the web url into the box and then select **Clone from URL**. Alternatively you can open a terminal then use the command git clone web url. Once you do this cd into the cloned repository. If it doesn't show up in your folders select the file icon open folder and select the repository you cloned in. 
+
+  ![Clone For Code Editor](/images/images_for_creating_AWS_notebooks/Clone_CodeEditor.png)
+
+7. After working go back to Code Editor and stop the now unused instance by clicking ***Stop***:
 
   ![JupyterLab Space](/images/images_for_creating_AWS_notebooks/Screenshot31.png)
 
-7. Wait for the Status to show as Stopped:
+8. Wait for the Status to show as Stopped:
 
   ![JupyterLab Space](/images/images_for_creating_AWS_notebooks/Screenshot32.png)
 
