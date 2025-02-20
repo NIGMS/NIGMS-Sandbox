@@ -6,18 +6,19 @@
 - Attach following policies to your SageMaker notebook instance:
 
 ![](../images/batch-policis.PNG)
-## **1-Creating a Compute Environment**
+#### **1-Creating a Compute Environment**
 
 Naviate to **'AWS Batch'** in the console. Within AWS Batch on the left side menu navigate to **'Compute environments'**, select **'Create'**.  
-For this tutorial we will be working with "Fargate".
-
+For this tutorial we will be working with EC2, select 'EC2'.
+- Select \"Managed\" for Orchestration type.
 - Enter a name for your compute environment
 - Under service role select "AWSServiceRoleForBatch"
+- Under Instance role select "AWSServiceRoleForBatch"
 - Click 'Next'
 
 ![](../images/batch-compute1.PNG)
 
-We have set vCPUs to its maximum in the image below. Click Next.
+We have set the fields in the image below to default. Click Next.
 
 ![](../images/batch-compute2.PNG)
 
@@ -34,7 +35,7 @@ Now that we have created a compute environment lets create a job queue. Job queu
 
 In the AWS Batch console, go to the left side menu, click "Job queues" and click "Create".
 
-- Set orchestration type to "Fargate"
+- Set orchestration type to EC2
 - Give your queue a name and set its priority. for this tutorial we have se it to '1000' to have the highest priority
 - Associate the compute environment you created in the pervious step.
 - Review and create the job queue.
