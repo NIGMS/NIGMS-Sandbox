@@ -6,7 +6,7 @@
 - Attach following policies to your SageMaker notebook instance:
 
 ![](../images/batch-policis.PNG)
-#### **1-Creating a Compute Environment**
+## **1-Creating a Compute Environment**
 
 Naviate to **'AWS Batch'** in the console. Within AWS Batch on the left side menu navigate to **'Compute environments'**, select **'Create'**.  
 For this tutorial we will be working with EC2, select 'EC2'.
@@ -29,7 +29,7 @@ For Network Configuration select your VPC, subnets, and security groups you woul
 The last step is to review all the configuration made to your compute environment. Once you are satisfied click "Create compute environment".
 
 ![](../images/batch-compute4.PNG)
-## **3-Creating a Job Queue**
+## **2-Creating a Job Queue**
 
 Now that we have created a compute environment lets create a job queue. Job queues help Batch to stay organized by holding jobs until they can be scheduled to run in a compute environment.
 
@@ -41,7 +41,7 @@ In the AWS Batch console, go to the left side menu, click "Job queues" and click
 - Review and create the job queue.
 
 ![](../images/batch-queue1.PNG)
-## **4-Applying Permissions**
+## **3-Applying Permissions**
 
 For this step we are enabling AWS Batch permissions on EC2 clusters.
 
