@@ -2,7 +2,7 @@
 
 If you would like to skip building in the cloud and just launch the stack please click the button below and follow the instructions to complete stack deployment. The deployment should take ~5 min and then the resources will be ready for use.
 
-[![Launch Stack](/images/images_for_creating_AWSBatch/LaunchStack.jpg)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=aws-batch-nigms&templateURL=https://nigms-sandbox.s3.us-east-1.amazonaws.com/cf-templates/AWSBatch_template.yaml)
+[![Launch Stack](/images/images_for_creating_AWSBatch/LaunchStack.jpg)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=aws-batch-nigms&templateURL=https://nigms-sandbox.s3.us-east-1.amazonaws.com/cf-templates/AWSBatch_template.yaml ) 
 
 Select `Next` at the bottom right. ![Launch Stack Select](/images/images_for_creating_AWSBatch/LaunchStack_select.png)
 
