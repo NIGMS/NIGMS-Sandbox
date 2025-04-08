@@ -67,9 +67,9 @@ After completing this prerequisite learning path, you should be able to:
 
 :surfer: _You are now ready to start analyzing data!_
 
-We have organized the rest of the learning pathways by scientific topic area and ordered them according to technical complexity within each pathway. Our ordering is only based on the number and complexity of GCP services used and has no bearing on the difficulty of the scientific content. We recommend you being with Introductory modules within a given scientific interest area, and then progress to the more advanced modules as you gain key skills. 
-+ Introductory modules :seedling: use only Jupyter notebooks within Vertex AI and sometimes Google Cloud Storage. Upon completion, users should be comfortable starting a Vertex AI instance and with copying data to and from Google Cloud Storage. 
-+ Advanced modules :deciduous_tree: include additional functionality such as launching a notebook from a custom Docker container, making API calls from with the notebook to Google Batch, Life Sciences API and BigQuery, and using GPU-enabled machine types. Upon completion of advanced modules, users should be comfortable interacting with additional GCP services from within the Verted AI interface.
+We have organized the rest of the learning pathways by scientific topic area and ordered them according to technical complexity within each pathway. Our ordering is only based on the number and complexity of cloud services used and has no bearing on the complexity of the scientific content. We recommend you being with Introductory modules within a given scientific interest area, and then progress to the more advanced modules as you gain key skills. 
++ Introductory modules :seedling: use only Jupyter notebooks and sometimes Cloud Storage. Upon completion, users should be comfortable starting a Jupyter notebook instance and with copying data to and from Cloud Storage. 
++ Advanced modules :deciduous_tree: include additional functionality such as launching a notebook from a custom Docker container, making API calls from with the notebook to Batch Computing, and using GPU-enabled machine types. Upon completion of advanced modules, users should be comfortable interacting with additional cloud services from within the Jupyter interface.
 
 **Introduction to Biomedical Data Science**
    + :seedling: [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
@@ -101,16 +101,38 @@ We have organized the rest of the learning pathways by scientific topic area and
 | Jupyter Notebooks        | 60               |
 | Approximate Cost         | $30.00           |
 
-**Introduction to Genomics and Transcriptomics**
+**Introduction to Biomedical Genomics**
    + :seedling: [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
    + :deciduous_tree: [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
    + :deciduous_tree: [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
    + :deciduous_tree: [Chromatin Occupancy with Cut and Run]() - University of Nebraska Medical Center
    + :deciduous_tree: [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota
 
+*After completing this learning path, you should be able to manage and analyze large genomic and omics datasets using cloud computing, perform quality control and become facile with Nextflow pipelines, conduct and interpret differential analyses, and visualize multi-omics datasets to derive biological insights. You will also apply statistical methods and computational tools for genomic analysis, and retrieve and manage data from biological databases.*
 
+| Specs                    |      Details     |
+|--------------------------|------------------|
+| Languages and Workflows  | BASH, R, Nextflow|
+| Jupyter Notebooks        | 22               |
+| Approximate Cost         | $14.00           |
 
 **Introduction to Metagenomics and Phylogenetics**
+   + :deciduous_tree: [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
+   + :seedling: [Introduction to Amplicon-based Metagenomics]() - University of Nevada Reno
+   + :deciduous_tree: [Comparative Prokaryotic Genomics]() - University of New Hampshire
+   + :deciduous_tree: [Introduction to Pangenomic Methods]() - National Center for Genome Resources
+   + :seedling: [Introduction to Phylogenetics]() - University of South Dakota
+   + :seedling: [Introduction to Population Genomics]() - University of Wyoming
+
+*After completing this learning path, you should be able to manage and analyze large genomic and omics datasets using cloud computing, perform quality control and become facile with Nextflow pipelines, conduct and interpret differential analyses, and visualize multi-omics datasets to derive biological insights. You will also apply statistical methods and computational tools for genomic analysis, and retrieve and manage data from biological databases.*
+
+*After completing this learning path, you should know how to analyze microbial data to perform taxonomic classification using diversity and differential abundance analyses, utilize comparative genomics and phylogenetics to interpret genome sequences and evolutionary relationships, and implement cloud-based bioinformatics workflows including pipeline configuration resource scheduling and scalable analysis. Further, you will be able to access, retrieve, and manage genomic data from biological databases and sequencing sources, assemble, annotate, and analyze genome sequences utilizing bioinformatics tools and cloud resources, and apply quality control techniques and standardized bioinformatic data processing workflows for reproducibility. Finally, you will be able to visualize genomic, metagenomic, and microbial community data, relate genomic microbial and phylogenetic findings to metadata geographic context and biological interpretation, and leverage machine learning with comparative genomics and population genomics in genomic analyses and pangenome studies
+
+| Specs                    |      Details     |
+|--------------------------|------------------|
+| Languages and Workflows  | BASH, R, Nextflow|
+| Jupyter Notebooks        | 29               |
+| Approximate Cost         | $22.00           |
 
 **Introduction to Proteomics**
 
@@ -121,7 +143,6 @@ We have organized the rest of the learning pathways by scientific topic area and
 After completing this learning path, you should be comfortable analyzing bioinformatics data on the command line in a cloud environment and integrating -omics data to understand biological insight. These skills can be applied to a wide variety of Omics datasets in the subsequent sections.
      
 **Introduction to Genomic Analysis**
-   + :deciduous_tree: [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
 
 After completing this learning path, you now have experience with specialized genomics and metagenomics analysis. These tools differ from standard Omics analysis in the highly specialized tools they use, which you can now deploy in a GCP environment.
      
