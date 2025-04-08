@@ -117,16 +117,14 @@ We have organized the rest of the learning pathways by scientific topic area and
 | Approximate Cost         | $14.00           |
 
 **Introduction to Metagenomics and Phylogenetics**
-   + :deciduous_tree: [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
    + :seedling: [Introduction to Amplicon-based Metagenomics]() - University of Nevada Reno
-   + :deciduous_tree: [Comparative Prokaryotic Genomics]() - University of New Hampshire
-   + :deciduous_tree: [Introduction to Pangenomic Methods]() - National Center for Genome Resources
    + :seedling: [Introduction to Phylogenetics]() - University of South Dakota
    + :seedling: [Introduction to Population Genomics]() - University of Wyoming
+   + :deciduous_tree: [Comparative Prokaryotic Genomics]() - University of New Hampshire
+   + :deciduous_tree: [Introduction to Pangenomic Methods]() - National Center for Genome Resources
+   + :deciduous_tree: [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
 
-*After completing this learning path, you should be able to manage and analyze large genomic and omics datasets using cloud computing, perform quality control and become facile with Nextflow pipelines, conduct and interpret differential analyses, and visualize multi-omics datasets to derive biological insights. You will also apply statistical methods and computational tools for genomic analysis, and retrieve and manage data from biological databases.*
-
-*After completing this learning path, you should know how to analyze microbial data to perform taxonomic classification using diversity and differential abundance analyses, utilize comparative genomics and phylogenetics to interpret genome sequences and evolutionary relationships, and implement cloud-based bioinformatics workflows including pipeline configuration resource scheduling and scalable analysis. Further, you will be able to access, retrieve, and manage genomic data from biological databases and sequencing sources, assemble, annotate, and analyze genome sequences utilizing bioinformatics tools and cloud resources, and apply quality control techniques and standardized bioinformatic data processing workflows for reproducibility. Finally, you will be able to visualize genomic, metagenomic, and microbial community data, relate genomic microbial and phylogenetic findings to metadata geographic context and biological interpretation, and leverage machine learning with comparative genomics and population genomics in genomic analyses and pangenome studies
+*After completing this learning path, you should know how to analyze microbial data to perform taxonomic classification using diversity and differential abundance analyses, utilize comparative genomics and phylogenetics to interpret genome sequences and evolutionary relationships, and implement cloud-based bioinformatics workflows including pipeline configuration resource scheduling and scalable analysis. Further, you will be able to access, retrieve, and manage genomic data from biological databases and sequencing sources, assemble, annotate, and analyze genome sequences utilizing bioinformatics tools and cloud resources, and apply quality control techniques and standardized bioinformatic data processing workflows for reproducibility. Finally, you will be able to visualize genomic, metagenomic, and microbial community data, relate genomic microbial and phylogenetic findings to metadata geographic context and biological interpretation, and leverage machine learning with comparative genomics and population genomics in genomic analyses and pangenome studies.*
 
 | Specs                    |      Details     |
 |--------------------------|------------------|
@@ -136,9 +134,11 @@ We have organized the rest of the learning pathways by scientific topic area and
 
 **Introduction to Proteomics**
 
-
-   + :seedling:[Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
    + :seedling:[Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
+   + :seedling:[Proteome Structures and Docking](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
+   + :seedling:[Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
+   + :seedling:[Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
+
 
 After completing this learning path, you should be comfortable analyzing bioinformatics data on the command line in a cloud environment and integrating -omics data to understand biological insight. These skills can be applied to a wide variety of Omics datasets in the subsequent sections.
      
