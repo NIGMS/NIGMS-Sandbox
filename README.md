@@ -41,7 +41,11 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 
 ## Recommended Learning Pathways <a name="pathways"></a>
 
-:sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. Before starting on any of the individual modules, we recommend you complete all the steps in the Prerequisites section and only continue once you are able to check off these key skills._
+:sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. Before starting on any of the individual modules, we recommend you complete all the steps in the Prerequisites section for your respective cloud provider and only continue once you are able to check off these key skills._
+
+**Prerequisites: Introduction to AWS**
+
+**Prerequisites: Introduction to Azure**
 
 **Prerequisites: Introduction to GCP**
 
@@ -71,19 +75,25 @@ We have organized the rest of the learning pathways by scientific topic area and
 + Introductory modules :seedling: use only Jupyter notebooks within Vertex AI and sometimes Google Cloud Storage. Upon completion, users should be comfortable starting a Vertex AI instance and with copying data to and from Google Cloud Storage. 
 + Advanced modules :deciduous_tree: include additional functionality such as launching a notebook from a custom Docker container, making API calls from with the notebook to Google Batch, Life Sciences API and BigQuery, and using GPU-enabled machine types. Upon completion of advanced modules, users should be comfortable interacting with additional GCP services from within the Verted AI interface.
 
-**Introduction to Biomedical Data Science and Machine Learning**
+**Introduction to Biomedical Data Science**
+   + :seedling: [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
    + :seedling: [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
-   + :seedling: [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
-   + :seedling: [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island
-   + :deciduous_tree: [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
+   + :seedling: ![Google Logo](images/google-cloud.png) [Introduction to Python for Biology]() - University of Delaware
+   + :seedling: [Introduction to R and LLMs for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
+
   
 After completing this learning path, you should be able to do comprehensive data science analysis on GCP with a variety of bioinformatics data sources. You skills now include downloading, processing, and visualizing data, calculating statistically significant variables, and building machine learning models with real biomedical data.
-     
+
+**Introduction to Biomedical Machine Learning and Artificial Intelligence**
+   + :seedling: [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island
+   + :deciduous_tree: [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
+
 **Introduction to Bioinformatics and Multi-Omics**
    + :seedling:[Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
    + :seedling:[Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
    + :deciduous_tree: [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
    + :deciduous_tree: [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota
+   + :seedling: [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
 
 After completing this learning path, you should be comfortable analyzing bioinformatics data on the command line in a cloud environment and integrating -omics data to understand biological insight. These skills can be applied to a wide variety of Omics datasets in the subsequent sections.
      
@@ -101,132 +111,3 @@ After completing this learning path, you are able to do a full analysis of RNA-s
 
 _That concludes our section on Learning Pathways. The rest of the README will walk you through some of the technical details of each module, in particular focusing on compute environments and machine types, as well as additional resources to help you continue your learning journey!_
 
-## Cloud Technology Utilized <a name="cloud-technology-utilized"></a>
-
-The 12 NIGMS cloud modules utilize the following GCP services:  Cloud Storage, gcsfuse, Vertex AI Workbench, Artifact Registry, Cloud Build, BigQuery, and Cloud Lifesciences API*. Technologies that support the cloud services mentioned include JupyterLab, Docker, Git, and life sciences software libraries such as [Bioconductor](https://www.bioconductor.org/) in R and the [Bioconda](https://bioconda.github.io/) Anaconda channel in Python.
-
-*Google Batch is a newer managed service that provides similar functionality to the Google Life Sciences API.*
-
-
-## Cloud Module Environment Requirements <a name="cloud-module-prerequisites"></a>
-
-Each module has different infrastructure and software requirements. While many of the GCP services required overlap there are specifications that users should keep in mind before they start their self paced learning. More details can be found within each individual repository README which are linked to in each respository title. An overview is provided below: 
-
-1. [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics/blob/main/README.md)
-, Dartmouth College 
-   * default machine type: n1-standard-4
-   * Python 3 kernel
-   * env.yml contains necessary software requirements for easy installation
-
-2. [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS/blob/main/README.md), University of Hawaii at Manoa
-   * default machine type: n1-standard-4
-   * Python 3 kernel
-   * Nextflow Service Account (*if executed outside of Cloud Lab*)
-
-3. [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications/blob/master/README.md), MDI Biological Laboratory
-   * default machine type: n1-highmem-16
-   * Python 3 kernel
-   * Nextflow Service Account (*if executed outside of Cloud Lab*)
-
-4. [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis/blob/master/README.md), University of Maine
-   * default machine type: n2-standard-4
-   * R 4.2 kernel
-
-5. [Protein Quantification](https://github.com/NIGMS/Proteome-Quantification/blob/master/README.md), University of Arkansas for Medical Sciences
-   * R 4.2 kernel
-
-6. [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis/blob/main/README.md), University of Nebraska
-
-   Modules 1-3: 
-   * default machine type: n1-standard-4
-   * Python 3 kernel
-
-   Module 4:
-   * T4 GPU attached
-   * RAPIDS Vertex AI image
-
-7. [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud/blob/master/README.md), University of Nevada Reno
-   * default machinetype: n1-standard-4
-   * R 4.2 kernel
-
-8. [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets/blob/master/README.md), University of North Dakota
-   * default machinetype: n1-standard-4
-   * R 4.2 kernel
-   * conda_environment.yml contains necessary software(s)
-   * Nextflow Service Account (*if executed outside of Cloud Lab*)
-
-9. [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome/blob/master/README.md), University of South Dakota
-   * default machinetype: n1-standard-8
-   * Python 3 kernel
-   * custom service account
-   * custom machine image
-   * requirements.yaml
-
-10. [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology/blob/master/README.md), San Francisco State University
-   * default machine type: n1-standard-4
-   * Python 3 kernel
-
-11. [Biomarker Discovery with Machine Learning](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery/blob/master/README.md), University of Rhode Island
-   * default machine type: n1-standard-4
-   * R 4.2 kernel
-
-12. [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches/blob/master/README.md), University of Arkansas
-   * default machine type: n1-standard-4
-   * Python 3 kernel
-
-Some of the modules above require detailed changes to the cloud configuration in order to sucessfully execute them. For these modules, several "How To" documents have been developed in this repository to help users accomplish the each prerequisite listed above: 
-
-* [How to create conda virtual environments to use as Jupyter kernels](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToUseCondaEnvsAsKernels.ipynb)
-* [How to mount cloud storage buckets in your Vertex AI notebook with gcsfuse](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToMountABucketWithGcsfuse.ipynb)
-* [How to create custom images for Vertex AI](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/containers.md)
-
-## Resources 
-In the below section we define the GCP services utilized across the learning modules. You can find an additional curated list of GCP tutorials in this repository under docs: [GCP Resources detailed](./docs/GoogleCloudPlatformResources.md)
-
-### Google Cloud Platform resources <a name="gcp"></a>
-
-1. **IAM - https://cloud.google.com/iam/docs/overview** \
-IAM in GCP allows you to manage access control by defining who (identity) has what access (role) for which resource. In IAM, permission to access a resource isn't granted directly to the end user. Instead, permissions are grouped into roles, and roles are granted to authenticated principals. 
-
-
-2. **Billing - https://cloud.google.com/billing/docs** \
-To use Google Cloud services, you must have a valid Cloud Billing account, and must link it to your Google Cloud projects. Your project's Google Cloud usage is charged to the linked Cloud Billing account. When you sign up for [NIH Cloud Lab](https://cloud.nih.gov/resources/cloudlab/) you will access an account loaded with credits for you to experiment with.
-
-
-3. **Cloud Storage - https://cloud.google.com/storage/docs/introduction** \
-Cloud Storage is a service for storing your objects in Google Cloud. An object is an immutable piece of data consisting of a file of any format. You store objects in containers called buckets. All buckets are associated with a project, and you can group your projects under an organization. 
-
-
-4. **Vertex AI - https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform** \
-Vertex AI brings AutoML and AI Platform together into a unified API, client library, and user interface. AutoML lets you train models on image, tabular, text, and video datasets without writing code, while training in AI Platform lets you run custom training code. With Vertex AI, both AutoML training and custom training are available options. Whichever option you choose for training, you can save models, deploy models, and request predictions with Vertex AI. Vertex AI implements JupyterLab in Vertex AI Workbench. 
-
-5. **Cloud Build - https://cloud.google.com/build/docs** \
-Cloud Build is a service that executes your builds on Google Cloud infrastructure. Cloud Build can import source code from Cloud Storage, Cloud Source Repositories, GitHub, or Bitbucket, execute a build to your specifications, and produce artifacts such as Docker containers or Java archives.
-
-
-6. **Cloud Life Sciences API - https://cloud.google.com/life-sciences/docs/process-genomic-data** \
-Cloud Life Sciences is a suite of services and tools for managing, processing, and transforming life sciences data. Cloud Life Sciences (formerly Google Genomics) enables the life sciences community to process biomedical data at scale. Cost effective and supported by a growing partner ecosystem, Cloud Life Sciences lets you focus on analyzing data and reproducing results.
-
-
-7. **Operations (formerly Stackdriver) https://cloud.google.com/stackdriver/docs** \
-Operations, formerly known as Stackdriver, is composed of Monitoring and Logging. Cloud Monitoring collects metrics, events, and metadata from Google Cloud, Amazon Web Services (AWS), hosted uptime probes, and application instrumentation. Using the BindPlane service, you can also collect this data from over 150 common application components, on-premise systems, and hybrid cloud systems. Google Cloud's operations suite ingests that data and generates insights via dashboards, charts, and alerts. BindPlane is included with your Google Cloud project at no additional cost.
-
-Cloud Logging is a fully managed service that allows you to store, search, analyze, monitor, and alert on logging data and events from Google Cloud and Amazon Web Services. You can collect logging data from over 150 common application components, on-premises systems, and hybrid cloud systems.
-
-
-
-## Alternative Data Sources <a name="data"></a>
-
-Where can users get similar data to run through these tutorials with their own datasets or alternative datasets of interest? 
-
-1. SRA \
-Sequence Read Archive (SRA) data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data. The archive accepts data from all branches of life as well as metagenomic and environmental surveys. SRA stores raw sequencing data and alignment information to enhance reproducibility and facilitate new discoveries through data analysis. Learn more about accessing SRA data through GCP from the [NIH Cloud Lab Tutorial Section](https://github.com/STRIDES/NIHCloudLabGCP/tree/main#download-data-from-the-sequence-read-archive-sra-). 
-
-2. GEO \
-GEO is a public functional genomics data repository supporting MIAME-compliant data submissions. Array- and sequence-based data are accepted. Tools are provided to help users query and download experiments and curated gene expression profiles. Learn more [here](https://www.ncbi.nlm.nih.gov/geo/)
-
-3. MEDMNIST \
-The MedMNIST v2 dataset consists of 12 pre-processed 2D datasets and 6 pre-processed 3D datasets from selected sources covering primary data modalities (e.g., X-Ray, OCT, Ultrasound, CT, Electron Microscope), diverse classification tasks (binary/multi-class, ordinal regression and multi-label) and data scales (from 100 to 100,000). For simplicity, we call the collection of all 2D datasets as MedMNIST2D, and that of 3D as MedMNIST3D. MedMNIST can be downloaded through pip. Learn more [here](https://medmnist.com/)
-
-4. Google Public Dataset Program - https://services.google.com/fh/files/misc/public_datasets_one_pager.pdf \
-Google Cloud Public Datasets facilitate access to high-demand public datasets making it easy for you to access and uncover new insights in the cloud. By hosting these datasets in BigQuery and Google Cloud Storage, you can seamlessly experience the full value of Google Cloud with the touch of a button. Explore public datasets stored in [Cloud Storage](https://cloud.google.com/storage/docs/access-public-data) and in [BigQuery](https://cloud.google.com/bigquery/public-data).
