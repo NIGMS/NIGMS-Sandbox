@@ -17,16 +17,12 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 # Table of Contents
 + [Available Modules](#modules)
 + [Recomended Learning Pathways](#pathways)
-+ [Cloud Technology Utilized](#cloud-technology-utilized)
-+ [Cloud Module Prerequisites](#cloud-module-prerequisites)
-+ [Resources](#gcp)
-+ [Alternative Data Sources](#data)
 
 # Available Modules <a name="modules"></a><a name="available-modules"></a>
 
 *The 26 topics and their authors are listed here. If you would like guidance on what order to complete them in, jump to the recommended learning pathways in the next section.*
 
-+ [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
++ [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College ![Google Logo](images/google-cloud-small.png) ![AWS Logo](images/aws-small.png) ![Azure Logo](images/azure-small.png)
 + [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
 + [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory
 + [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
@@ -78,27 +74,53 @@ We have organized the rest of the learning pathways by scientific topic area and
 **Introduction to Biomedical Data Science**
    + :seedling: [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
    + :seedling: [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
-   + :seedling: [Introduction to Python for Biology]() - University of Delaware ![Google Logo](images/google-cloud-small.png)
-   + :seedling: [Introduction to R and LLMs for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
+   + :seedling: [Introduction to Python for Biology]() - Northern Nazarene University
+   + :seedling: [Introduction to R and LLMs for Biology]() - Duke University
 
-  
-After completing this learning path, you should be able to do comprehensive data science analysis on GCP with a variety of bioinformatics data sources. You skills now include downloading, processing, and visualizing data, calculating statistically significant variables, and building machine learning models with real biomedical data.
+*After completing this learning path, you should be able to conduct comprehensive data science analysis with a variety of bioinformatics data sources. Your skills now include version control and creating reproducible workflows, downloading, processing, and visualizing data, calculating statistically significant variables, using GenAI chatbots, and building and evaluating machine learning models with real biomedical data.*
+
+*After completing this learning path, you will gain proficiency in cloud computing and storage, master the Linux command line and BASH scripting for bioinformatics workflowsm, and learn to preprocess and manage biomedical datasets using Python, R, and BASH. You will also learn introduction to genomic analysis, develop and evaluate machine learning models for biomedical applications, and learn data visualization.*
+
+| Specs                    |      Details     |
+|--------------------------|------------------|
+| Languages and Workflows  | Python, R, BASH  |
+| Jupyter Notebooks        | 36               |
+| Approximate Cost         | $17.00           |
+
 
 **Introduction to Biomedical Machine Learning and Artificial Intelligence**
+   + :seedling: [Python and ML for Biomedical Data Science]() - University of Delaware
    + :seedling: [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island
    + :deciduous_tree: [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
 
-**Introduction to Bioinformatics and Multi-Omics**
+*After completing this learning path, you should understand and apply the data science lifecycle and FAIR data principles, develop ethical AI/ML systems and interpret model decisions, prepare biomedical datasets by preprocessing managing and augmenting data, and implement deep learning methods including transfer learning and models. You will also learn to perform statistical analyses, utilize dimensionality reduction techniques on high-dimensional biomedical data, evaluate model performance, and improve models by addressing biomedical-specific data challenges.*
+
+| Specs                    |      Details     |
+|--------------------------|------------------|
+| Languages and Workflows  | Python, R        |
+| Jupyter Notebooks        | 60               |
+| Approximate Cost         | $30.00           |
+
+**Introduction to Genomics and Transcriptomics**
+   + :seedling: [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
+   + :deciduous_tree: [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
+   + :deciduous_tree: [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
+   + :deciduous_tree: [Chromatin Occupancy with Cut and Run]() - University of Nebraska Medical Center
+   + :deciduous_tree: [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota
+
+
+
+**Introduction to Metagenomics and Phylogenetics**
+
+**Introduction to Proteomics**
+
+
    + :seedling:[Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
    + :seedling:[Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
-   + :deciduous_tree: [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
-   + :deciduous_tree: [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota
-   + :seedling: [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
 
 After completing this learning path, you should be comfortable analyzing bioinformatics data on the command line in a cloud environment and integrating -omics data to understand biological insight. These skills can be applied to a wide variety of Omics datasets in the subsequent sections.
      
 **Introduction to Genomic Analysis**
-   + :deciduous_tree: [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
    + :deciduous_tree: [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
 
 After completing this learning path, you now have experience with specialized genomics and metagenomics analysis. These tools differ from standard Omics analysis in the highly specialized tools they use, which you can now deploy in a GCP environment.
