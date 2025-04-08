@@ -78,7 +78,7 @@ We have organized the rest of the learning pathways by scientific topic area and
 **Introduction to Biomedical Data Science**
    + :seedling: [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
    + :seedling: [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
-   + :seedling: ![Google Logo](images/google-cloud.png) [Introduction to Python for Biology]() - University of Delaware
+   + :seedling: [Introduction to Python for Biology]() - University of Delaware ![Google Logo](images/google-cloud-small.png)
    + :seedling: [Introduction to R and LLMs for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
 
   
