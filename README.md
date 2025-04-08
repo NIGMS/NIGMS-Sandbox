@@ -3,9 +3,11 @@
 
 # Introduction
 
-This repository aims to teach students, researchers, and clinicians, among others, how to utilize the power of cloud technology for the benefit of life sciences applications and research. Here we present 12 cloud learning modules that represent a unique use case or scientific workflow. Types of data used across the modules include but are not limited to genomics, methylomics, transcriptomics, proteomics, and medical imaging data across formats such as FASTA/FASTQ, SAM, BAM, CSV, PNG, and DICOM. Learning modules range in areas from introductory material to single-omics approaches, multi-omics techniques, single cell analysis, metagenomics, and AI/ML imaging applications. 
+This repository aims to teach students, researchers, and clinicians, among others, how to utilize the power of cloud technology for the benefit of life sciences applications and research. Here we present 26 cloud learning modules that represent a unique use case or scientific workflow. Types of data used across the modules include but are not limited to genomics, methylomics, transcriptomics, proteomics, and medical imaging data across formats such as FASTA/FASTQ, SAM, BAM, CSV, PNG, and DICOM. Learning modules range in areas from introductory material to single-omics approaches, multi-omics techniques, single cell analysis, metagenomics, and AI/ML imaging applications. 
 
-To run these modules you will need a Google Cloud Project. For beginner friendly information on Google Cloud, visit the [NIH Cloud Lab GitHub](https://github.com/STRIDES/NIHCloudLabGCP) repository, which also includes a set of helpful [Google Cloud tutorials](https://github.com/STRIDES/NIHCloudLabGCP/tree/main).
+These modules run in Microsoft Amazon Web Services, Microsoft Azure, and Google Cloud. All modules will be available across the three cloud platforms in 2027, but you may notice that a given module is only available in one or two of these platforms at this time. You can run these modules in any cloud account, but we encourage users to request access to an [NIH Cloud Lab](https://cloud.nih.gov/resources/cloudlab/) account for an optimal experience. 
+
+To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstart Pages for [AWS](https://cloud.nih.gov/resources/cloudlab/aws-jumpstart/), [Azure](https://cloud.nih.gov/resources/cloudlab/azure-jumpstart/), or [Google Cloud](https://cloud.nih.gov/resources/cloudlab/google-cloud-jumpstart/), or visit the tutorial pages: [AWS](https://github.com/STRIDES/NIHCloudLabAWS), [Azure](https://github.com/STRIDES/NIHCloudLabAzure), [GCP](https://github.com/STRIDES/NIHCloudLabGCP). 
 
 :exclamation: _If you require support at any time, please [open an issue on GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) for the module in question, or [send us an informative email](https://stackoverflow.com/help/how-to-ask) at CloudLab@nih.gov._
 
@@ -22,7 +24,7 @@ To run these modules you will need a Google Cloud Project. For beginner friendly
 
 # Available Modules <a name="modules"></a><a name="available-modules"></a>
 
-*The 12 topics and their authors are listed here. If you would like guidance on what order to complete them in, jump to the recommended learning pathways in the next section.*
+*The 26 topics and their authors are listed here. If you would like guidance on what order to complete them in, jump to the recommended learning pathways in the next section.*
 
 + [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
 + [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
