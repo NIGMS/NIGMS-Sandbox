@@ -18,7 +18,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 + [Available Modules](#modules)
 + [Recomended Learning Pathways](#pathways)
 
-# Available Modules <a name="modules"></a><a name="available-modules"></a>
+## Available Modules <a name="modules"></a><a name="available-modules"></a>
 
 *The 26 topics and their authors are listed here. If you would like guidance on what order to complete them in, jump to the recommended learning pathways in the next section.*
 
