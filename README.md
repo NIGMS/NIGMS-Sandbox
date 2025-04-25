@@ -56,9 +56,15 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 
 </details> 
 
-**Prerequisites: Introduction to Azure**
+<details open>
 
-**Prerequisites: Introduction to GCP**
+<summary><h3>Prerequisites: Introduction to Azure</h3></summary>
+
+</details> 
+
+<details open>
+
+<summary><h3>Prerequisites: Introduction to GCP</h3></summary>
 
    _Here are some GCP prerequisites you should make sure you can complete before diving into the modules. These will give you the necessary cloud computing skills to run the training modules such as launching a VM, cloning modules from GitHub, and more. If anything looks unfamiliar, follow the link to view documentation on that subject. After reading the documentation in the links below, complete the simple tasks described in the steps below as a knowledge check on what you just learned. Complete each step in order to learn the key skills you need to complete the learning modules in the next section!_
    - STEP 1: [Select your GCP Project](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/open_GCP_project.md)
@@ -79,6 +85,8 @@ After completing this prerequisite learning path, you should be able to:
    + Understand Billing
    + Pull container images and launch an instance from a container
    + Use GitHub repositories.
+
+</details> 
 
 :surfer: _You are now ready to start analyzing data!_
 
