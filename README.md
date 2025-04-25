@@ -54,6 +54,15 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
    - STEP 7: Review how to [open a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue). If you have a question or a suggested enhancement, feel free to open an issue for this repository or for the module you are having trouble with. You can also email us at `CloudLab@nih.gov`.
    - STEP 8: Read over the [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabAWS/tree/main) to become familiar with additional Cloud services that may be needed during these modules. Pay special attention to AWS Storage and Cost Optimization.
 
+After completing this prerequisite learning path, you should be able to:
+   + Navigate the AWS console
+   + Use SageMaker AI Notebooks
+   + Copy data to and from a AWS S3 Storage Bucket
+   + Enable AWS Batch
+   + Understand Billing
+   + Pull container images and launch an instance from a container
+   + Use GitHub repositories.
+
 </details> 
 
 <details open>
