@@ -42,7 +42,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 
 <details open>
 <summary>**Prerequisites: Introduction to AWS**</summary>
-<br>
+
  _Here are some AWS prerequisites you should make sure are completed before starting the modules. These will give you the necessary cloud computing skills to run the training modules such as launching a VM, cloning modules from GitHub, and more. If anything looks unfamiliar, follow the link to view documentation on that subject. After reading the documentation in the links below, complete the simple tasks described in the steps below as a knowledge check on what you just learned. Complete each step in order to learn the key skills you need to complete the learning modules in the next section!_
    - STEP 1: [Navigate to SageMaker AI and Launch a Notebook](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md)
    - STEP 2: [Change your Notebook Kernel](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToSelectAWSSageMakerKernel.md)
@@ -52,6 +52,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
    - STEP 6:  Clone this GitHub repository into a SageMaker AI notebook using [the command line](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or the [SageMaker AI user interface (step 7)](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md).
    - STEP 7: Review how to [open a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue). If you have a question or a suggested enhancement, feel free to open an issue for this repository or for the module you are having trouble with. You can also email us at `CloudLab@nih.gov`.
    - STEP 8: Read over the [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabAWS/tree/main) to become familiar with additional Cloud services that may be needed during these modules. Pay special attention to AWS Storage and Cost Optimization.
+   
 </details> 
 **Prerequisites: Introduction to Azure**
 
