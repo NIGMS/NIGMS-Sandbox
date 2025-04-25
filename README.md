@@ -40,7 +40,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 
 :sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. Before starting on any of the individual modules, we recommend you complete all the steps in the Prerequisites section for your respective cloud provider and only continue once you are able to check off these key skills._
 
-<details open>
+<details close>
 
 <summary><h3>Prerequisites: Introduction to AWS</h3></summary>
 
@@ -65,13 +65,13 @@ After completing this prerequisite learning path, you should be able to:
 
 </details> 
 
-<details open>
+<details close>
 
 <summary><h3>Prerequisites: Introduction to Azure</h3></summary>
 
 </details> 
 
-<details open>
+<details close>
 
 <summary><h3>Prerequisites: Introduction to GCP</h3></summary>
 
