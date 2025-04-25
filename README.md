@@ -48,8 +48,8 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
    - STEP 4: [Read our Billing Guide](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/billing_and_cost_management.md) Set budget alerts.
    - STEP 5: Review [this overview](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/ecr.md) of building Docker containers and pushing to the Elastic Container Registry. Try to setup a JupyterLab with a custom docker image using [this](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateJupyterlabWithCustomImage.md).
    - STEP 6:  Clone this GitHub repository into a SageMaker AI notebook using [the command line](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or the [SageMaker AI user interface (step 7)](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md).
-   - STEP 8: Review how to [open a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue). If you have a question or a suggested enhancement, feel free to open an issue for this repository or for the module you are having trouble with. You can also email us at `CloudLab@nih.gov`.
-   - STEP 9: Read over the [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabAWS/tree/main) to become familiar with additional Cloud services that may be needed during these modules. Pay special attention to AWS Storage and Cost Optimization.
+   - STEP 7: Review how to [open a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue). If you have a question or a suggested enhancement, feel free to open an issue for this repository or for the module you are having trouble with. You can also email us at `CloudLab@nih.gov`.
+   - STEP 8: Read over the [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabAWS/tree/main) to become familiar with additional Cloud services that may be needed during these modules. Pay special attention to AWS Storage and Cost Optimization.
 **Prerequisites: Introduction to Azure**
 
 **Prerequisites: Introduction to GCP**
