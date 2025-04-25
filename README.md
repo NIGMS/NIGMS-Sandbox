@@ -42,7 +42,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 
 <details open>
 
-<summary> **Prerequisites: Introduction to AWS** </summary>
+<summary><h1>Prerequisites: Introduction to AWS</h1></summary>
 
  _Here are some AWS prerequisites you should make sure are completed before starting the modules. These will give you the necessary cloud computing skills to run the training modules such as launching a VM, cloning modules from GitHub, and more. If anything looks unfamiliar, follow the link to view documentation on that subject. After reading the documentation in the links below, complete the simple tasks described in the steps below as a knowledge check on what you just learned. Complete each step in order to learn the key skills you need to complete the learning modules in the next section!_
    - STEP 1: [Navigate to SageMaker AI and Launch a Notebook](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md)
