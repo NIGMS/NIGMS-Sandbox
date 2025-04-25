@@ -5,7 +5,7 @@
 
 This repository aims to teach students, researchers, and clinicians, among others, how to utilize the power of cloud technology for the benefit of life sciences applications and research. Here we present 26 cloud learning modules that represent a unique use case or scientific workflow. Types of data used across the modules include but are not limited to genomics, methylomics, transcriptomics, proteomics, and medical imaging data across formats such as FASTA/FASTQ, SAM, BAM, CSV, PNG, and DICOM. Learning modules range in areas from introductory material to single-omics approaches, multi-omics techniques, single cell analysis, metagenomics, and AI/ML imaging applications. 
 
-These modules run in Amazon Web Services, Microsoft Azure, and Google Cloud. All modules will be available across the three cloud platforms in 2027, but you may notice that a given module is only available in one or two of these platforms at this time. You can run these modules in any cloud account, but we encourage users to request access to an [NIH Cloud Lab](https://cloud.nih.gov/resources/cloudlab/) account for an optimal experience. 
+These modules run in Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure(Azure). All modules will be available across the three cloud platforms in 2027, but you may notice that a given module is only available in one or two of these platforms at this time. You can run these modules in any cloud account, but we encourage users to request access to an [NIH Cloud Lab](https://cloud.nih.gov/resources/cloudlab/) account for an optimal experience. 
 
 To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstart Pages for [AWS](https://cloud.nih.gov/resources/cloudlab/aws-jumpstart/), [Azure](https://cloud.nih.gov/resources/cloudlab/azure-jumpstart/), or [Google Cloud](https://cloud.nih.gov/resources/cloudlab/google-cloud-jumpstart/), or visit the tutorial pages: [AWS](https://github.com/STRIDES/NIHCloudLabAWS), [Azure](https://github.com/STRIDES/NIHCloudLabAzure), [GCP](https://github.com/STRIDES/NIHCloudLabGCP). 
 
@@ -40,6 +40,12 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 :sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. Before starting on any of the individual modules, we recommend you complete all the steps in the Prerequisites section for your respective cloud provider and only continue once you are able to check off these key skills._
 
 **Prerequisites: Introduction to AWS**
+ _Here are some AWS prerequisites you should make sure are completed before starting the modules. These will give you the necessary cloud computing skills to run the training modules such as launching a VM, cloning modules from GitHub, and more. If anything looks unfamiliar, follow the link to view documentation on that subject. After reading the documentation in the links below, complete the simple tasks described in the steps below as a knowledge check on what you just learned. Complete each step in order to learn the key skills you need to complete the learning modules in the next section!_
+- STEP 1: [Navigate to SageMaker AI and Launch a Notebook](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md)
+- STEP 2: [Change your Notebook Kernel](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToSelectAWSSageMakerKernel.md)
+- STEP 3: [Launch AWS Batch](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToLaunchAWSBatch.md) or [setup AWS Batch](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/AWS-Batch-Setup.md)
+- STEP 4: [Read our Billing Guide](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/billing_and_cost_management.md) Set budget alerts.
+- STEP 5: Review [this overview](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/ecr.md) of building Docker containers and pushing to the Elastic Container Registry. Try to spin up a SageMaker AI notebook from this container path: 
 
 **Prerequisites: Introduction to Azure**
 
