@@ -22,18 +22,18 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 
 *The 26 topics and their authors are listed here. If you would like guidance on what order to complete them in, jump to the recommended learning pathways in the next section.*
 
-+ [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College ![Google Logo](images/google-cloud-small.png) ![AWS Logo](images/aws-small.png)
-+ [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
-+ [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory ![Google Logo](images/google-cloud-small.png) ![AWS Logo](images/aws-small.png)
-+ [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
-+ [Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
-+ [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
-+ [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
-+ [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota
-+ [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
-+ [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
-+ [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island
-+ [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
++ [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
++ [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
++ [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
++ [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
++ [Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
++ [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
++ [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno ![Google Logo](images/google-cloud-small.png) ![AWS Logo](images/aws-small.png)
++ [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota ![Google Logo](images/google-cloud-small.png) ![AWS Logo](images/aws-small.png)
++ [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota ![Google Logo](images/google-cloud-small.png) ![AWS Logo](images/aws-small.png)
++ [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University ![Google Logo](images/google-cloud-small.png) ![AWS Logo](images/aws-small.png)
++ [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island ![Google Logo](images/google-cloud-small.png) ![AWS Logo](images/aws-small.png)
++ [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas ![Google Logo](images/google-cloud-small.png) ![AWS Logo](images/aws-small.png)
 + [Structural Biology and Drug Dsicovery](https://github.com/NIGMS/Structural-Biology-and-Drug-Discovery) - Louisiana State University ![Google Logo](images/google-cloud-small.png)
 + [Identifying Protein-Protein Interactions with ML Methods](https://github.com/NIGMS/Protein-Protein-Interactions-using-ML) - Georgia Institute of Technology ![Google Logo](images/google-cloud-small.png)
 + [Protein Crystal Data Collection for Solving Protein Structure](https://github.com/NIGMS/X-Ray-Crystallography-and-Molecular-Energies) - The University of Souther Mississippi ![AWS Logo](images/aws-small.png)
