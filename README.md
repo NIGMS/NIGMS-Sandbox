@@ -63,11 +63,15 @@ After completing this prerequisite learning path, you should be able to:
    + Pull container images and launch an instance from a container
    + Use GitHub repositories.
 
+:surfer: _You are now ready to start analyzing data!_
+
 </details> 
 
 <details close>
 
 <summary><h3>Prerequisites: Introduction to Azure</h3></summary>
+
+:surfer: _You are now ready to start analyzing data!_
 
 </details> 
 
@@ -95,9 +99,10 @@ After completing this prerequisite learning path, you should be able to:
    + Pull container images and launch an instance from a container
    + Use GitHub repositories.
 
+:surfer: _You are now ready to start analyzing data!_
+
 </details> 
 
-:surfer: _You are now ready to start analyzing data!_
 
 We have organized the rest of the learning pathways by scientific topic area and ordered them according to technical complexity within each pathway. Our ordering is only based on the number and complexity of cloud services used and has no bearing on the complexity of the scientific content. We recommend you being with Introductory modules within a given scientific interest area, and then progress to the more advanced modules as you gain key skills. 
 + Introductory modules :seedling: use only Jupyter notebooks and sometimes Cloud Storage. Upon completion, users should be comfortable starting a Jupyter notebook instance and with copying data to and from Cloud Storage. 
