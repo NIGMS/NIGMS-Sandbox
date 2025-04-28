@@ -34,8 +34,8 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 + [Identifying Protein-Protein Interactions with ML Methods](https://github.com/NIGMS/Protein-Protein-Interactions-using-ML) - Georgia Institute of Technology ![Google Logo](images/google-cloud-small.png)
 + [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
-+ [Introduction to Python for Bioinformatics](https://github.com/NIGMS/Foundations-of-Python-for-Data-Science) - Northwest Nazarene University ![Azure Logo](images/azure-small.png)
-+ [Introduction to R and Data Science](https://github.com/NIGMS/Data-Science-Foundations-in-R) - Duke University ![Google Logo](images/google-cloud-small.png)
++ [Introduction to Python for Biology](https://github.com/NIGMS/Foundations-of-Python-for-Data-Science) - Northern Nazarene University ![Azure Logo](images/azure-small.png)
++ [Introduction to R and LLMs for Biology](https://github.com/NIGMS/Data-Science-Foundations-in-R) - Duke University ![Google Logo](images/google-cloud-small.png)
 + [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [Microbial Analysis of 16S rRNA Sequencing Data](https://github.com/NIGMS/16SrRNA-Microbial-Analysis) - University of Nevada, Reno ![AWS Logo](images/aws-small.png)
 + [Pangenomics](https://github.com/NIGMS/Intro-to-Pangenomics) - National Center for Genome Resources ![Google Logo](images/google-cloud-small.png)
@@ -117,15 +117,15 @@ After completing this prerequisite learning path, you should be able to:
 </details> 
 
 
-We have organized the rest of the learning pathways by scientific topic area and ordered them according to technical complexity within each pathway. Our ordering is only based on the number and complexity of cloud services used and has no bearing on the complexity of the scientific content. We recommend you being with Introductory modules within a given scientific interest area, and then progress to the more advanced modules as you gain key skills. 
+We have organized the rest of the learning pathways by scientific topic area and ordered them according to technical complexity within each pathway. Our ordering is only based on the number and complexity of cloud services used and has no bearing on the complexity of the scientific content. We recommend you begin with Introductory modules within a given scientific interest area, and then progress to the more advanced modules as you gain key skills. 
 + Introductory modules :seedling: use only Jupyter notebooks and sometimes Cloud Storage. Upon completion, users should be comfortable starting a Jupyter notebook instance and with copying data to and from Cloud Storage. 
-+ Advanced modules :deciduous_tree: include additional functionality such as launching a notebook from a custom Docker container, making API calls from with the notebook to Batch Computing, and using GPU-enabled machine types. Upon completion of advanced modules, users should be comfortable interacting with additional cloud services from within the Jupyter interface.
++ Advanced modules :deciduous_tree: include additional functionality such as launching a notebook from a custom Docker container, making API calls from within the notebook to Batch Computing, and using GPU-enabled machine types. Upon completion of advanced modules, users should be comfortable interacting with additional cloud services from within the Jupyter interface.
 
 **Introduction to Biomedical Data Science**
    + :seedling: [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College
    + :seedling: [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
-   + :seedling: [Introduction to Python for Biology]() - Northern Nazarene University
-   + :seedling: [Introduction to R and LLMs for Biology]() - Duke University
+   + :seedling: [Introduction to Python for Biology](https://github.com/NIGMS/Foundations-of-Python-for-Data-Science) - Northern Nazarene University
+   + :seedling: [Introduction to R and LLMs for Biology](https://github.com/NIGMS/Data-Science-Foundations-in-R) - Duke University
 
 *After completing this learning path, you should be able to conduct comprehensive data science analysis with a variety of bioinformatics data sources. Your skills now include version control and creating reproducible workflows, downloading, processing, and visualizing data, calculating statistically significant variables, using GenAI chatbots, and building and evaluating machine learning models with real biomedical data.*
 
