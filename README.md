@@ -25,7 +25,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 + [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
-+ [Chromatin Occupancy: ChIP-Seq CUT&RUN CUT&Tag](https://github.com/NIGMS/Chromatin-Occupancy) - University of Nebraska Medical Center ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
++ [Chromatin Occupancy with Cut and Run](https://github.com/NIGMS/Chromatin-Occupancy) - University of Nebraska Medical Center ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [Explore RNA methlyation using MeRIP-seq](https://github.com/NIGMS/RNA-Methylation-with-MeRIP-seq) - University of Hawai'i Manoa ![AWS Logo](images/aws-small.png)
@@ -155,10 +155,10 @@ We have organized the rest of the learning pathways by scientific topic area and
    + :seedling: [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno
    + :deciduous_tree: [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
    + :deciduous_tree: [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
-   + :deciduous_tree: [Chromatin Occupancy with Cut and Run]() - University of Nebraska Medical Center
+   + :deciduous_tree: [Chromatin Occupancy with Cut and Run](https://github.com/NIGMS/Chromatin-Occupancy) - University of Nebraska Medical Center
    + :deciduous_tree: [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota
 
-*After completing this learning path, you should be able to manage and analyze large genomic and omics datasets using cloud computing, perform quality control and become facile with Nextflow pipelines, conduct and interpret differential analyses, and visualize multi-omics datasets to derive biological insights. You will also apply statistical methods and computational tools for genomic analysis, and retrieve and manage data from biological databases.*
+*After completing this learning path, you should be able to manage and analyze large genomic and omics datasets using cloud computing, perform quality control and become familiar with Nextflow pipelines, conduct and interpret differential analyses, and visualize multi-omics datasets to derive biological insights. You will also apply statistical methods and computational tools for genomic analysis, and retrieve and manage data from biological databases.*
 
 | Specs                    |      Details     |
 |--------------------------|------------------|
