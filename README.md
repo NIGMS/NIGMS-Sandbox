@@ -40,7 +40,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 + [Microbial Analysis of 16S rRNA Sequencing Data](https://github.com/NIGMS/16SrRNA-Microbial-Analysis) - University of Nevada, Reno ![AWS Logo](images/aws-small.png)
 + [Pangenomics](https://github.com/NIGMS/Intro-to-Pangenomics) - National Center for Genome Resources ![Google Logo](images/google-cloud-small.png)
 + [Phylogenetic Analysis](https://github.com/NIGMS/Introduction-to-Phylogenetics) - University of South Dakota ![AWS Logo](images/aws-small.png)
-+ [Practical Data - Centric AI/ML for Biomedical Researchers](https://github.com/NIGMS/AI-ML-For-Biomedical-Researchers) - University of Delaware ![AWS Logo](images/aws-small.png)
++ [Python and ML for Biomedical Data Science](https://github.com/NIGMS/AI-ML-For-Biomedical-Researchers) - University of Delaware ![AWS Logo](images/aws-small.png)
 + [Protein Crystal Data Collection for Solving Protein Structure](https://github.com/NIGMS/X-Ray-Crystallography-and-Molecular-Energies) - The University of Souther Mississippi ![AWS Logo](images/aws-small.png)
 + [Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [RADseq for Population Genetics and Phylogenetics](https://github.com/NIGMS/Population-Genomics-and-Phylogenetics-with-RADseq) - University of Wyoming ![Google Logo](images/google-cloud-small.png)
@@ -139,7 +139,7 @@ We have organized the rest of the learning pathways by scientific topic area and
 
 
 **Introduction to Biomedical Machine Learning and Artificial Intelligence**
-   + :seedling: [Python and ML for Biomedical Data Science]() - University of Delaware
+   + :seedling: [Python and ML for Biomedical Data Science](https://github.com/NIGMS/AI-ML-For-Biomedical-Researchers) - University of Delaware
    + :seedling: [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island
    + :deciduous_tree: [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
 
