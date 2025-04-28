@@ -24,7 +24,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 
 + [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College ![Google Logo](images/google-cloud-small.png) ![AWS Logo](images/aws-small.png)
 + [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa
-+ [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory
++ [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory ![Google Logo](images/google-cloud-small.png) ![AWS Logo](images/aws-small.png)
 + [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
 + [Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
 + [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center
@@ -34,8 +34,20 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 + [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University
 + [Analysis of Biomedical Data for Biomarker Discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery) - University of Rhode Island
 + [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas
-!!! add 14 new ones here too!!!
-![Azure Logo](images/azure-small.png)
++ [Structural Biology and Drug Dsicovery](https://github.com/NIGMS/Structural-Biology-and-Drug-Discovery) - Louisiana State University ![Google Logo](images/google-cloud-small.png)
++ [Identifying Protein-Protein Interactions with ML Methods](https://github.com/NIGMS/Protein-Protein-Interactions-using-ML) - Georgia Institute of Technology ![Google Logo](images/google-cloud-small.png)
++ [Protein Crystal Data Collection for Solving Protein Structure](https://github.com/NIGMS/X-Ray-Crystallography-and-Molecular-Energies) - The University of Souther Mississippi ![AWS Logo](images/aws-small.png)
++ [RADseq for Population Genetics and Phylogenetics](https://github.com/NIGMS/Population-Genomics-and-Phylogenetics-with-RADseq) -  University of Wyoming ![Google Logo](images/google-cloud-small.png)
++ [Pangenomics](https://github.com/NIGMS/Intro-to-Pangenomics) - National Center for Genome Resources ![Google Logo](images/google-cloud-small.png)
++ [Phylogenetic Analysis](https://github.com/NIGMS/Introduction-to-Phylogenetics) - University of South Dakota ![AWS Logo](images/aws-small.png)
++ [Genome Sequencing and Comparative Genomic Analysis](https://github.com/NIGMS/Comparative-Microbial-Genomics) - University of New Hampshire ![AWS Logo](images/aws-small.png)
++ [Explore RNA methlyation using MeRIP-seq](https://github.com/NIGMS/RNA-Methylation-with-MeRIP-seq) - University of Hawai'i Manoa ![AWS Logo](images/aws-small.png)
++ [Chromatin Occupancy: ChIP-Seq CUT&RUN CUT&Tag](https://github.com/NIGMS/Chromatin-Occupancy) - University of Nebraska Medical Center ![Google Logo](images/google-cloud-small.png) ![AWS Logo](images/aws-small.png)
++ [Introduction to R and Data Science](https://github.com/NIGMS/Data-Science-Foundations-in-R) - Duke University ![Google Logo](images/google-cloud-small.png)
++ [Introduction to Python for Bioinformatics](https://github.com/NIGMS/Foundations-of-Python-for-Data-Science) - Northwest Nazarene University ![Azure Logo](images/azure-small.png) 
++ [Microbial Analysis of 16S rRNA Sequencing Data](https://github.com/NIGMS/16SrRNA-Microbial-Analysis) - University of Nevada, Reno ![AWS Logo](images/aws-small.png)
++ [scRNASeq, miRNASeq, and Transcription Factors](https://github.com/NIGMS/Bulk-and-Single-Cell-RNAseq) - The University of Maine ![AWS Logo](images/aws-small.png)
++ [Practical Data - Centric AI/ML for Biomedical Researchers](https://github.com/NIGMS/AI-ML-For-Biomedical-Researchers) -  University of Delaware ![AWS Logo](images/aws-small.png)
 ## Recommended Learning Pathways <a name="pathways"></a>
 
 :sparkles: _We put together these learning pathways to help orient you to using the Sandbox modules. Before starting on any of the individual modules, we recommend you complete all the steps in the Prerequisites section for your respective cloud provider and only continue once you are able to check off these key skills._
