@@ -63,7 +63,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
    - STEP 3: [Launch AWS Batch](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToLaunchAWSBatch.md) or [setup AWS Batch](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/AWS-Batch-Setup.md)
    - STEP 4: [Read our Billing Guide](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/billing_and_cost_management.md) and set budget alerts for 25%, 50%, and 75%.
    - STEP 5: Review [this overview](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/ecr.md) of building Docker containers and pushing to the Elastic Container Registry. Try to setup a JupyterLab instance using Sagemaker Studio from a custom docker image using [this](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateJupyterlabWithCustomImage.md).
-   - STEP 6:  Clone this GitHub repository into a SageMaker AI notebook using [the command line](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or the [SageMaker AI user interface (step 7)](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md).
+   - STEP 6:  Clone this GitHub repository into a SageMaker AI notebook using [the command line](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or the [SageMaker AI user interface](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md).
    - STEP 7: Review how to [open a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue). If you have a question or a suggested enhancement, feel free to open an issue for this repository or for the module you are having trouble with. You can also email us at `CloudLab@nih.gov`.
 
 After completing this prerequisite learning path, you should be able to:
@@ -82,6 +82,22 @@ After completing this prerequisite learning path, you should be able to:
 <details close>
 
 <summary><h3>Prerequisites: Introduction to Azure</h3></summary>
+
+ _Here are some Azure prerequisites you should make sure are completed before starting the modules. These will give you the necessary cloud computing skills to run the training modules such as launching a VM, cloning modules from GitHub, and more. If anything looks unfamiliar, follow the link to view documentation on that subject. After reading the documentation in the links below, complete the simple tasks described in the steps below as a knowledge check on what you just learned. Complete each step in order to learn the key skills you need to complete the learning modules in the next section!_
+   - STEP 1: [Navigate to Azure ML and Launch a Notebook](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAzureMLNotebooks.md)
+   - STEP 2: [Change your Notebook Kernel](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks?view=azureml-api-2#add-new-kernels)
+   - STEP 3: [Launch Azure Batch and submit a test job](https://learn.microsoft.com/en-us/azure/batch/quick-create-portal)
+   - STEP 4: [Set budget alerts for 25%, 50%, and 75%](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets?tabs=psbudget)
+   - STEP 5:  Clone this GitHub repository into an Azure ML notebook using [the command line](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or the [user interface]([https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md](https://learn.microsoft.com/en-us/azure/machine-learning/concept-train-model-git-integration?view=azureml-api-2)).
+   - STEP 6: Review how to [open a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue). If you have a question or a suggested enhancement, feel free to open an issue for this repository or for the module you are having trouble with. You can also email us at `CloudLab@nih.gov`.
+
+After completing this prerequisite learning path, you should be able to:
+   + Navigate the Azure console
+   + Use Azure ML Notebooks
+   + Copy data to and from a Storage Account
+   + Use Azure Batch
+   + Understand Billing
+   + Use GitHub repositories.
 
 :surfer: _You are now ready to start analyzing data!_
 
