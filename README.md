@@ -30,20 +30,20 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 + [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawaii at Manoa ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [Explore RNA methlyation using MeRIP-seq](https://github.com/NIGMS/RNA-Methylation-with-MeRIP-seq) - University of Hawai'i Manoa ![AWS Logo](images/aws-small.png)
 + [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
-+ [Genome Sequencing and Comparative Genomic Analysis](https://github.com/NIGMS/Comparative-Microbial-Genomics) - University of New Hampshire ![AWS Logo](images/aws-small.png)
++ [Comparative Prokaryotic Genomics](https://github.com/NIGMS/Comparative-Microbial-Genomics) - University of New Hampshire ![AWS Logo](images/aws-small.png)
 + [Identifying Protein-Protein Interactions with ML Methods](https://github.com/NIGMS/Protein-Protein-Interactions-using-ML) - Georgia Institute of Technology ![Google Logo](images/google-cloud-small.png)
 + [Integrating Multi-Omics Datasets](https://github.com/NIGMS/Integrating-Multi-Omics-Datasets) - University of North Dakota ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [Introduction to Data Science for Biology](https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology) - San Francisco State University ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [Introduction to Python for Biology](https://github.com/NIGMS/Foundations-of-Python-for-Data-Science) - Northern Nazarene University ![Azure Logo](images/azure-small.png)
 + [Introduction to R and LLMs for Biology](https://github.com/NIGMS/Data-Science-Foundations-in-R) - Duke University ![Google Logo](images/google-cloud-small.png)
 + [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
-+ [Microbial Analysis of 16S rRNA Sequencing Data](https://github.com/NIGMS/16SrRNA-Microbial-Analysis) - University of Nevada, Reno ![AWS Logo](images/aws-small.png)
-+ [Pangenomics](https://github.com/NIGMS/Intro-to-Pangenomics) - National Center for Genome Resources ![Google Logo](images/google-cloud-small.png)
-+ [Phylogenetic Analysis](https://github.com/NIGMS/Introduction-to-Phylogenetics) - University of South Dakota ![AWS Logo](images/aws-small.png)
++ [Introduction to Amplicon-based Metagenomics](https://github.com/NIGMS/16SrRNA-Microbial-Analysis) - University of Nevada, Reno ![AWS Logo](images/aws-small.png)
++ [Introduction to Pangenomic Methods](https://github.com/NIGMS/Intro-to-Pangenomics) - National Center for Genome Resources ![Google Logo](images/google-cloud-small.png)
++ [Introduction to Phylogenetics](https://github.com/NIGMS/Introduction-to-Phylogenetics) - University of South Dakota ![AWS Logo](images/aws-small.png)
 + [Python and ML for Biomedical Data Science](https://github.com/NIGMS/AI-ML-For-Biomedical-Researchers) - University of Delaware ![AWS Logo](images/aws-small.png)
 + [Protein Crystal Data Collection for Solving Protein Structure](https://github.com/NIGMS/X-Ray-Crystallography-and-Molecular-Energies) - The University of Souther Mississippi ![AWS Logo](images/aws-small.png)
 + [Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
-+ [RADseq for Population Genetics and Phylogenetics](https://github.com/NIGMS/Population-Genomics-and-Phylogenetics-with-RADseq) - University of Wyoming ![Google Logo](images/google-cloud-small.png)
++ [Introduction to Population Genomics](https://github.com/NIGMS/Population-Genomics-and-Phylogenetics-with-RADseq) - University of Wyoming ![Google Logo](images/google-cloud-small.png)
 + [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [scRNASeq, miRNASeq, and Transcription Factors](https://github.com/NIGMS/Bulk-and-Single-Cell-RNAseq) - The University of Maine ![AWS Logo](images/aws-small.png)
 + [Structural Biology and Drug Dsicovery](https://github.com/NIGMS/Structural-Biology-and-Drug-Discovery) - Louisiana State University ![Google Logo](images/google-cloud-small.png)
@@ -167,11 +167,11 @@ We have organized the rest of the learning pathways by scientific topic area and
 | Approximate Cost         | $14.00           |
 
 **Introduction to Metagenomics and Phylogenetics**
-   + :seedling: [Introduction to Amplicon-based Metagenomics]() - University of Nevada Reno
-   + :seedling: [Introduction to Phylogenetics]() - University of South Dakota
-   + :seedling: [Introduction to Population Genomics]() - University of Wyoming
-   + :deciduous_tree: [Comparative Prokaryotic Genomics]() - University of New Hampshire
-   + :deciduous_tree: [Introduction to Pangenomic Methods]() - National Center for Genome Resources
+   + :seedling: [Introduction to Amplicon-based Metagenomics](https://github.com/NIGMS/16SrRNA-Microbial-Analysis) - University of Nevada Reno
+   + :seedling: [Introduction to Phylogenetics](https://github.com/NIGMS/Introduction-to-Phylogenetics) - University of South Dakota
+   + :seedling: [Introduction to Population Genomics](https://github.com/NIGMS/Population-Genomics-and-Phylogenetics-with-RADseq) - University of Wyoming
+   + :deciduous_tree: [Comparative Prokaryotic Genomics](https://github.com/NIGMS/Comparative-Microbial-Genomics) - University of New Hampshire
+   + :deciduous_tree: [Introduction to Pangenomic Methods](https://github.com/NIGMS/Intro-to-Pangenomics) - National Center for Genome Resources
    + :deciduous_tree: [Metagenomics Analysis of Biofilm-Microbiome](https://github.com/NIGMS/Metagenomics-Analysis-of-Biofilm-Microbiome) - University of South Dakota
 
 *After completing this learning path, you should know how to analyze microbial data to perform taxonomic classification using diversity and differential abundance analyses, utilize comparative genomics and phylogenetics to interpret genome sequences and evolutionary relationships, and implement cloud-based bioinformatics workflows including pipeline configuration resource scheduling and scalable analysis. Further, you will be able to access, retrieve, and manage genomic data from biological databases and sequencing sources, assemble, annotate, and analyze genome sequences utilizing bioinformatics tools and cloud resources, and apply quality control techniques and standardized bioinformatic data processing workflows for reproducibility. Finally, you will be able to visualize genomic, metagenomic, and microbial community data, relate genomic microbial and phylogenetic findings to metadata geographic context and biological interpretation, and leverage machine learning with comparative genomics and population genomics in genomic analyses and pangenome studies.*
@@ -190,7 +190,7 @@ We have organized the rest of the learning pathways by scientific topic area and
    + :seedling:[Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
 
 
-*After completing this learning path, you should be comfortable analyzing bioinformatics data on the command line in a cloud environment and integrating -omics data to understand biological insight including normalize protemoics data, peform differential abundance analysis, interpret statistical results, visualize proteomics data, perform quality control on proteomics data, manage missing values in proteomics data, run and manage computational biology software within containerized cloud environments, prepare protein and ligand 3D structures for computational docking simulations, visualize and analyze molecular interactions and docking results using PyMOL, Generate 3D molecular structures from 2D chemical representations using cheminformatics tools, customize docking parameters and troubleshoot docking calculations for complex proteins and ligands, differentiate non-covalent interactions in protein-ligand binding, understand machine learning concepts, apply machine learning models to biomedical data,  create interactive learning resources within Jupyter notebooks, differentiate between X-ray crystallography phasing methods.  These skills can be applied to a wide variety of Omics datasets in the subsequent sections.*
+*After completing this learning path, you should be comfortable analyzing bioinformatics data on the command line in a cloud environment and integrating -omics data to understand biological insight including normalize and perform differential analysis on proteomics data including QC management of missing values and understanding batch effects, prepare visualize and interpret molecular data and simulations using bioinformatics tools like PyMOL, manage and execute computational biology software and docking simulations in containerized cloud environments, apply cheminformatics and machine learning approaches to analyze molecular interactions ligand binding and protein structures, execute automated protein docking computational workflows via cloud platforms APIs and services, understand binding affinity equilibrium ligand residence and non-covalent interactions in protein-ligand complexes, perform macromolecular structure determination applying X-ray crystallography phasing and molecular replacement techniques, analyze protein structure-function relationships and relate protein properties to biochemical conditions, evaluate interpret visualize and communicate statistical and scientific results critically using interactive computational resources, utilize cloud computing resources efficiently for biomedical bioinformatics and proteomics data science analyses. These skills can be applied to a wide variety of Omics datasets in the subsequent sections.*
 
 | Specs                    |      Details     |
 |--------------------------|------------------|
@@ -208,3 +208,8 @@ After completing this learning path, you are able to do a full analysis of RNA-s
 
 _That concludes our section on Learning Pathways. The rest of the README will walk you through some of the technical details of each module, in particular focusing on compute environments and machine types, as well as additional resources to help you continue your learning journey!_
 
+| Specs                    |      Details                         |
+|--------------------------|--------------------------------------|
+| Languages and Workflows  | Bash, Python, R, Nextflow, Snakemake |
+| Jupyter Notebooks        | 33                                   |
+| Approximate Cost         | $29.00                               |
