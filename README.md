@@ -1,7 +1,7 @@
-r# **National Institute of General Medical Sciences Cloud Learning Modules**
+ # **National Institute of General Medical Sciences Cloud Learning Modules**
 
 
-# Introduction
+## Introduction
 
 This repository aims to teach students, researchers, and clinicians, among others, how to utilize the power of cloud technology for the benefit of life sciences applications and research. Here we present 26 cloud learning modules that represent a unique use case or scientific workflow. Types of data used across the modules include but are not limited to genomics, methylomics, transcriptomics, proteomics, and medical imaging data across formats such as FASTA/FASTQ, SAM, BAM, CSV, PNG, and DICOM. Learning modules range in areas from introductory material to single-omics approaches, multi-omics techniques, single cell analysis, metagenomics, and AI/ML imaging applications. 
 
@@ -14,7 +14,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 
 ![image1](images/Universities.png)
 
-# Table of Contents
+## Table of Contents
 + [Available Modules](#modules)
 + [Recomended Learning Pathways](#pathways)
 
@@ -84,12 +84,13 @@ After completing this prerequisite learning path, you should be able to:
 <summary><h3>Prerequisites: Introduction to Azure</h3></summary>
 
  _Here are some Azure prerequisites you should make sure are completed before starting the modules. These will give you the necessary cloud computing skills to run the training modules such as launching a VM, cloning modules from GitHub, and more. If anything looks unfamiliar, follow the link to view documentation on that subject. After reading the documentation in the links below, complete the simple tasks described in the steps below as a knowledge check on what you just learned. Complete each step in order to learn the key skills you need to complete the learning modules in the next section!_
-   - STEP 1: [Navigate to Azure ML and Launch a Notebook](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAzureMLNotebooks.md)
-   - STEP 2: [Change your Notebook Kernel](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks?view=azureml-api-2#add-new-kernels)
-   - STEP 3: [Launch Azure Batch and submit a test job](https://learn.microsoft.com/en-us/azure/batch/quick-create-portal)
-   - STEP 4: [Set budget alerts for 25%, 50%, and 75%](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets?tabs=psbudget)
-   - STEP 5:  Clone this GitHub repository into an Azure ML notebook using [the command line](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or the [user interface]([https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md](https://learn.microsoft.com/en-us/azure/machine-learning/concept-train-model-git-integration?view=azureml-api-2)).
-   - STEP 6: Review how to [open a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue). If you have a question or a suggested enhancement, feel free to open an issue for this repository or for the module you are having trouble with. You can also email us at `CloudLab@nih.gov`.
+   - STEP 1: [Create a Resource Group](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal)
+   - STEP 2: [Navigate to Azure ML and Launch a Notebook](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAzureMLNotebooks.md)
+   - STEP 3: [Change your Notebook Kernel](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks?view=azureml-api-2#add-new-kernels)
+   - STEP 4: [Launch Azure Batch](https://learn.microsoft.com/en-us/azure/batch/quick-create-portal) and submit a test job
+   - STEP 5: [Set budget alerts](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets?tabs=psbudget) for 25%, 50%, and 75%.
+   - STEP 6:  Clone this GitHub repository into an Azure ML notebook using [the command line](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or the [user interface](https://learn.microsoft.com/en-us/azure/machine-learning/concept-train-model-git-integration?view=azureml-api-2).
+   - STEP 7: Review how to [open a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue). If you have a question or a suggested enhancement, feel free to open an issue for this repository or for the module you are having trouble with. You can also email us at `CloudLab@nih.gov`.
 
 After completing this prerequisite learning path, you should be able to:
    + Navigate the Azure console
