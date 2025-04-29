@@ -191,6 +191,12 @@ We have organized the rest of the learning pathways by scientific topic area and
 
 
 *After completing this learning path, you should be comfortable analyzing bioinformatics data on the command line in a cloud environment and integrating -omics data to understand biological insight including normalize protemoics data, peform differential abundance analysis, interpret statistical results, visualize proteomics data, perform quality control on proteomics data, manage missing values in proteomics data, run and manage computational biology software within containerized cloud environments, prepare protein and ligand 3D structures for computational docking simulations, visualize and analyze molecular interactions and docking results using PyMOL, Generate 3D molecular structures from 2D chemical representations using cheminformatics tools, customize docking parameters and troubleshoot docking calculations for complex proteins and ligands, differentiate non-covalent interactions in protein-ligand binding, understand machine learning concepts, apply machine learning models to biomedical data,  create interactive learning resources within Jupyter notebooks, differentiate between X-ray crystallography phasing methods.  These skills can be applied to a wide variety of Omics datasets in the subsequent sections.*
+
+| Specs                    |      Details     |
+|--------------------------|------------------|
+| Languages and Workflows  | Python, R        |
+| Jupyter Notebooks        | 19               |
+| Approximate Cost         | $11.00           |
      
 **Introduction to RNAseq and Transcriptome Assembly**
    + :deciduous_tree: [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
