@@ -1,4 +1,4 @@
-# **National Institute of General Medical Sciences Cloud Learning Modules**
+r# **National Institute of General Medical Sciences Cloud Learning Modules**
 
 
 # Introduction
@@ -62,7 +62,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
    - STEP 2: [Change your Notebook Kernel](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToSelectAWSSageMakerKernel.md)
    - STEP 3: [Launch AWS Batch](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToLaunchAWSBatch.md) or [setup AWS Batch](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/AWS-Batch-Setup.md)
    - STEP 4: [Read our Billing Guide](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/billing_and_cost_management.md) and set budget alerts for 25%, 50%, and 75%.
-   - STEP 5: Review [this overview](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/ecr.md) of building Docker containers and pushing to the Elastic Container Registry. Try to setup a JupyterLab instance using Sagemaker Studio from a custom docker image using [this](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateJupyterlabWithCustomImage.md).
+   - STEP 5: Review [this overview](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/ecr.md) of building Docker containers and pushing to the Elastic Container Registry. Try to setup a JupyterLab instance using Sagemaker Studio from a custom docker image using [this guide](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateJupyterlabWithCustomImage.md).
    - STEP 6:  Clone this GitHub repository into a SageMaker AI notebook using [the command line](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or the [SageMaker AI user interface](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md).
    - STEP 7: Review how to [open a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue). If you have a question or a suggested enhancement, feel free to open an issue for this repository or for the module you are having trouble with. You can also email us at `CloudLab@nih.gov`.
 
