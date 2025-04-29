@@ -3,9 +3,9 @@
 
 ## Introduction
 
-This repository aims to teach students, researchers, and clinicians, among others, how to utilize the power of cloud technology for the benefit of life sciences applications and research. Here we present 26 cloud learning modules that represent a unique use case or scientific workflow. Types of data used across the modules include but are not limited to genomics, methylomics, transcriptomics, proteomics, and medical imaging data across formats such as FASTA/FASTQ, SAM, BAM, CSV, PNG, and DICOM. Learning modules range in areas from introductory material to single-omics approaches, multi-omics techniques, single cell analysis, metagenomics, and AI/ML imaging applications. 
+This repository aims to teach students, researchers, and clinicians, among others, how to utilize the power of cloud technology for the benefit of life sciences applications and research. Here we present 26 cloud learning modules that represent a unique use case or scientific workflow. Types of data used across the modules include but are not limited to genomics, methylomics, transcriptomics, proteomics, and medical imaging data across formats such as FASTA/FASTQ, SAM, BAM, CSV, PNG, and DICOM. Learning modules range in areas from introductory material to single-omics approaches, multi-omics techniques, single-cell analysis, metagenomics, and AI/ML imaging applications. 
 
-These modules run in Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure(Azure). All modules will be available across the three cloud platforms in 2027, but you may notice that a given module is only available in one or two of these platforms at this time. You can run these modules in any cloud account, but we encourage users to request access to an [NIH Cloud Lab](https://cloud.nih.gov/resources/cloudlab/) account for an optimal experience. 
+These modules run in Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure (Azure). All modules will be available across the three cloud platforms in 2027, but you may notice that a given module is only available in one or two of these platforms at this time. You can run these modules in any cloud account, but we encourage users to request access to an [NIH Cloud Lab](https://cloud.nih.gov/resources/cloudlab/) account for an optimal experience. 
 
 To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstart Pages for [AWS](https://cloud.nih.gov/resources/cloudlab/aws-jumpstart/), [Azure](https://cloud.nih.gov/resources/cloudlab/azure-jumpstart/), or [Google Cloud](https://cloud.nih.gov/resources/cloudlab/google-cloud-jumpstart/), or visit the tutorial pages: [AWS](https://github.com/STRIDES/NIHCloudLabAWS), [Azure](https://github.com/STRIDES/NIHCloudLabAzure), [GCP](https://github.com/STRIDES/NIHCloudLabGCP). 
 
@@ -16,7 +16,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 
 ## Table of Contents
 + [Available Modules](#modules)
-+ [Recomended Learning Pathways](#pathways)
++ [Recommended Learning Pathways](#pathways)
 
 ## Available Modules <a name="modules"></a><a name="available-modules"></a>
 
@@ -28,7 +28,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 + [Chromatin Occupancy with Cut and Run](https://github.com/NIGMS/Chromatin-Occupancy) - University of Nebraska Medical Center ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawai'i at Manoa ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
-+ [Explore RNA methlyation using MeRIP-seq](https://github.com/NIGMS/RNA-Methylation-with-MeRIP-seq) - University of Hawai'i Manoa ![AWS Logo](images/aws-small.png)
++ [Explore RNA methylation using MeRIP-seq](https://github.com/NIGMS/RNA-Methylation-with-MeRIP-seq) - University of Hawai'i Manoa ![AWS Logo](images/aws-small.png)
 + [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [Comparative Prokaryotic Genomics](https://github.com/NIGMS/Comparative-Microbial-Genomics) - University of New Hampshire ![AWS Logo](images/aws-small.png)
 + [Identifying Protein-Protein Interactions with ML Methods](https://github.com/NIGMS/Protein-Protein-Interactions-using-ML) - Georgia Institute of Technology ![Google Logo](images/google-cloud-small.png)
@@ -41,12 +41,12 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 + [Introduction to Pangenomic Methods](https://github.com/NIGMS/Intro-to-Pangenomics) - National Center for Genome Resources ![Google Logo](images/google-cloud-small.png)
 + [Introduction to Phylogenetics](https://github.com/NIGMS/Introduction-to-Phylogenetics) - University of South Dakota ![AWS Logo](images/aws-small.png)
 + [Python and ML for Biomedical Data Science](https://github.com/NIGMS/AI-ML-For-Biomedical-Researchers) - University of Delaware ![AWS Logo](images/aws-small.png)
-+ [Protein Crystal Data Collection for Solving Protein Structure](https://github.com/NIGMS/X-Ray-Crystallography-and-Molecular-Energies) - The University of Souther Mississippi ![AWS Logo](images/aws-small.png)
++ [Protein Crystal Data Collection for Solving Protein Structure](https://github.com/NIGMS/X-Ray-Crystallography-and-Molecular-Energies) - The University of Southern Mississippi ![AWS Logo](images/aws-small.png)
 + [Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [Introduction to Population Genomics](https://github.com/NIGMS/Population-Genomics-and-Phylogenetics-with-RADseq) - University of Wyoming ![Google Logo](images/google-cloud-small.png)
 + [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [scRNASeq, miRNASeq, and Transcription Factors](https://github.com/NIGMS/Bulk-and-Single-Cell-RNAseq) - The University of Maine ![AWS Logo](images/aws-small.png)
-+ [Structural Biology and Drug Dsicovery](https://github.com/NIGMS/Structural-Biology-and-Drug-Discovery) - Louisiana State University ![Google Logo](images/google-cloud-small.png)
++ [Structural Biology and Drug Discovery](https://github.com/NIGMS/Structural-Biology-and-Drug-Discovery) - Louisiana State University ![Google Logo](images/google-cloud-small.png)
 + [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 
 ## Recommended Learning Pathways <a name="pathways"></a>
@@ -144,7 +144,7 @@ We have organized the rest of the learning pathways by scientific topic area and
 
 *After completing this learning path, you should be able to conduct comprehensive data science analysis with a variety of bioinformatics data sources. Your skills now include version control and creating reproducible workflows, downloading, processing, and visualizing data, calculating statistically significant variables, using GenAI chatbots, and building and evaluating machine learning models with real biomedical data.*
 
-*After completing this learning path, you will gain proficiency in cloud computing and storage, master the Linux command line and BASH scripting for bioinformatics workflowsm, and learn to preprocess and manage biomedical datasets using Python, R, and BASH. You will also learn introduction to genomic analysis, develop and evaluate machine learning models for biomedical applications, and learn data visualization.*
+*After completing this learning path, you will gain proficiency in cloud computing and storage, master the Linux command line and BASH scripting for bioinformatics workflows, and learn to preprocess and manage biomedical datasets using Python, R, and BASH. You will also learn introduction to genomic analysis, develop and evaluate machine learning models for biomedical applications, and learn data visualization.*
 
 | Specs                    |      Details     |
 |--------------------------|------------------|
@@ -201,8 +201,6 @@ We have organized the rest of the learning pathways by scientific topic area and
 
    + :seedling:[Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
    + :seedling:[Proteome Structures and Docking](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
-   + :seedling:[Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
-   + :seedling:[Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
 
 
 *After completing this learning path, you should be comfortable analyzing bioinformatics data on the command line in a cloud environment and integrating -omics data to understand biological insight including normalize and perform differential analysis on proteomics data including QC management of missing values and understanding batch effects, prepare visualize and interpret molecular data and simulations using bioinformatics tools like PyMOL, manage and execute computational biology software and docking simulations in containerized cloud environments, apply cheminformatics and machine learning approaches to analyze molecular interactions ligand binding and protein structures, execute automated protein docking computational workflows via cloud platforms APIs and services, understand binding affinity equilibrium ligand residence and non-covalent interactions in protein-ligand complexes, perform macromolecular structure determination applying X-ray crystallography phasing and molecular replacement techniques, analyze protein structure-function relationships and relate protein properties to biochemical conditions, evaluate interpret visualize and communicate statistical and scientific results critically using interactive computational resources, and utilize cloud computing resources efficiently for biomedical bioinformatics and proteomics data science analyses. These skills can be applied to a wide variety of Omics datasets in the subsequent sections.*
@@ -214,7 +212,7 @@ We have organized the rest of the learning pathways by scientific topic area and
 | Approximate Cost         | $11.00           |
      
 **Introduction to RNAseq and Transcriptome Assembly**
-   + :deciduous_tree: [Explore RNA methlyation using MeRIP-seq](https://github.com/NIGMS/RNA-Methylation-with-MeRIP-seq) - University of Hawai'i Manoa   
+   + :deciduous_tree: [Explore RNA methylation using MeRIP-seq](https://github.com/NIGMS/RNA-Methylation-with-MeRIP-seq) - University of Hawai'i Manoa   
    + :deciduous_tree: [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
    + :deciduous_tree: [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory
    + :deciduous_tree: [scRNASeq, miRNASeq, and Transcription Factors](https://github.com/NIGMS/Bulk-and-Single-Cell-RNAseq) - The University of Maine
