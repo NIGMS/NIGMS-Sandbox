@@ -190,15 +190,13 @@ We have organized the rest of the learning pathways by scientific topic area and
    + :seedling:[Proteome Quantification](https://github.com/NIGMS/Proteome-Quantification) - University of Arkansas for Medical Sciences
 
 
-*After completing this learning path, you should be comfortable analyzing bioinformatics data on the command line in a cloud environment and integrating -omics data to understand biological insight. These skills can be applied to a wide variety of Omics datasets in the subsequent sections.*
-     
-**Introduction to Genomic Analysis**
-
-After completing this learning path, you now have experience with specialized genomics and metagenomics analysis. These tools differ from standard Omics analysis in the highly specialized tools they use, which you can now deploy in a GCP environment.
+*After completing this learning path, you should be comfortable analyzing bioinformatics data on the command line in a cloud environment and integrating -omics data to understand biological insight including normalize protemoics data, peform differential abundance analysis, interpret statistical results, visualize proteomics data, perform quality control on proteomics data, manage missing values in proteomics data, run and manage computational biology software within containerized cloud environments, prepare protein and ligand 3D structures for computational docking simulations, visualize and analyze molecular interactions and docking results using PyMOL, Generate 3D molecular structures from 2D chemical representations using cheminformatics tools, customize docking parameters and troubleshoot docking calculations for complex proteins and ligands, differentiate non-covalent interactions in protein-ligand binding, understand machine learning concepts, apply machine learning models to biomedical data,  create interactive learning resources within Jupyter notebooks, differentiate between X-ray crystallography phasing methods.  These skills can be applied to a wide variety of Omics datasets in the subsequent sections.*
      
 **Introduction to RNAseq and Transcriptome Assembly**
    + :deciduous_tree: [RNAseq Differential Expression Analysis](https://github.com/NIGMS/RNA-Seq-Differential-Expression-Analysis) - University of Maine
    + :deciduous_tree: [Transcriptome Assembly Refinement and Applications](https://github.com/NIGMS/Transcriptome-Assembly-Refinement-and-Applications) - MDI Biological Laboratory
+   + :deciduous_tree: [scRNASeq, miRNASeq, and Transcription Factors](https://github.com/NIGMS/Bulk-and-Single-Cell-RNAseq) - The University of Maine
+   + :deciduous_tree: 
 
 After completing this learning path, you are able to do a full analysis of RNA-seq data, including assembling a transcriptome and identifying differentially expressed genes. These are computationally intensive tools which the Cloud enables you to conduct in a scalable manner. 
 
