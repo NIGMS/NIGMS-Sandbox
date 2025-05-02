@@ -142,9 +142,7 @@ We have organized the rest of the learning pathways by scientific topic area and
    + :seedling: [Introduction to Python for Biology](https://github.com/NIGMS/Foundations-of-Python-for-Data-Science) - Northern Nazarene University
    + :seedling: [Introduction to R and LLMs for Biology](https://github.com/NIGMS/Data-Science-Foundations-in-R) - Duke University
 
-*After completing this learning path, you should be able to conduct comprehensive data science analysis with a variety of bioinformatics data sources. Your skills now include version control and creating reproducible workflows, downloading, processing, and visualizing data, calculating statistically significant variables, using GenAI chatbots, and building and evaluating machine learning models with real biomedical data.*
-
-*After completing this learning path, you will gain proficiency in cloud computing and storage, master the Linux command line and Bash scripting for bioinformatics workflows, and learn to preprocess and manage biomedical datasets using Python, R, and BASH. You will also be introduced to genomic analysis, develop and evaluate machine learning models for biomedical applications, and learn data visualization.*
+*After completing this learning path, you should be able to conduct comprehensive data science analysis with a variety of bioinformatics data sources. Your skills now include version control and creating reproducible workflows, downloading, processing, and visualizing data, calculating statistically significant variables, use GenAI chatbots, and building and evaluating machine learning models with real biomedical data.*
 
 | Specs                    |      Details     |
 |--------------------------|------------------|
