@@ -2,6 +2,11 @@
 
 AWS offers different types of Notebook instances: SageMaker Studio, SageMaker Notebook Instances, and SageMaker Studio Lab. SageMaker Notebook Instances offer the most flexibility in terms of installing local software via conda/mamba or launching from custom containers. [Amazon SageMaker Notebook Instance](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html) allows for 'on the fly' machine resizing and notebook scheduling, as well as not worrying about resource availability, but they run in a managed environment and offer less flexibility for installing custom software. Most machine-learning related software are pre-installed, but these can be hard to use for a lot of bioinformatic tasks where you need to install CLI tools with conda.
 
+
+If you have been instructed to load a particular container than you need [SageMaker Studio](#set-up-sagemaker-studio)
+
+Otherwise, you can continue below using the Sagemaker Notebook Instance
+
 ### Set up a SageMaker Notebook Instance
 
 1. In AWS console, type **Amazon SageMaker** in search bar and click it:
