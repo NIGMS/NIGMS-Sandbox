@@ -12,7 +12,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 :exclamation: _If you require support at any time, please [open an issue on GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) for the module in question, or [send us an informative email](https://stackoverflow.com/help/how-to-ask) at CloudLab@nih.gov._
 
 
-![image1](images/Universities.png)
+![image1](images/NIGMS_README_Graphic.svg)
 
 # Table of Contents
 + [Available Modules](#modules)
