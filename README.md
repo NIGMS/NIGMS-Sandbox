@@ -132,7 +132,7 @@ After completing this prerequisite learning path, you should be able to:
 </details> 
 
 
-We have organized the rest of the learning pathways by scientific topic area and ordered them by technical complexity within each pathway. Our ordering is only based on the number and complexity of cloud services used and has no bearing on the complexity of the scientific content. We recommend you begin with Introductory modules within a given scientific interest area, and then progress to the more advanced modules as you gain key skills. 
+We have organized the rest of the learning pathways by scientific topic area and ordered them by technical complexity within each pathway. Our ordering is only based on the number and complexity of cloud services used and has no bearing on the complexity of the scientific content. We recommend you begin with Introductory modules within a given scientific interest area, and then progress to the more advanced modules as you gain key skills. Listed prices are only estimates. These prices assume you are only running the module on one cloud platform and that you delete all resources after running a module.
 + Introductory modules :seedling: use only Jupyter notebooks and sometimes Cloud Storage. Upon completion, users should be comfortable starting a Jupyter notebook instance and with copying data to and from Cloud Storage. 
 + Advanced modules :deciduous_tree: include additional functionality such as launching a notebook from a custom Docker container, making API calls from within the notebook to perform Batch Computing, and using GPU-enabled machine types. Upon completion of advanced modules, users should be comfortable interacting with additional cloud services from within the Jupyter interface.
 
