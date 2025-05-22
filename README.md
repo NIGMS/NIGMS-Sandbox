@@ -12,7 +12,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 :exclamation: _If you require support at any time, please [open an issue on GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) for the module in question, or [send us an informative email](https://stackoverflow.com/help/how-to-ask) at CloudLab@nih.gov._
 
 
-![image1](images/Universities.png)
+![image1](images/NIGMS_README_Graphic.svg)
 
 ## Table of Contents
 + [Available Modules](#modules)
@@ -26,7 +26,7 @@ To get started with any of the cloud platforms, visit the NIH Cloud Lab Jumpstar
 + [ATAC-Seq and Single Cell ATAC-Seq Analysis](https://github.com/NIGMS/ATAC-Seq-and-Single-Cell-ATAC-Seq-Analysis) - University of Nebraska Medical Center ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [Biomedical Imaging Analysis using AI/ML approaches](https://github.com/NIGMS/Biomedical-Imaging-Analysis-using-AI-ML-Approaches) - University of Arkansas ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [Chromatin Occupancy with Cut and Run](https://github.com/NIGMS/Chromatin-Occupancy) - University of Nebraska Medical Center ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
-+ [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
++ [Consensus Pathway Analysis in the Cloud](https://github.com/NIGMS/Consensus-Pathway-Analysis-in-the-Cloud) - University of Nevada Reno ![AWS Logo](images/aws-small.png) ![Azure Logo](images/azure-small.png) ![Google Logo](images/google-cloud-small.png)
 + [DNA Methylation Sequencing Analysis with WGBS](https://github.com/NIGMS/DNA-Methylation-Sequencing-Analysis-with-WGBS) - University of Hawai'i at Manoa ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
 + [Explore RNA methylation using MeRIP-seq](https://github.com/NIGMS/RNA-Methylation-with-MeRIP-seq) - University of Hawai'i Manoa ![AWS Logo](images/aws-small.png)
 + [Fundamentals of Bioinformatics](https://github.com/NIGMS/Fundamentals-of-Bioinformatics) - Dartmouth College ![AWS Logo](images/aws-small.png) ![Google Logo](images/google-cloud-small.png)
@@ -132,7 +132,7 @@ After completing this prerequisite learning path, you should be able to:
 </details> 
 
 
-We have organized the rest of the learning pathways by scientific topic area and ordered them by technical complexity within each pathway. Our ordering is only based on the number and complexity of cloud services used and has no bearing on the complexity of the scientific content. We recommend you begin with Introductory modules within a given scientific interest area, and then progress to the more advanced modules as you gain key skills. 
+We have organized the rest of the learning pathways by scientific topic area and ordered them by technical complexity within each pathway. Our ordering is only based on the number and complexity of cloud services used and has no bearing on the complexity of the scientific content. We recommend you begin with Introductory modules within a given scientific interest area, and then progress to the more advanced modules as you gain key skills. Listed prices are only estimates. These prices assume you are only running the module on one cloud platform and that you delete all resources after running a module.
 + Introductory modules :seedling: use only Jupyter notebooks and sometimes Cloud Storage. Upon completion, users should be comfortable starting a Jupyter notebook instance and with copying data to and from Cloud Storage. 
 + Advanced modules :deciduous_tree: include additional functionality such as launching a notebook from a custom Docker container, making API calls from within the notebook to perform Batch Computing, and using GPU-enabled machine types. Upon completion of advanced modules, users should be comfortable interacting with additional cloud services from within the Jupyter interface.
 
