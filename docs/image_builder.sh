@@ -1,25 +1,34 @@
 #!/bin/bash
 
-# Prompt for user input
 read -p "Enter Docker image to pull (e.g., nginx:latest): " DOCKER_IMAGE
-read -p "Enter the name of the repository you'll be moving your image to: " ECR_REPO_NAME
 read -p "Enter the name of your EC2 key pair (do not include .pem): " KEY_NAME
 
-# Constants (customize as needed)
-AMI_ID="ami-0e58b56aa4d64231b"         # Replace with valid Amazon Linux 2 AMI ID for your region
+AMI_ID="ami-0e58b56aa4d64231b"  # This may need to be updated in the future
 INSTANCE_TYPE="t2.micro"
 SECURITY_GROUP_NAME="ec2-docker-sg"
 INSTANCE_PROFILE_NAME="EC2InstanceECRAccessProfile"
 REGION="us-east-1"
 VOLUME_SIZE=20
 KEY_FILE="${KEY_NAME}.pem"
+ECR_REPO_NAME=$(echo "$DOCKER_IMAGE" | cut -d'/' -f3-)
 
+echo "New ECR repo: '${ECR_REPO_NAME}' to be created in your account."
 
 echo "Looking up VPC ID..."
 VPC_ID=$(aws ec2 describe-vpcs \
   --query "Vpcs[0].VpcId" \
   --region "$REGION" \
   --output text)
+
+SUBNET_IDS=($(aws ec2 describe-subnets \
+  --filters "Name=vpc-id,Values=$VPC_ID" \
+  --query "Subnets[*].SubnetId" \
+  --region "$REGION" \
+  --output text))
+
+RANDOM_SUBNET=${SUBNET_IDS[$RANDOM % ${#SUBNET_IDS[@]}]}
+
+echo "Randomly selected Subnet ID: $RANDOM_SUBNET"
 
 echo "Creating security group..."
 
@@ -52,18 +61,24 @@ fi
 echo "SECURITY_GROUP_ID: $SECURITY_GROUP_ID"
 
 MAX_RETRIES=5
-RETRY_DELAY=5 #seconds
+RETRY_DELAY=5 # seconds
 ATTEMPT=1
 
 echo "Authorizing security group ingress (SSH on port 22)..."
 
 while [[ $ATTEMPT -le $MAX_RETRIES ]]; do
-	if aws ec2 authorize-security-group-ingress --group-id $SECURITY_GROUP_ID \
-					--protocol tcp --port 22 --cidr 0.0.0.0/0; then
-					echo "Ingress rule added successfully."
-					break
+	OUTPUT=$(aws ec2 authorize-security-group-ingress \
+		--group-id "$SECURITY_GROUP_ID" \
+		--protocol tcp --port 22 --cidr 0.0.0.0/0 2>&1)
+	if [[ $? -eq 0 ]]; then
+		echo "Ingress rule added successfully."
+		break
+	elif echo "$OUTPUT" | grep -q "InvalidPermission.Duplicate"; then
+		echo "Ingress rule already exists. Skipping."
+		break
 	else
-		echo "Attempt $ATTEMPT failed. Retrying in $RETRY_DELAY seconds..."
+		echo "Attempt $ATTEMPT failed: $OUTPUT"
+		echo "Retrying in $RETRY_DELAY seconds..."
 		sleep $RETRY_DELAY
 		((ATTEMPT++))
 	fi
@@ -89,6 +104,7 @@ aws iam create-role --role-name $INSTANCE_PROFILE_NAME \
 }
 EOF
 ) || true
+
 
 aws iam attach-role-policy --role-name $INSTANCE_PROFILE_NAME \
   --policy-arn arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryFullAccess || true
@@ -161,7 +177,7 @@ INSTANCE_ID=$(aws ec2 run-instances \
   --instance-type "$INSTANCE_TYPE" \
   --key-name "$KEY_NAME" \
   --security-group-ids "$SECURITY_GROUP_ID" \
-  --subnet-id "subnet-0ca1bb4bb3fce6c53" \
+  --subnet-id "$RANDOM_SUBNET" \
   --block-device-mappings "[{\"DeviceName\":\"/dev/xvda\",\"Ebs\":{\"VolumeSize\":$VOLUME_SIZE}}]" \
   --iam-instance-profile Name=$INSTANCE_PROFILE_NAME \
   --associate-public-ip-address \
@@ -178,3 +194,5 @@ PUBLIC_IP=$(aws ec2 describe-instances --instance-ids "$INSTANCE_ID" \
 
 echo "If you wish to login a pem key has been put in your working directory. The instance public IP is: $PUBLIC_IP"
 echo "It can take up to 15 minutes for an image to appear in your private repository."
+
+#TODO shutdown ec2 after pushing
