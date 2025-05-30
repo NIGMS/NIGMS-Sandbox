@@ -50,7 +50,7 @@ AWS offers different types of Notebook instances and now two SageMaker products.
 
 
 
-### 2) Using SageMaker Studio
+### 2) Using SageMaker AI Studio
 
 1. In AWS console, type **Amazon SageMaker** in search bar and click it:
 
