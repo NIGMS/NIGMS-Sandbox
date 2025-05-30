@@ -31,18 +31,12 @@ AWS offers different types of Notebook instances and now two SageMaker products.
 6. Now click **Create notebook instance**.
 
   ![create-notebook-instance](/images/images_for_creating_AWS_notebooks/4-click-create.png)
-
    
-7. Wait about 5 minutes until your notebook says 
-
-  ![pending](/images/images_for_creating_AWS_notebooks/Screenshot5.png)
+7. Wait about 5 minutes until your notebook says `InService`, then click **Open JupyterLab**.
    
-   
-6. **Open Jupyter Lab**:
-
   ![jupyterlab](/images/images_for_creating_AWS_notebooks/Screenshot6.png)
 
-7. Clone an appropriate repository from GitHub.com:
+9. Clone your module of interest from GitHub either using the instructions in this screenshot or [like this](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
   ![upload](/images/images_for_creating_AWS_notebooks/Screenshot7.png)
 
@@ -50,12 +44,7 @@ AWS offers different types of Notebook instances and now two SageMaker products.
 
   ![kernel](/images/images_for_creating_AWS_notebooks/Screenshot8.png)
 
-9.  To clone in your git repositories you can either use the git UI built in or by using the terminal. Using the git UI select **Clone a Repository** then paste the repo url and click **Clone**. To clone via the terminal make sure that you are in the SageMaker directory then use the command git clone [repo url]. Once you have done this you should see the repo 
-
-  ![Clone_UI](/images/images_for_creating_AWS_notebooks/Clone_UI.png)
-  ![Clone_Terminal](/images/images_for_creating_AWS_notebooks/Clone_Terminal.png)
-
-10. **IMPORTANT**: **Stop** the kernel at end of your work to avoid getting charged.
+10. **IMPORTANT**: **Stop** the kernel at end of your work to avoid getting charged. When you are finished with a module, delete the instance to prevent all future charges.
 
   ![resize image](/images/images_for_creating_AWS_notebooks/Screenshot9.png)
 
