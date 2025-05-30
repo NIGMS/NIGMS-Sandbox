@@ -24,12 +24,16 @@ AWS offers different types of Notebook instances and now two SageMaker products.
 
   ![environment](/images/images_for_creating_AWS_notebooks/2-sagemaker-instance.png)
 
-5. Idle Shutdown allows your VM to shut off even if you forget to stop it. Click the dropdown and select *Create a new lifecycle configuration*. In the pop up box, paste in [this script]() and then click *Create configuration*. You can leave all other steps as default.
+5. Idle Shutdown allows your VM to shut off even if you forget to stop it. Click the dropdown and select *Create a new lifecycle configuration*. In the pop up box, paste in [this script](/idle-shutdown.sh) and then click *Create configuration*. You can leave all other steps as default.
 
   ![idle-shutdown](/images/images_for_creating_AWS_notebooks/3-idle-shutdown.png)
 
+6. Now click **Create notebook instance**.
+
+  ![create-notebook-instance](/images/images_for_creating_AWS_notebooks/4-click-create.png)
+
    
-5. It will take about 5 minutes, your notebook instance to get ready:
+7. Wait about 5 minutes until your notebook says 
 
   ![pending](/images/images_for_creating_AWS_notebooks/Screenshot5.png)
    
