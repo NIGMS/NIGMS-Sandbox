@@ -10,7 +10,7 @@ INSTANCE_PROFILE_NAME="EC2InstanceECRAccessProfile"
 REGION="us-east-1"
 VOLUME_SIZE=20
 KEY_FILE="${KEY_NAME}.pem"
-ECR_REPO_NAME=$(echo "$DOCKER_IMAGE" | cut -d'/' -f3-)
+ECR_REPO_NAME="nigms-images"
 
 echo "New ECR repo: '${ECR_REPO_NAME}' to be created in your account."
 
@@ -29,6 +29,10 @@ SUBNET_IDS=($(aws ec2 describe-subnets \
 RANDOM_SUBNET=${SUBNET_IDS[$RANDOM % ${#SUBNET_IDS[@]}]}
 
 echo "Randomly selected Subnet ID: $RANDOM_SUBNET"
+echo "Creating AWS ECR Repo: $ECR_REPO_NAME"
+
+aws ecr describe-repositories --repository-names "$ECR_REPO_NAME" --region "$REGION" >/dev/null 2>&1 || \
+aws ecr create-repository --repository-name "$ECR_REPO_NAME" --region "$REGION"
 
 echo "Creating security group..."
 
@@ -154,10 +158,6 @@ unzip -q awscliv2.zip
 
 ACCOUNT_ID=\$(aws sts get-caller-identity --query "Account" --output text)
 aws ecr get-login-password --region "$REGION" | docker login --username AWS --password-stdin "\${ACCOUNT_ID}.dkr.ecr.$REGION.amazonaws.com"
-
-aws ecr describe-repositories --repository-names "$ECR_REPO_NAME" --region "$REGION" >/dev/null 2>&1 || \
-aws ecr create-repository --repository-name "$ECR_REPO_NAME" --region "$REGION"
-
 docker pull "$DOCKER_IMAGE"
 IMAGE_URI="\${ACCOUNT_ID}.dkr.ecr.$REGION.amazonaws.com/$ECR_REPO_NAME"
 docker tag "$DOCKER_IMAGE" "\$IMAGE_URI"
@@ -198,5 +198,3 @@ PUBLIC_IP=$(aws ec2 describe-instances --instance-ids "$INSTANCE_ID" \
 
 echo "If you wish to login a pem key has been put in your working directory. The instance public IP is: $PUBLIC_IP"
 echo "It can take up to 15 minutes for an image to appear in your private repository."
-
-#TODO shutdown ec2 after pushing
