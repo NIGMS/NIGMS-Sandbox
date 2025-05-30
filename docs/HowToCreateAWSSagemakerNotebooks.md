@@ -4,7 +4,7 @@ AWS offers different types of Notebook instances and now two SageMaker products.
 
 :exclamation: Please note that your interface may look different from the screenshots as the AWS interface continues to evolve.
 
-### Using SageMaker Notebook Instances
+### 1) Using SageMaker Notebook Instances
 
 :sparkles: If you prefer to follow the AWS documentation directly, go to [this page](https://docs.aws.amazon.com/sagemaker/latest/dg/howitworks-create-ws.html)
 
@@ -50,7 +50,7 @@ AWS offers different types of Notebook instances and now two SageMaker products.
 
 
 
-### Using SageMaker Studio
+### 2) Using SageMaker Studio
 
 1. In AWS console, type **Amazon SageMaker** in search bar and click it:
 
