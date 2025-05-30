@@ -1,8 +1,8 @@
 # Using Amazon SageMaker AI
 
-AWS offers different types of Notebook instances and now two SageMaker products. For these tutorials please use Amazon SageMaker AI. Within this offering, you will see  SageMaker Notebook Instances and SageMaker Studio. SageMaker Notebook Instances offer the most flexibility in terms of installing local software, while Studio allows for several IDEs and launching from custom containers. If you are following a tutorial that installs software or command line tools, follow the instructions for 1) SageMaker Notebook Instances.
+AWS offers different types of Notebook instances and now two SageMaker products. For these tutorials please use Amazon SageMaker AI. Within this offering, you will see  SageMaker Notebook Instances and SageMaker Studio. SageMaker Notebook Instances offer the most flexibility in terms of installing local software, while Studio allows for several IDEs and launching from custom containers. If you are using a module that installs software or command line tools, follow the instructions for [1) SageMaker Notebook Instances](#Using-SageMaker-Notebook-Instances). If you are running a module that launches from a container, then follow [2) SageMaker Studio Instances](#Using-SageMaker-Studio).
 
-### Set up a SageMaker Notebook Instance
+### Using SageMaker Notebook Instances
 
 1. In AWS console, type **Amazon SageMaker** in search bar and click it:
 
@@ -48,7 +48,7 @@ AWS offers different types of Notebook instances and now two SageMaker products.
 
 
 
-### Set up SageMaker Studio
+### Using SageMaker Studio
 
 1. In AWS console, type **Amazon SageMaker** in search bar and click it:
 
