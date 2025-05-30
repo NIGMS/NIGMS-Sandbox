@@ -1,12 +1,16 @@
 # Using Amazon SageMaker AI
 
-AWS offers different types of Notebook instances and now two SageMaker products. For these tutorials please use Amazon SageMaker AI. Within this offering, you will see  SageMaker Notebook Instances and SageMaker Studio. SageMaker Notebook Instances offer the most flexibility in terms of installing local software, while Studio allows for several IDEs and launching from custom containers. If you are using a module that installs software or command line tools, follow the instructions for [1) SageMaker Notebook Instances](#Using-SageMaker-Notebook-Instances). If you are running a module that launches from a container, then follow [2) SageMaker Studio Instances](#Using-SageMaker-Studio).
+AWS offers different types of Notebook instances and now two SageMaker products. For these tutorials please use Amazon SageMaker AI. Within this offering, you will see  SageMaker Notebook Instances and SageMaker Studio. SageMaker Notebook Instances offer the most flexibility in terms of installing local software, while Studio allows for several IDEs and launching from custom containers. Studio is primarily designed for building and deploying AI models, but in our case, it allows us to launch from custom containers that allow you to run modules without installing any software. As such, if you are using a module that installs software or command line tools, follow the instructions for [1) SageMaker AI Notebook Instances](#Using-SageMaker-Notebook-Instances) and pay attention to the README for each module to select the correct machine type and EBS storage. If you are running a module that launches from a container, then follow [2) SageMaker AI Studio Instances](#Using-SageMaker-Studio), and likewise, follow the instructions of your module's README on specifications.
+
+:exclamation: Please note that your interface may look different from the screenshots as the AWS interface continues to evolve.
 
 ### Using SageMaker Notebook Instances
 
-1. In AWS console, type **Amazon SageMaker** in search bar and click it:
+:sparkles: If you prefer to follow the AWS documentation directly, go to [this page](https://docs.aws.amazon.com/sagemaker/latest/dg/howitworks-create-ws.html)
 
-  ![selectsagemaker](/images/images_for_creating_AWS_notebooks/Screenshot1.png)
+1. In AWS console, type **Amazon SageMaker AI** in search bar and click it:
+
+  ![selectsagemaker](/images/images_for_creating_AWS_notebooks/1-sagemakerAI.png)
 
 2. On the left side bar click **Notebooks**:
 
@@ -16,9 +20,14 @@ AWS offers different types of Notebook instances and now two SageMaker products.
 
   ![create_new_notebook](/images/images_for_creating_AWS_notebooks/Screenshot3.png)
 
-4. Give a name to your notebook. Choose a notebook instance type based on needs, Amazon Linux 2 as platform identifier, volume. Optional, create idle-shut by selecting create new lifecycle configuration and copy and paste [idle-shutdown.sh](/idle-shutdown.sh) and create configuration. Then click Create notebook instance:
+4. (1) Give a unique name to your notebook. (2) Choose a notebook instance type based on the specifications of your module's README. You can view all available machine types [here](https://aws.amazon.com/ec2/instance-types/). (3) For Platform, the default is fine unless otherwise specified in your module. (4) Click the dropdown for *Additional Configuration*. We will do two things here: (5) For Volume size in GB, make sure to follow the instructions of your module, otherwise, give the instance 200 GB. (6) Create your Lifecycle configuration (see step 5 below) and then select it here.
 
-  ![environment](/images/images_for_creating_AWS_notebooks/Screenshot4.png)
+  ![environment](/images/images_for_creating_AWS_notebooks/2-sagemaker-instance.png)
+
+5. Idle Shutdown allows your VM to shut off even if you forget to stop it. Click the dropdown and select *Create a new lifecycle configuration*. In the pop up box, paste in [this script]() and then click *Create configuration*. You can leave all other steps as default.
+
+  ![idle-shutdown](/images/images_for_creating_AWS_notebooks/3-idle-shutdown.png)
+
    
 5. It will take about 5 minutes, your notebook instance to get ready:
 
