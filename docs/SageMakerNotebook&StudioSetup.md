@@ -8,13 +8,13 @@ AWS offers different types of Notebook instances and now two SageMaker products.
 # Table of Contents
 + [Section 1: Using SageMaker AI Notebook Instances](#using-sagemaker-ai-notebook-instances)
 + [Section 2: Using SageMaker AI Studio Instances](#using-sagemaker-ai-studio-instances)
-    + [PART 1: Pushing Public Container Image to Your Account's Elastic Container Registry (ECR)](part-1-pushing-public-container-image-to-elastic-container-registry-ecr)
-        + [OPTION 1: Using Shell Script to Push a Public Docker Image to Private ECR](option-1-using-shell-script-to-push-a-public-docker-image-to-private-ecr)
-        + [OPTION 2: Manually Pushing a Public Docker Image to Private ECR](option-2-manually-pushing-a-public-docker-image-to-private-ecr)
-    + [PART 2: Setup a JupyterLab with a Custom Docker Image](part-2-setup-a-jupyterlab-with-a-custom-docker-image)
-    + [PART 3: Shutting Down Instances](part-3-shutting-down-instances)
-    + [PART 4: Managing Running Instances](part-4-managing-running-instances)
-    + [PART 5: Deleting Instances](part-5-deleting-instances)
+    + [PART 1: Pushing Public Container Image to Your Account's Elastic Container Registry (ECR)](#part-1-pushing-public-container-image-to-elastic-container-registry-ecr)
+        + [OPTION 1: Using Shell Script to Push a Public Docker Image to Private ECR](#option-1-using-shell-script-to-push-a-public-docker-image-to-private-ecr)
+        + [OPTION 2: Manually Pushing a Public Docker Image to Private ECR](#option-2-manually-pushing-a-public-docker-image-to-private-ecr)
+    + [PART 2: Setup a JupyterLab with a Custom Docker Image](#part-2-setup-a-jupyterlab-with-a-custom-docker-image)
+    + [PART 3: Shutting Down Instances](#part-3-shutting-down-instances)
+    + [PART 4: Managing Running Instances](#part-4-managing-running-instances)
+    + [PART 5: Deleting Instances](#part-5-deleting-instances)
 
 -----------------------------------------
 
