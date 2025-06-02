@@ -1,14 +1,14 @@
 # Using Amazon SageMaker AI
 
-AWS offers different types of Notebook instances and now two SageMaker products. For these tutorials please use Amazon SageMaker AI. Within this offering, you will see  SageMaker Notebook Instances and SageMaker Studio. SageMaker Notebook Instances offer the most flexibility in terms of installing local software, while Studio allows for several IDEs and launching from custom containers. Studio is primarily designed for building and deploying AI models, but in our case, it allows us to launch from custom containers that allow you to run modules without installing any software. As such, if you are using a module that installs software or command line tools, follow the instructions for [1) SageMaker AI Notebook Instances](#using-sagemaker-ai-notebook-instances) and pay attention to the README for each module to select the correct machine type and EBS storage. If you are running a module that launches from a container, then follow [2) SageMaker AI Studio Instances](#using-sagemaker-ai-studio-instances), and likewise, follow the instructions of your module's README for specifications.
+AWS offers different types of Notebook instances and now two SageMaker products. For these tutorials please use Amazon SageMaker AI. Within this offering, you will see  SageMaker Notebook Instances and SageMaker Studio. SageMaker Notebook Instances offer the most flexibility in terms of installing local software, while Studio allows for several IDEs and launching from custom containers. Studio is primarily designed for building and deploying AI models, but in our case, it allows us to launch from custom containers that allow you to run modules without installing any software. As such, if you are using a module that installs software or command line tools, follow the instructions for [1) SageMaker AI Notebook Instances](#1-using-sagemaker-ai-notebook-instances) and pay attention to the README for each module to select the correct machine type and EBS storage. If you are running a module that launches from a container, then follow [2) SageMaker AI Studio Instances](#2-using-sagemaker-ai-studio-instances), and likewise, follow the instructions of your module's README for specifications.
 
 &#10071; Please note that your interface may look different from the screenshots as the AWS interface continues to evolve.
 
 -----------------------------------------
 # Table of Contents
-+ [Section 1: Using SageMaker AI Notebook Instances](#using-sagemaker-ai-notebook-instances)
-+ [Section 2: Using SageMaker AI Studio Instances](#using-sagemaker-ai-studio-instances)
-    + [PART 1: Pushing Public Container Image to Your Account's Elastic Container Registry (ECR)](#part-1-pushing-public-container-image-to-elastic-container-registry-ecr)
++ [Section 1: Using SageMaker AI Notebook Instances](#1-using-sagemaker-ai-notebook-instances)
++ [Section 2: Using SageMaker AI Studio Instances](#2-using-sagemaker-ai-studio-instances)
+    + [PART 1: Pushing Public Container Image to Your Elastic Container Registry (ECR)](#part-1-pushing-public-container-image-to-your-elastic-container-registry-ecr)
         + [OPTION 1: Using Shell Script to Push a Public Docker Image to Private ECR](#option-1-using-shell-script-to-push-a-public-docker-image-to-private-ecr)
         + [OPTION 2: Manually Pushing a Public Docker Image to Private ECR](#option-2-manually-pushing-a-public-docker-image-to-private-ecr)
     + [PART 2: Setup a JupyterLab with a Custom Docker Image](#part-2-setup-a-jupyterlab-with-a-custom-docker-image)
@@ -96,7 +96,7 @@ You can also watch the notebook setup video below for step-by-step instructions:
 
 > **IMPORTANT**: Before following the instructions below confirm that you are in the `us-east-1` region.
 
-### PART 1: Pushing Public Container Image to Your Account's Elastic Container Registry (ECR)
+### PART 1: Pushing Public Container Image to Your Elastic Container Registry (ECR)
 
 #### **OPTION 1:** Using Shell Script to Push a Public Docker Image to Private ECR
 The steps outlined below guide you through how to push a public docker image to a private repository within your AWS account's ECR using CloudShell.
