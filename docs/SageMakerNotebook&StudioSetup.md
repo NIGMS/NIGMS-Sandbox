@@ -85,7 +85,7 @@ AWS offers different types of Notebook instances and now two SageMaker products.
 You can also watch the notebook setup video below for step-by-step instructions:
 <p align="center">
         <a href="https://www.youtube.com/watch?v=djLo0L3147s&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b">
-            <img src="images/aws_notebook_setup_thumbnail.jpeg" alt="Creating an AWS SageMaker Notebook Instance", width="550"/>
+            <img src="../images/aws_notebook_setup_thumbnail.jpeg" alt="Creating an AWS SageMaker Notebook Instance", width="550"/>
         </a>
     <br>
     <span> Click above image to watch notebook setup video </span>
@@ -255,7 +255,7 @@ The steps outlined below guide you through how to manually push a public docker 
 You can also watch the container setup video below for step-by-step instructions for creating a domain and running from a container in SageMaker Studio:
 <p align="center">
         <a href="https://www.youtube.com/watch?v=CHHSO1NS3Xs&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b">
-            <img src="images/aws_container_setup_thumbnail.jpeg" alt="Running an AWS container in AWS SageMaker Studio", width="550"/>
+            <img src="../images/aws_container_setup_thumbnail.jpeg" alt="Running an AWS container in AWS SageMaker Studio", width="550"/>
         </a>
     <br>
     <span> Click above image to watch container setup video </span>
