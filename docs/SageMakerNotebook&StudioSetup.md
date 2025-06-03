@@ -177,7 +177,6 @@ The steps outlined below guide you through how to manually push a public docker 
       </p>
 
 3. Push Docker image to ECR
-
     - Retrieve an authentication token and authenticate your Docker client to your registry using the following command:<br>
       `aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 664418964547.dkr.ecr.us-east-1.amazonaws.com/sagemaker/r-kernel`
 
@@ -198,6 +197,8 @@ The steps outlined below guide you through how to manually push a public docker 
       <p> <align="center"/>
           <img src="../images/ECR/10.PNG" width="800" />
       </p>
+
+> **IMPORTANT**: When trying to push the image to your ECR you may receive a message that says the action was `denied` because of missing `identity-based` policies. In this case, follow the instructions found [here](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/update_sagemaker_role.md) to update the attached policies for SageMaker's assumed role (which will be listed in the `denied` message). Additionally, you can find further guidance directly through the [AWS documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/security_iam_service-with-iam.html). As a first pass, you should attach the following policies to the designated role and re-run your push command: `ecr:InitiateLayerUpload`, `ecr:UploadLayerPart`, `ecr:CompleteLayerUpload`, and `ecr:PutImage`.
 
 ### PART 2: Setup a JupyterLab with a Custom Docker Image
 
