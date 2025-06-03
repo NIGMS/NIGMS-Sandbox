@@ -3,15 +3,31 @@
 read -p "Enter Docker image to pull (e.g., nginx:latest): " DOCKER_IMAGE
 read -p "Enter the name of your EC2 key pair (do not include .pem): " KEY_NAME
 
-AMI_ID="ami-0e58b56aa4d64231b"  # This may need to be updated in the future
+AMI_ID="ami-0e58b56aa4d64231b" #AMI could possibly need to be updated in the future
 INSTANCE_TYPE="t2.micro"
 SECURITY_GROUP_NAME="ec2-docker-sg"
 INSTANCE_PROFILE_NAME="EC2InstanceECRAccessProfile"
 REGION="us-east-1"
 VOLUME_SIZE=20
 KEY_FILE="${KEY_NAME}.pem"
-ECR_REPO_NAME="nigms-images"
 
+AFTER_SECOND_SLASH=$(echo "$DOCKER_IMAGE" | cut -d'/' -f3-)
+REPO_AND_TAG="${AFTER_SECOND_SLASH##*/}"
+
+#Step 3: Parse repo name and tag
+if [[ "$REPO_AND_TAG" == *:* ]]; then
+	REPO_NAME="${REPO_AND_TAG%%:*}"
+	TAG="${REPO_AND_TAG##*:}"
+else
+	REPO_NAME="$REPO_AND_TAG"
+	TAG="latest"
+fi
+
+echo "Repository Path: $AFTER_SECOND_SLASH"
+echo "Repository Name: $REPO_NAME"
+echo "Tag: $TAG"
+
+ECR_REPO_NAME="nigms/${REPO_NAME}"
 echo "New ECR repo: '${ECR_REPO_NAME}' to be created in your account."
 
 echo "Looking up VPC ID..."
@@ -93,30 +109,67 @@ if [[ $ATTEMPT -gt $MAX_RETRIES ]]; then
 	exit 1
 fi
 	
-
 # Create IAM role and instance profile
-echo "Setting up IAM role and instance profile..."
-aws iam create-role --role-name $INSTANCE_PROFILE_NAME \
-  --assume-role-policy-document file://<(cat <<EOF
-{
-  "Version": "2012-10-17",
-  "Statement": [{
-    "Effect": "Allow",
-    "Principal": { "Service": "ec2.amazonaws.com" },
-    "Action": "sts:AssumeRole"
-  }]
-}
+ echo "Setting up IAM role and instance profile..."
+
+ # Check if role already exists
+ROLE_EXISTS=$(aws iam get-role --role-name "$INSTANCE_PROFILE_NAME" --query 'Role.RoleName' --output text 2>/dev/null)
+
+if [ "$ROLE_EXISTS" == "$INSTANCE_PROFILE_NAME" ]; then
+  echo "IAM role '$INSTANCE_PROFILE_NAME' already exists. Skipping creation."
+else
+  echo "Creating IAM role '$INSTANCE_PROFILE_NAME'..."
+  aws iam create-role --role-name "$INSTANCE_PROFILE_NAME" \
+	--assume-role-policy-document file://<(cat <<EOF
+	{
+	"Version": "2012-10-17",
+	"Statement": [{
+	"Effect": "Allow",
+	"Principal": { "Service": "ec2.amazonaws.com" },
+	"Action": "sts:AssumeRole"
+	}]
+	}
 EOF
-) || true
+)
+fi
+                               
+#check if the policy is already attached
+POLICY_ARN="arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryFullAccess"
+ATTACHED=$(aws iam list-attached-role-policies --role-name "$INSTANCE_PROFILE_NAME" \
+  --query "AttachedPolicies[?PolicyArn=='$POLICY_ARN'] | length(@)" --output text)
 
+if [ "$ATTACHED" -eq 0 ]; then
+  echo "Attaching policy to role '$INSTANCE_PROFILE_NAME'..."
+	aws iam attach-role-policy --role-name "$INSTANCE_PROFILE_NAME" --policy-arn "$POLICY_ARN"
+  else
+	  echo "Policy already attached to role '$INSTANCE_PROFILE_NAME'. Skipping."
+fi
 
-aws iam attach-role-policy --role-name $INSTANCE_PROFILE_NAME \
-  --policy-arn arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryFullAccess || true
+echo "Checking for existing instance profile '$INSTANCE_PROFILE_NAME'..."
 
-aws iam create-instance-profile --instance-profile-name $INSTANCE_PROFILE_NAME || true
-aws iam add-role-to-instance-profile \
-  --instance-profile-name $INSTANCE_PROFILE_NAME \
-  --role-name $INSTANCE_PROFILE_NAME || true
+PROFILE_EXISTS=$(aws iam get-instance-profile --instance-profile-name "$INSTANCE_PROFILE_NAME" \
+  --query 'InstanceProfile.InstanceProfileName' --output text 2>/dev/null)
+
+if [ "$PROFILE_EXISTS" == "$INSTANCE_PROFILE_NAME" ]; then
+	echo "Instance profile '$INSTANCE_PROFILE_NAME' already exists. Skipping creation."
+else
+	echo "Creating instance profile '$INSTANCE_PROFILE_NAME'..."
+	aws iam create-instance-profile --instance-profile-name "$INSTANCE_PROFILE_NAME"
+fi
+
+echo "Checking if role '$INSTANCE_PROFILE_NAME' is already attached to instance profile '$INSTANCE_PROFILE_NAME'..."
+
+ROLE_ATTACHED=$(aws iam get-instance-profile --instance-profile-name "$INSTANCE_PROFILE_NAME" \
+	--query "InstanceProfile.Roles[?RoleName=='$INSTANCE_PROFILE_NAME'] | length(@)" --output text 2>/dev/null)
+
+if [ "$ROLE_ATTACHED" -eq 0 ]; then
+	echo "Attaching role '$INSTANCE_PROFILE_NAME' to instance profile '$INSTANCE_PROFILE_NAME'..."
+	aws iam add-role-to-instance-profile \
+		--instance-profile-name "$INSTANCE_PROFILE_NAME" \
+		--role-name "$INSTANCE_PROFILE_NAME"
+else
+	echo "Role already attached to instance profile. Skipping."
+fi
 
 echo "Waiting for IAM instance profile propagation..."
 sleep 5
@@ -158,17 +211,18 @@ unzip -q awscliv2.zip
 
 ACCOUNT_ID=\$(aws sts get-caller-identity --query "Account" --output text)
 aws ecr get-login-password --region "$REGION" | docker login --username AWS --password-stdin "\${ACCOUNT_ID}.dkr.ecr.$REGION.amazonaws.com"
+
 docker pull "$DOCKER_IMAGE"
-IMAGE_URI="\${ACCOUNT_ID}.dkr.ecr.$REGION.amazonaws.com/$ECR_REPO_NAME"
+IMAGE_URI="\${ACCOUNT_ID}.dkr.ecr.$REGION.amazonaws.com/$ECR_REPO_NAME:$TAG"
 docker tag "$DOCKER_IMAGE" "\$IMAGE_URI"
 aws ecr get-login-password --region "$REGION" | docker login --username AWS --password-stdin "\${ACCOUNT_ID}.dkr.ecr.$REGION.amazonaws.com"
 docker push "\$IMAGE_URI"
 
 echo "Docker maybe finished...?"
+
 echo "Shutting down..."
 
 shutdown -h now
-
 EOF
 )
 
@@ -186,6 +240,7 @@ INSTANCE_ID=$(aws ec2 run-instances \
   --iam-instance-profile Name=$INSTANCE_PROFILE_NAME \
   --associate-public-ip-address \
   --region "$REGION" \
+  --instance-initiated-shutdown-behavior terminate \
   --user-data "$USER_SCRIPT" \
   --query 'Instances[0].InstanceId' --output text)
 
