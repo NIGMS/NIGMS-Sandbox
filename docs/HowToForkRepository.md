@@ -12,4 +12,4 @@ will work on the modifications.
 After you click create fork the repository will be copied to the location chosen and then openned in your brwoser
 ![](../images/images_for_github_fork/final.png)
 
-From here you can make the modifications required to your forked copy and then use a pull request to request that the changes be merged into the original repository.
+From here you can make the modifications required to your forked copy and then use a [pull request](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToPullRequest.md) to request that the changes be merged into the original repository.
