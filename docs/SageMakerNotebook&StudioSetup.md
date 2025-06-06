@@ -117,19 +117,18 @@ The steps outlined below guide you through how to push a public docker image to 
       </p>
 7. Next, run the script using the command `./image_builder.sh` **(9)**
 8. When prompted enter the public image URI provided in your module's README file (e.g., `public.ecr.aws/v8e3m3v4/sagemaker/umaine-sagemaker`) **(10)**
-9. The next prompt asks for a `.pem` key name, enter your key name of choice (e.g., `test-key`) **(11)**
       <p> <align="center"/>
           <img src="../images/images_for_ecr_shellscript/step_4.png" width="1000" />
       </p>
-10. Once the script completes navigate to your account's ECR console. 
+9. Once the script completes navigate to your account's ECR console. 
       <p> <align="center"/>
           <img src="../images/images_for_ecr_shellscript/step_5.png" width="1000" />
       </p>
-11. Under private repository, click on the repository named `nigms-images`
+10. Under private repository, click on the repository named `nigms-images`
       <p> <align="center"/>
           <img src="../images/images_for_ecr_shellscript/step_6.png" width="1000" />
       </p>
-12. After ~15 minutes the container should show up. This can now be used as a custom image in Jupyterlab as outlined in [PART 2: Setup a JupyterLab with a Custom Docker Image](#PART-2:-Setup-a-JupyterLab-with-a-Custom-Docker-Image)
+11. After ~15 minutes the container should show up. This can now be used as a custom image in Jupyterlab as outlined in [PART 2: Setup a JupyterLab with a Custom Docker Image](#PART-2:-Setup-a-JupyterLab-with-a-Custom-Docker-Image)
       <p> <align="center"/>
           <img src="../images/images_for_ecr_shellscript/step_7.png" width="1000" />
       </p>
