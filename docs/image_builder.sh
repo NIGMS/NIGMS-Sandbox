@@ -1,7 +1,6 @@
 #!/bin/bash
 
 read -p "Enter Docker image to pull (e.g., nginx:latest): " DOCKER_IMAGE
-read -p "Enter the name of your EC2 key pair (do not include .pem): " KEY_NAME
 
 AMI_ID="ami-0e58b56aa4d64231b" #AMI could possibly need to be updated in the future
 INSTANCE_TYPE="t2.micro"
@@ -9,7 +8,6 @@ SECURITY_GROUP_NAME="ec2-docker-sg"
 INSTANCE_PROFILE_NAME="EC2InstanceECRAccessProfile"
 REGION="us-east-1"
 VOLUME_SIZE=20
-KEY_FILE="${KEY_NAME}.pem"
 
 AFTER_SECOND_SLASH=$(echo "$DOCKER_IMAGE" | cut -d'/' -f3-)
 REPO_AND_TAG="${AFTER_SECOND_SLASH##*/}"
@@ -174,28 +172,6 @@ fi
 echo "Waiting for IAM instance profile propagation..."
 sleep 5
 
-echo "Creating key pair..."
-
-KEY_OUTPUT=$(aws ec2 create-key-pair \
-	--key-name "$KEY_NAME" \
-	--query 'KeyMaterial' \
-	--output text \
-	--region "$REGION" 2>&1)
-
-if [[ $? -ne 0 ]]; then
-	if [[ "$KEY_OUTPUT" == *"InvalidKeyPair.Duplicate" ]]; then
-		echo "Key pair '$KEYNAME' already created."
-		exit 1
-	fi
-else
-	echo "$KEY_OUTPUT" > "$KEY_FILE"
-	chmod 400 "$KEY_FILE"
-	echo "Key pair created and saved to $KEY_FILE"
-fi 
-
-echo "Waiting for key propagation..."
-sleep 5
-
 USER_SCRIPT=$(cat <<EOF
 #!/bin/bash
 set -e
@@ -251,5 +227,4 @@ aws ec2 wait instance-running --instance-ids "$INSTANCE_ID"
 PUBLIC_IP=$(aws ec2 describe-instances --instance-ids "$INSTANCE_ID" \
   --query "Reservations[0].Instances[0].PublicIpAddress" --output text)
 
-echo "If you wish to login a pem key has been put in your working directory. The instance public IP is: $PUBLIC_IP"
 echo "It can take up to 15 minutes for an image to appear in your private repository."
